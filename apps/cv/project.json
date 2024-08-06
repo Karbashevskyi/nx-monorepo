@@ -22,7 +22,7 @@
             "input": "apps/cv/public"
           }
         ],
-        "styles": ["apps/cv/src/styles.scss"],
+        "styles": ["styles/styles.scss"],
         "scripts": [],
         "server": "apps/cv/src/main.server.ts",
         "prerender": true,

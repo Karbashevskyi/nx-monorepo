@@ -23,7 +23,9 @@
           }
         ],
         "styles": ["styles/styles.scss"],
-        "scripts": [],
+        "scripts": [
+          "node_modules/preline/preline.js"
+        ],
         "server": "apps/cv/src/main.server.ts",
         "prerender": true,
         "ssr": {

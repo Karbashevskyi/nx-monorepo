@@ -26,11 +26,11 @@ jobs:
         run: npx nx run-many -t=build
 
       - name: Move cv to deploy folder
-        run: mv ./dist/apps/cv/browser ./deploy/cv
+        run: mkdir deploy && mv dist/apps/cv/browser deploy/cv
 
       - name: Deploy to GitHub Pages
         #if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./deploy
+          publish_dir: deploy

@@ -22,7 +22,10 @@
             "input": "apps/cv/public"
           }
         ],
-        "styles": ["styles/styles.scss"],
+        "styles": [
+          "styles/styles.scss",
+          "node_modules/bootstrap-icons/font/bootstrap-icons.css"
+        ],
         "scripts": [
           "node_modules/preline/preline.js"
         ],

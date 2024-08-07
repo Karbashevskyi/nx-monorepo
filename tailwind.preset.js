@@ -1,7 +1,9 @@
 module.exports = {
   theme: {
-    fontFamily: {
-      sans: ['Barlow', 'sans-serif'],
+    extend: {
+      fontFamily: {
+        sans: ['Noto Sans', 'sans-serif'],
+      },
     },
   },
 };

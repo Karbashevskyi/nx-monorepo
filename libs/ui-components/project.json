@@ -34,10 +34,6 @@
       "executor": "@storybook/angular:build-storybook",
       "outputs": ["{options.outputDir}"],
       "options": {
-        "styles": ["styles/styles.scss"],
-        "scripts": [
-          "node_modules/preline/preline.js"
-        ],
         "outputDir": "dist/storybook/ui-components",
         "configDir": "libs/ui-components/.storybook",
         "browserTarget": "ui-components:build-storybook",

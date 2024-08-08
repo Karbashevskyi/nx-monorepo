@@ -1,6 +1,13 @@
-import { Component, inject, PLATFORM_ID, ViewEncapsulation } from '@angular/core';
+import { Component, inject, OnInit, PLATFORM_ID, ViewEncapsulation } from '@angular/core';
 import { Event, NavigationEnd, Router, RouterModule } from '@angular/router';
-import { CardComponent, FooterComponent } from '@nx-monorepo/ui-components';
+import {
+  AboutComponent,
+  ArticlesComponent,
+  CardComponent,
+  EducationComponent, ExperienceComponent,
+  FooterComponent, ProfileComponent, SkillsComponent,
+  SubscribeComponent
+} from '@nx-monorepo/ui-components';
 import { IStaticMethods } from 'preline/preline';
 import { WINDOW } from '../window.token';
 import { isPlatformBrowser } from '@angular/common';
@@ -13,17 +20,12 @@ declare global {
 
 @Component({
   standalone: true,
-  imports: [RouterModule, CardComponent, FooterComponent, FooterComponent],
+  imports: [RouterModule, CardComponent, FooterComponent, FooterComponent, SubscribeComponent, ArticlesComponent, EducationComponent, ExperienceComponent, ProfileComponent, AboutComponent, SkillsComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   encapsulation: ViewEncapsulation.None
 })
-export class AppComponent {
-  cards = [
-    { title: 'Card 1', content: 'This is card 1' },
-    { title: 'Card 2', content: 'This is card 2' },
-    { title: 'Card 3', content: 'This is card 3' }
-  ];
+export class AppComponent implements OnInit {
   private readonly router = inject(Router);
   private readonly WINDOW = inject(WINDOW);
   private readonly PLATFORM_ID = inject(PLATFORM_ID);

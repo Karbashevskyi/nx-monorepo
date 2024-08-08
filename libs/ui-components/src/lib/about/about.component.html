@@ -1,0 +1,82 @@
+
+<!-- About -->
+<div class="mt-8">
+  <div class="flex flex-col gap-2">
+    <p class="text-sm text-gray-600 dark:text-neutral-400">
+      With over ten years of experience in IT, including more than six years in the European technology sector and
+      four years as a programmer outside of Europe.
+    </p>
+    <p class="text-sm text-gray-600 dark:text-neutral-400">
+      Specializing in <strong>frontend development</strong> and <strong>managing teams and projects</strong>.
+    </p>
+    <p class="text-sm text-gray-600 dark:text-neutral-400">
+      Possessing advanced skills in creating web applications using the <strong>Angular framework</strong> and
+      implementing <strong>Progressive Web Apps (PWA)</strong>.
+    </p>
+    <p class="text-sm text-gray-600 dark:text-neutral-400">
+      Led frontend teams, introducing innovative working methods that resulted in significant efficiency
+      improvements.
+    </p>
+    <p class="text-sm text-gray-600 dark:text-neutral-400">
+      Created the first portal in Ukraine that published the city's budget expenditures.
+    </p>
+    <p class="text-sm text-gray-600 dark:text-neutral-400">
+      Holding two degrees in computer science from AEH in Warsaw: <strong>Master of Engineering in Computer Science
+      (2022-2024)</strong> and <strong>Engineer in Computer Science (2017-2021)</strong>.
+    </p>
+  </div>
+
+  <ul class="mt-5 flex flex-col gap-y-3">
+    <li class="flex items-center gap-x-2">
+      <i class="bi bi-at"></i>
+      <a
+        target="_blank"
+        class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+        [href]="'mailto:' + person.contact.email">
+        {{ person.contact.email }}
+      </a>
+    </li>
+
+    <li class="flex items-center gap-x-2">
+      <i class="bi bi-twitter-x"></i>
+      <a
+        target="_blank"
+        class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+        [href]="person.contact.socialMedia.x">
+        {{ person.contact.socialMedia.x }}
+      </a>
+    </li>
+
+    <li class="flex items-center gap-x-2">
+      <i class="bi bi-github"></i>
+      <a
+        target="_blank"
+        class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+        [href]="person.contact.socialMedia.github">
+        {{ person.contact.socialMedia.github }}
+      </a>
+    </li>
+
+    <li class="flex items-center gap-x-2">
+      <i class="bi bi-instagram"></i>
+      <a
+        target="_blank"
+        class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+        [href]="person.contact.socialMedia.instagram">
+        {{ person.contact.socialMedia.instagram }}
+      </a>
+    </li>
+
+    <li class="flex items-center gap-x-2">
+      <i class="bi bi-facebook"></i>
+      <a
+        target="_blank"
+        class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+        [href]="person.contact.socialMedia.facebook">
+        {{ person.contact.socialMedia.facebook }}
+      </a>
+    </li>
+
+  </ul>
+</div>
+<!-- End About -->

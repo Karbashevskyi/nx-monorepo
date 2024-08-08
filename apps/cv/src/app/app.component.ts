@@ -11,6 +11,7 @@ import {
 import { IStaticMethods } from 'preline/preline';
 import { WINDOW } from '../window.token';
 import { isPlatformBrowser } from '@angular/common';
+import { IPerson } from '@nx-monorepo/interfaces';
 
 declare global {
   interface Window {
@@ -30,7 +31,7 @@ export class AppComponent implements OnInit {
   private readonly WINDOW = inject(WINDOW);
   private readonly PLATFORM_ID = inject(PLATFORM_ID);
 
-  public readonly person = {
+  public readonly person: IPerson = {
     contact: {
       socialMedia: {
         linkedin: 'https://www.linkedin.com/in/ivan-karbashevskyi',

@@ -7,3 +7,7 @@ Prepare the storybook configuration for the ui-components library, answers: `fal
 ```bash
 npx nx g @nx/angular:storybook-configuration ui-components
 ```
+
+```bash
+npx nx g @nx/js:lib interfaces --bundler=tsc
+```

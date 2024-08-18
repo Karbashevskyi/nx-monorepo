@@ -37,6 +37,7 @@
       },
       "configurations": {
         "production": {
+          "baseHref": "/nx-monorepo/cv/",
           "budgets": [
             {
               "type": "initial",

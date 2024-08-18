@@ -7,5 +7,9 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.scss',
+  host: {
+    id: 'experience',
+    class: 'scroll-mt-20'
+  }
 })
 export class ExperienceComponent {}

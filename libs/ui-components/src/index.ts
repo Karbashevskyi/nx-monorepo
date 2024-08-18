@@ -15,3 +15,5 @@ export * from './lib/skills/skills.component';
 export * from './lib/about/about.component';
 
 export * from './lib/profile/profile.component';
+
+export * from './lib/projects/projects.component';

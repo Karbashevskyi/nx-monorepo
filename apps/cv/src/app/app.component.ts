@@ -4,8 +4,12 @@ import {
   AboutComponent,
   ArticlesComponent,
   CardComponent,
-  EducationComponent, ExperienceComponent,
-  FooterComponent, ProfileComponent, SkillsComponent,
+  EducationComponent,
+  ExperienceComponent,
+  FooterComponent,
+  ProfileComponent,
+  ProjectsComponent,
+  SkillsComponent,
   SubscribeComponent
 } from '@nx-monorepo/ui-components';
 import { IStaticMethods } from 'preline/preline';
@@ -21,7 +25,20 @@ declare global {
 
 @Component({
   standalone: true,
-  imports: [RouterModule, CardComponent, FooterComponent, FooterComponent, SubscribeComponent, ArticlesComponent, EducationComponent, ExperienceComponent, ProfileComponent, AboutComponent, SkillsComponent],
+  imports: [
+    RouterModule,
+    CardComponent,
+    FooterComponent,
+    FooterComponent,
+    SubscribeComponent,
+    ArticlesComponent,
+    EducationComponent,
+    ExperienceComponent,
+    ProfileComponent,
+    AboutComponent,
+    SkillsComponent,
+    ProjectsComponent,
+  ],
   selector: 'app-root',
   templateUrl: './app.component.html',
   encapsulation: ViewEncapsulation.None

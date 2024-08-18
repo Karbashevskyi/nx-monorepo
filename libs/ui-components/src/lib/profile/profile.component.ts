@@ -7,5 +7,9 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.scss',
+  host: {
+    id: 'profile',
+    class: 'scroll-mt-20'
+  }
 })
 export class ProfileComponent {}

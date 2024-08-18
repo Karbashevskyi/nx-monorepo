@@ -8,6 +8,10 @@ import { IPerson } from '@nx-monorepo/interfaces';
   imports: [CommonModule],
   templateUrl: './about.component.html',
   styleUrl: './about.component.scss',
+  host: {
+    id: 'about',
+    class: 'scroll-mt-20'
+  }
 })
 export class AboutComponent {
   public readonly person = input.required<IPerson>();

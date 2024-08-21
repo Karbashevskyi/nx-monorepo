@@ -138,11 +138,11 @@
     "locales": {
       "uk-UA": {
         "translation": "apps/cv/src/locales/messages.uk-UA.xlf",
-        "baseHref": "/nx-monorepo/cv/uk-UA/"
+        "baseHref": "/uk-UA/"
       },
       "pl-PL": {
         "translation": "apps/cv/src/locales/messages.pl-PL.xlf",
-        "baseHref": "/nx-monorepo/cv/pl-PL/"
+        "baseHref": "/pl-PL/"
       }
     }
   }

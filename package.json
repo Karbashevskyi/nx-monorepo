@@ -2,7 +2,12 @@
   "name": "@nx-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "cv:build:production": "nx run cv:build:production",
+    "cv:build:copy": "npm run cv:build:production && npm run copy:defaul-language",
+    "copy:defaul-language": "cp -r ./dist/apps/cv/browser/en-US/** ./dist/apps/cv/browser/",
+    "extract-i18n": "npx nx extract-i18n cv"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.1.0",

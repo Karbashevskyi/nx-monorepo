@@ -23,7 +23,8 @@ jobs:
         run: npm install
 
       - name: Build nx-monorepo
-        run: npx nx run-many -t=build --no-cloud
+#        run: npx nx run-many -t=build --no-cloud
+        run: npm run cv:build:copy
 
       - name: Move cv to deploy folder
         run: mkdir deploy && mv dist/apps/cv/browser deploy/cv

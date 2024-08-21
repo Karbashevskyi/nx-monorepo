@@ -102,10 +102,13 @@
       "defaultConfiguration": "development"
     },
     "extract-i18n": {
-      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "executor": "ng-extract-i18n-merge:ng-extract-i18n-merge",
       "options": {
+        "format": "xlf",
         "buildTarget": "cv:build",
-        "outputPath": "apps/cv/src/locales"
+        "outputPath": "apps/cv/src/locales",
+        "browserTarget": "cv:build",
+        "targetFiles": ["messages.xlf", "messages.uk-UA.xlf", "messages.pl-PL.xlf"]
       }
     },
     "lint": {

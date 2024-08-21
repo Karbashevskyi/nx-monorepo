@@ -2,12 +2,422 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="introductionHeader" datatype="html">
-        <source>Hello world!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">apps/cv/src/app/app.component.ts</context>
-          <context context-type="linenumber">75</context>
-        </context-group>
+      <trans-unit id="aboutMe" datatype="html">
+        <source>About me</source>
+      </trans-unit>
+      <trans-unit id="skills" datatype="html">
+        <source>Skills</source>
+      </trans-unit>
+      <trans-unit id="projects" datatype="html">
+        <source>Projects</source>
+      </trans-unit>
+      <trans-unit id="articles" datatype="html">
+        <source>Articles</source>
+      </trans-unit>
+      <trans-unit id="2169134401482642920" datatype="html">
+        <source> With over ten years of experience in IT, including more than six years in the European technology sector and four years as a programmer outside of Europe. </source>
+      </trans-unit>
+      <trans-unit id="3308738004271555602" datatype="html">
+        <source> Specializing in <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>frontend development<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>managing teams and projects<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+      </trans-unit>
+      <trans-unit id="8812977217035251776" datatype="html">
+        <source> Possessing advanced skills in creating web applications using the <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Angular framework<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and implementing <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Progressive Web Apps (PWA)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+      </trans-unit>
+      <trans-unit id="437493476394538237" datatype="html">
+        <source> Led frontend teams, introducing innovative working methods that resulted in significant efficiency improvements. </source>
+      </trans-unit>
+      <trans-unit id="3139046405402967262" datatype="html">
+        <source> Created the first portal in Ukraine that published the city&apos;s budget expenditures. </source>
+      </trans-unit>
+      <trans-unit id="8639935672781302317" datatype="html">
+        <source> Holding two degrees in computer science from AEH in Warsaw: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Master of Engineering in Computer Science (2022-2024)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Engineer in Computer Science (2017-2021)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+      </trans-unit>
+      <trans-unit id="4447992968214807696" datatype="html">
+        <source> Ivan Karbashevskyi </source>
+      </trans-unit>
+      <trans-unit id="3719575764301025490" datatype="html">
+        <source> Frontend Developer </source>
+      </trans-unit>
+      <trans-unit id="1055915684017645557" datatype="html">
+        <source> New Project Creation: Created a new project from scratch with the team, based only on a partially ready version in .NET. </source>
+      </trans-unit>
+      <trans-unit id="1093498264880682995" datatype="html">
+        <source> UNICARD Systems Sp. z о.о. – Krakow </source>
+      </trans-unit>
+      <trans-unit id="1110462302969560704" datatype="html">
+        <source> Reactive Directive for Efficient Subscription Management in Angular </source>
+      </trans-unit>
+      <trans-unit id="1144407473317535723" datatype="html">
+        <source>Subscribe</source>
+      </trans-unit>
+      <trans-unit id="1172610947984144500" datatype="html">
+        <source> Attention to detail </source>
+      </trans-unit>
+      <trans-unit id="1234792503193678396" datatype="html">
+        <source> Adding new features and using NGXS for state management. </source>
+      </trans-unit>
+      <trans-unit id="1299503277943320547" datatype="html">
+        <source>Functionalities:</source>
+      </trans-unit>
+      <trans-unit id="1319886875271001375" datatype="html">
+        <source> In Angular, managing subscriptions to observables can be cumbersome, especially ensuring that they are properly unsubscribed when the component is destroyed. </source>
+      </trans-unit>
+      <trans-unit id="1336431706974571017" datatype="html">
+        <source> https://salo-sale.com/ </source>
+      </trans-unit>
+      <trans-unit id="1374245682192591574" datatype="html">
+        <source>Responsibilities:</source>
+      </trans-unit>
+      <trans-unit id="1384213016870758150" datatype="html">
+        <source> 2017 - 2021 </source>
+      </trans-unit>
+      <trans-unit id="150650760392297311" datatype="html">
+        <source> Continue reading </source>
+      </trans-unit>
+      <trans-unit id="1574704327185486600" datatype="html">
+        <source>Average Grade</source>
+      </trans-unit>
+      <trans-unit id="work" datatype="html">
+        <source> Work experience </source>
+      </trans-unit>
+      <trans-unit id="1783710508335227709" datatype="html">
+        <source> In Angular, it’s crucial to manage subscriptions to observables carefully to prevent memory leaks and unintended behavior. </source>
+      </trans-unit>
+      <trans-unit id="1895587338105229943" datatype="html">
+        <source> Used Docker for efficient management of development environments. </source>
+      </trans-unit>
+      <trans-unit id="1900948490519641018" datatype="html">
+        <source> Configured and maintained CI/CD with TeamCity. </source>
+      </trans-unit>
+      <trans-unit id="1959585554555067548" datatype="html">
+        <source> Achieving WCAG requirements for better application accessibility. </source>
+      </trans-unit>
+      <trans-unit id="1980581651340205136" datatype="html">
+        <source> Problem-solving </source>
+      </trans-unit>
+      <trans-unit id="2128224106104586898" datatype="html">
+        <source> Collaboration: Worked in a team with testers, the backend team, and a business analyst, using tools like Jira, Confluence, Teams, and other Microsoft products. </source>
+      </trans-unit>
+      <trans-unit id="2197706297948604250" datatype="html">
+        <source> Introducing simple validation syntax, e.g., is.object(variable) instead of complex conditions. </source>
+      </trans-unit>
+      <trans-unit id="2219864797234465190" datatype="html">
+        <source> Adding TakeUntilDestroy Decorator: A Handy Tool for Angular Developers </source>
+      </trans-unit>
+      <trans-unit id="2277285334628107566" datatype="html">
+        <source> Master of Engineering in Computer Science </source>
+      </trans-unit>
+      <trans-unit id="2478434289792163502" datatype="html">
+        <source> All methods return boolean values, eliminating validation errors. </source>
+      </trans-unit>
+      <trans-unit id="2493960943273455630" datatype="html">
+        <source> Introducing new tools: Telerik Kendo and Microsoft Authentication Library (MSAL). </source>
+      </trans-unit>
+      <trans-unit id="2903544503489976143" datatype="html">
+        <source> Strong communication </source>
+      </trans-unit>
+      <trans-unit id="296530154184446245" datatype="html">
+        <source> Even after the project closure, users continued to utilize collected discounts, especially in online businesses. </source>
+      </trans-unit>
+      <trans-unit id="2973243825172412251" datatype="html">
+        <source>Created mobile applications and web portals, including their interfaces, using various languages and frameworks:</source>
+      </trans-unit>
+      <trans-unit id="2991823014696260453" datatype="html">
+        <source> I have experience as a technical leader and in project management. I am effective in optimizing business processes and developer processes. I am skilled in planning sprints in Scrum. I actively support team members in learning new technologies and solving technical problems, contributing to their professional development. </source>
+      </trans-unit>
+      <trans-unit id="3074571739255768286" datatype="html">
+        <source> Approaches: Applied DDD (partially) and maintained part of TDD. </source>
+      </trans-unit>
+      <trans-unit id="3165343172404441081" datatype="html">
+        <source> Database: MariaDB. </source>
+      </trans-unit>
+      <trans-unit id="3258457675075410944" datatype="html">
+        <source> 2023 </source>
+      </trans-unit>
+      <trans-unit id="3323354618576209351" datatype="html">
+        <source> Time management </source>
+      </trans-unit>
+      <trans-unit id="3350335159193295536" datatype="html">
+        <source> Promotion: Quickly promoted to the position of the frontend tech leader, which involved conducting training for colleagues and introducing modern methods of analysis, planning, and task implementation. </source>
+      </trans-unit>
+      <trans-unit id="3371299762589456555" datatype="html">
+        <source> Upgrading Angular versions: Speeding up project build by twice, reducing task implementation compilation time by thrice, and speeding up the production version by ~60%. </source>
+      </trans-unit>
+      <trans-unit id="3488519340124343659" datatype="html">
+        <source> Commercial </source>
+      </trans-unit>
+      <trans-unit id="3563234105022711955" datatype="html">
+        <source> I program in JavaScript, TypeScript and PHP (Yii2). I have experience with Angular, AngularJS, AngularDart, jQuery, Flutter and IONIC frameworks, as well as application state management using NGXS and NGRX. </source>
+      </trans-unit>
+      <trans-unit id="3691956144897399769" datatype="html">
+        <source> Expanding the frontend team, accelerating goal achievement. </source>
+      </trans-unit>
+      <trans-unit id="3722635135501688391" datatype="html">
+        <source> Collaboration: Worked within Scrum, closely collaborating with a tester and project manager. </source>
+      </trans-unit>
+      <trans-unit id="3743057310704500201" datatype="html">
+        <source> Fun Fact: Even after project closure, users actively utilized the system, collecting points and availing discounts in online businesses. </source>
+      </trans-unit>
+      <trans-unit id="3891447613781439631" datatype="html">
+        <source>Thesis Grade</source>
+      </trans-unit>
+      <trans-unit id="3921856662546002807" datatype="html">
+        <source> Introducing new functionalities according to Scrum methodology. </source>
+      </trans-unit>
+      <trans-unit id="4053620578139721641" datatype="html">
+        <source> Technologies and Tools: </source>
+      </trans-unit>
+      <trans-unit id="4073600000051078868" datatype="html">
+        <source> Further refactoring of older project parts and a &quot;mobile first&quot; approach with adaptive design for different settings. </source>
+      </trans-unit>
+      <trans-unit id="4102111167682093537" datatype="html">
+        <source> Created and implemented a discount system for local businesses, attracting both residents and non - locals. </source>
+      </trans-unit>
+      <trans-unit id="4113216888439643268" datatype="html">
+        <source> 2021 - Present </source>
+      </trans-unit>
+      <trans-unit id="414400047298250344" datatype="html">
+        <source> Managed tasks using YouTrack. </source>
+      </trans-unit>
+      <trans-unit id="4146491610841249071" datatype="html">
+        <source> Project Promotion: Actively promoting on platforms like medium.com and dev.to to increase project popularity. </source>
+      </trans-unit>
+      <trans-unit id="4414309724334122938" datatype="html">
+        <source> Refactoring projects and creating unit tests using Jest. </source>
+      </trans-unit>
+      <trans-unit id="4419763080014795738" datatype="html">
+        <source>Key Achievements:</source>
+      </trans-unit>
+      <trans-unit id="4512127930013641840" datatype="html">
+        <source> Planning implementation stages and estimating task completion time. </source>
+      </trans-unit>
+      <trans-unit id="4521993246131416590" datatype="html">
+        <source> Ensured customer satisfaction by continually improving the app and portal functionalities despite challenges posed by the COVID-19 pandemic. </source>
+      </trans-unit>
+      <trans-unit id="4607504324443981424" datatype="html">
+        <source> Admin panel for project owner: Angular 6 (upgraded to Angular 7). </source>
+      </trans-unit>
+      <trans-unit id="4741097188737104712" datatype="html">
+        <source> 2022 - Present </source>
+      </trans-unit>
+      <trans-unit id="5044844750415072728" datatype="html">
+        <source> Planning: New planning methods reduced the number of unimplemented tasks by half and decreased frontend team sprint planning time by ~40%. </source>
+      </trans-unit>
+      <trans-unit id="5064429052509706381" datatype="html">
+        <source> As we all know, AI has been making significant progress over the years, and its applications are now prevalent in various industries, from healthcare to finance. </source>
+      </trans-unit>
+      <trans-unit id="5145319772643668195" datatype="html">
+        <source> Implementing timezone and user language support. </source>
+      </trans-unit>
+      <trans-unit id="5239785219635736221" datatype="html">
+        <source> SCRUM: The team taught me to work according to the SCRUM methodology, which allowed for effective project management. </source>
+      </trans-unit>
+      <trans-unit id="5271350970434611026" datatype="html">
+        <source> .NET Developer </source>
+      </trans-unit>
+      <trans-unit id="5289289364189758607" datatype="html">
+        <source> Frontend Develop </source>
+      </trans-unit>
+      <trans-unit id="5479218026873082377" datatype="html">
+        <source> Configuring the environment and project, enabling work in different scenarios using Docker and Docker Compose. </source>
+      </trans-unit>
+      <trans-unit id="5594961935384149827" datatype="html">
+        <source> AEH – Warsaw, Poland </source>
+      </trans-unit>
+      <trans-unit id="5599016949722281279" datatype="html">
+        <source> Enabled businesses to offer products (e.g., pizza) for virtual coins, saving on promotion costs and gaining additional profits from selling drinks and extras with these products. </source>
+      </trans-unit>
+      <trans-unit id="5660970328042505900" datatype="html">
+        <source> Position: Frontend Developer, involved in DevOps and frontend team leader. </source>
+      </trans-unit>
+      <trans-unit id="5736881168050198482" datatype="html">
+        <source> Figma Training: Trained the frontend team and some employees to use Figma, allowing developers to focus on work instead of minor consultations with colleagues. </source>
+      </trans-unit>
+      <trans-unit id="5740623461948343090" datatype="html">
+        <source> March 2023 – October 2023 </source>
+      </trans-unit>
+      <trans-unit id="5783095299678117290" datatype="html">
+        <source> Success: Achieved project completion on time, allowing the team to return to the main company for ongoing work. </source>
+      </trans-unit>
+      <trans-unit id="582812323614172413" datatype="html">
+        <source> Design and Development: </source>
+      </trans-unit>
+      <trans-unit id="5828201087889168104" datatype="html">
+        <source> Configuration: Built proper cloud server configuration in Azure and project configuration for different scenarios, e.g., without a hashtag in routing. </source>
+      </trans-unit>
+      <trans-unit id="5874919577993271594" datatype="html">
+        <source> Adding typing for better TypeScript support. </source>
+      </trans-unit>
+      <trans-unit id="613384015350465382" datatype="html">
+        <source> No spam, unsubscribe at any time. </source>
+      </trans-unit>
+      <trans-unit id="6162219671875434486" datatype="html">
+        <source> Public website: Yii2 (PHP) optimized for SEO. o Server: Yii2 (PHP). </source>
+      </trans-unit>
+      <trans-unit id="6234952950797525568" datatype="html">
+        <source> I am skilled in graphic design using Figma and Tailwind, and I take care of accessibility according to WCAG. </source>
+      </trans-unit>
+      <trans-unit id="6357902466617800531" datatype="html">
+        <source> Example: <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;flex flex-col gap-2&quot;&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Instead of complex code:<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>if(typeof variable === &apos;object&apos; &amp;&amp; variable !== null &amp;&amp; !Array.isArray(variable) &amp;&amp; Object.keys(variable)?.length)<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> use simpler and more readable: <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>if (is.object_not_empty(variable))<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+      </trans-unit>
+      <trans-unit id="6416243048887843520" datatype="html">
+        <source> Founded and managed the Salo-Sale project, comprising a comprehensive system including an admin panel, mobile applications, and a public website. </source>
+      </trans-unit>
+      <trans-unit id="6438430794783793978" datatype="html">
+        <source> Front-end developer </source>
+      </trans-unit>
+      <trans-unit id="6453408425699437263" datatype="html">
+        <source> Languages and technologies: JavaScript, TypeScript, Dart, HTML/CSS, PHP. </source>
+      </trans-unit>
+      <trans-unit id="6485897112337499236" datatype="html">
+        <source> I am proficient with tools such as Docker, Docker Compose, Telerik Kendo, MSAL, and Microsoft tools (Jira, Confluence, Teams). I use Firebase and CI/CD, and develop PWA applications. </source>
+      </trans-unit>
+      <trans-unit id="6545652297710892832" datatype="html">
+        <source> October 2021 - Present </source>
+      </trans-unit>
+      <trans-unit id="6646469160444755554" datatype="html">
+        <source>Design and User Experience:</source>
+      </trans-unit>
+      <trans-unit id="6744279899048670937" datatype="html">
+        <source> Focus on your work We’ll cover the rest </source>
+      </trans-unit>
+      <trans-unit id="67883517997095073" datatype="html">
+        <source> Human, AI, AGI. </source>
+      </trans-unit>
+      <trans-unit id="6899230642312327193" datatype="html">
+        <source> Optimization: &quot;Mobile First&quot; principle, optimized interface for mobile devices (RWD and PWA). </source>
+      </trans-unit>
+      <trans-unit id="6933240681110404442" datatype="html">
+        <source> Interface design tools: Figma. </source>
+      </trans-unit>
+      <trans-unit id="709367580326933979" datatype="html">
+        <source> Other: </source>
+      </trans-unit>
+      <trans-unit id="founder" datatype="html">
+        <source> Founder </source>
+      </trans-unit>
+      <trans-unit id="7257407692805823539" datatype="html">
+        <source> Future Plans: Develop a command line tool to convert commands to inline code for faster program execution. </source>
+      </trans-unit>
+      <trans-unit id="7267816527201418181" datatype="html">
+        <source> EFENDI – Warsaw </source>
+      </trans-unit>
+      <trans-unit id="7300611973282784892" datatype="html">
+        <source> Support for global methods, e.g., is.HTMLElement(variable). </source>
+      </trans-unit>
+      <trans-unit id="7344184125779351857" datatype="html">
+        <source> I develop mobile applications using IONIC and Flutter, and design web portals using jQuery, Angular, Yii2, AngularJS and AngularDart. I do RWD (Responsive Web Design) and TDD (Test-Driven Development) and unit testing (Jest). I create and promote open source projects and software development. </source>
+      </trans-unit>
+      <trans-unit id="7398108052134922948" datatype="html">
+        <source> Leadership and Management: </source>
+      </trans-unit>
+      <trans-unit id="subscription" datatype="html">
+        <source> Subscribe </source>
+      </trans-unit>
+      <trans-unit id="7416186394612899765" datatype="html">
+        <source>Current Responsibilities:</source>
+      </trans-unit>
+      <trans-unit id="7424020782858435949" datatype="html">
+        <source> Company mobile app: Features for scanning and redeeming virtual coins from user accounts, promoting offers, and discounts. </source>
+      </trans-unit>
+      <trans-unit id="743954893011867162" datatype="html">
+        <source> Frameworks and libraries: IONIC, JQUERY, Angular Material, Angular2+, AngularJS, AngularDart, Flutter. </source>
+      </trans-unit>
+      <trans-unit id="7452020890321091213" datatype="html">
+        <source> Tools: Used Telerik Kendo for interface creation. </source>
+      </trans-unit>
+      <trans-unit id="7541182217758247878" datatype="html">
+        <source> Programming languages and frameworks: </source>
+      </trans-unit>
+      <trans-unit id="7619068598364463047" datatype="html">
+        <source> May 2018 – October 2021 </source>
+      </trans-unit>
+      <trans-unit id="7730850211540395660" datatype="html">
+        <source> Company panel: Angular 6 (upgraded to Angular 7), enabling management of the company page and handling orders. </source>
+      </trans-unit>
+      <trans-unit id="7746812512564390074" datatype="html">
+        <source> I am involved in data validation and SEO optimization. I have experience in integrating payment and authorization systems. Also, to solve problems independently, analyze client proposals, graphically present what the client asks for, collaborate with colleagues, explain to colleagues what works and how it works and why. Ability to accept outside opinions and focus on what is important. </source>
+      </trans-unit>
+      <trans-unit id="7960775209245176886" datatype="html">
+        <source> Identified steps to reduce return rates by 10%, resulting in eventual $75k cost savings. </source>
+      </trans-unit>
+      <trans-unit id="7978776089780116298" datatype="html">
+        <source> Join <x id="START_TAG__SVG_SVG" ctype="x-_svg_svg" equiv-text="&lt;svg class=&quot;shrink-0 size-3.5&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;"/><x id="START_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path d=&quot;M5 12h14&quot; /&gt;"/><x id="CLOSE_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path d=&quot;m12 5 7 7-7 7&quot; /&gt;"/><x id="START_TAG__SVG_PATH_1" ctype="x-_svg_path_1" equiv-text="&lt;path d=&quot;m12 5 7 7-7 7&quot; /&gt;"/><x id="CLOSE_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path d=&quot;m12 5 7 7-7 7&quot; /&gt;"/><x id="CLOSE_TAG__SVG_SVG" ctype="x-_svg_svg" equiv-text="&lt;/svg&gt;"/></source>
+      </trans-unit>
+      <trans-unit id="7984377181595516713" datatype="html">
+        <source> State management: NgRX, MobX. </source>
+      </trans-unit>
+      <trans-unit id="7999209662498939231" datatype="html">
+        <source> Developed a mobile app allowing users to collect virtual coins for watching ads and exchange them for discounts or products offered by local businesses. </source>
+      </trans-unit>
+      <trans-unit id="8196646433517124722" datatype="html">
+        <source> Engineer in Computer Science </source>
+      </trans-unit>
+      <trans-unit id="8198759667842542767" datatype="html">
+        <source> The library&apos;s core uses JavaScript proxies for dynamic method calls based on names provided by developers. </source>
+      </trans-unit>
+      <trans-unit id="8254215569572243618" datatype="html">
+        <source> Combining various validations, e.g., is.object_not_empty(variable). </source>
+      </trans-unit>
+      <trans-unit id="8342485308356593518" datatype="html">
+        <source> SKK S.A. – Krakow </source>
+      </trans-unit>
+      <trans-unit id="837149062556400554" datatype="html">
+        <source> 2024 </source>
+      </trans-unit>
+      <trans-unit id="8497552253509503838" datatype="html">
+        <source> Archived </source>
+      </trans-unit>
+      <trans-unit id="8573526133236046698" datatype="html">
+        <source> 2018 - 2020 </source>
+      </trans-unit>
+      <trans-unit id="8700493873444302147" datatype="html">
+        <source> Transition to Tailwind and NGXS from NGRX. </source>
+      </trans-unit>
+      <trans-unit id="8707729207681744412" datatype="html">
+        <source> Created the open-source project Thiis, aiming to provide a package for vanilla JavaScript enabling easy and understandable data validation. </source>
+      </trans-unit>
+      <trans-unit id="8726027460728949489" datatype="html">
+        <source> Salo-Sale </source>
+      </trans-unit>
+      <trans-unit id="8807499540389103708" datatype="html">
+        <source>Technologies:</source>
+      </trans-unit>
+      <trans-unit id="8858883801320674180" datatype="html">
+        <source> Migration: Transferred an existing project from .NET to Angular. </source>
+      </trans-unit>
+      <trans-unit id="9009116408648254532" datatype="html">
+        <source> Motivation: Need for precise and unambiguous data validation to avoid misinterpretation by both the system and developers, creating clear and simple validation code. </source>
+      </trans-unit>
+      <trans-unit id="9031875999295491492" datatype="html">
+        <source> Gained experience in project and team management, solving technical problems, and optimizing business processes. </source>
+      </trans-unit>
+      <trans-unit id="9035057740858842531" datatype="html">
+        <source> User mobile app: Flutter (for Android and iOS) with Google, Facebook, and Apple authentication integration. The app supported at least two languages: Ukrainian and English. </source>
+      </trans-unit>
+      <trans-unit id="9052321052419580533" datatype="html">
+        <source> PWA: Implementing Progressive Web App (PWA) improved customer convenience, leading to increased positive feedback and sales. </source>
+      </trans-unit>
+      <trans-unit id="9088676870135595174" datatype="html">
+        <source> Experience and Development: I was hired as a FRONTEND DEVELOPER. </source>
+      </trans-unit>
+      <trans-unit id="9208053606429511027" datatype="html">
+        <source> Integrated Firebase for push notifications. </source>
+      </trans-unit>
+      <trans-unit id="1447068941235302128" datatype="html">
+        <source> © 2024 Preline Labs. </source>
+      </trans-unit>
+      <trans-unit id="6221827211367726132" datatype="html">
+        <source> Github </source>
+      </trans-unit>
+      <trans-unit id="6634889070380380044" datatype="html">
+        <source> X (Twitter) </source>
+      </trans-unit>
+      <trans-unit id="7150337289039409358" datatype="html">
+        <source> Dribbble </source>
+      </trans-unit>
+      <trans-unit id="education" datatype="html">
+        <source>Education</source>
       </trans-unit>
     </body>
   </file>

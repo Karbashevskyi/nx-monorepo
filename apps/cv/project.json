@@ -8,12 +8,17 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/cv",
         "index": "apps/cv/src/index.html",
         "browser": "apps/cv/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": [
+          "zone.js",
+          "@angular/localize/init"
+        ],
         "tsConfig": "apps/cv/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
@@ -33,7 +38,13 @@
         "prerender": true,
         "ssr": {
           "entry": "apps/cv/server.ts"
-        }
+        },
+        "localize": [
+          "en-US",
+          "uk-UA",
+          "pl-PL"
+        ],
+        "i18nMissingTranslation": "warning"
       },
       "configurations": {
         "production": {
@@ -50,15 +61,27 @@
               "maximumError": "4kb"
             }
           ],
-          "outputHashing": "all"
+          "outputHashing": "all",
+          "localize": true
         },
         "development": {
           "optimization": false,
           "extractLicenses": false,
-          "sourceMap": true
+          "sourceMap": true,
+          "localize": false
+        },
+        "uk-UA": {
+          "localize": [
+            "uk-UA"
+          ]
+        },
+        "pl-PL": {
+          "localize": [
+            "pl-PL"
+          ]
         }
       },
-      "defaultConfiguration": "production"
+      "defaultConfiguration": "development"
     },
     "serve": {
       "executor": "@angular-devkit/build-angular:dev-server",
@@ -68,6 +91,12 @@
         },
         "development": {
           "buildTarget": "cv:build:development"
+        },
+        "uk-UA": {
+          "buildTarget": "cv:build:development,uk-UA"
+        },
+        "pl-PL": {
+          "buildTarget": "cv:build:development,pl-PL"
         }
       },
       "defaultConfiguration": "development"
@@ -75,7 +104,8 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "buildTarget": "cv:build"
+        "buildTarget": "cv:build",
+        "outputPath": "apps/cv/src/locales"
       }
     },
     "lint": {
@@ -83,7 +113,9 @@
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
         "jestConfig": "apps/cv/jest.config.ts"
       }
@@ -95,6 +127,19 @@
         "port": 4200,
         "staticFilePath": "dist/apps/cv/browser",
         "spa": true
+      }
+    }
+  },
+  "i18n": {
+    "sourceLocale": "en-US",
+    "locales": {
+      "uk-UA": {
+        "translation": "apps/cv/src/locales/messages.uk-UA.xlf",
+        "baseHref": "/nx-monorepo/cv/uk-UA"
+      },
+      "pl-PL": {
+        "translation": "apps/cv/src/locales/messages.pl-PL.xlf",
+        "baseHref": "/nx-monorepo/cv/pl-PL"
       }
     }
   }

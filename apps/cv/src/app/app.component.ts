@@ -71,6 +71,8 @@ export class AppComponent implements OnInit {
           }, 100);
         }
       });
+
+      console.log($localize`:@@introductionHeader:Hello world!`);
     }
   }
 }

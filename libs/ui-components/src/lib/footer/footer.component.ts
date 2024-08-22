@@ -1,11 +1,32 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgForOf } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'lib-footer',
   standalone: true,
-  imports: [CommonModule],
   templateUrl: './footer.component.html',
-  styleUrl: './footer.component.scss',
+  imports: [
+    NgForOf,
+    RouterLink
+  ],
+  styleUrl: './footer.component.scss'
 })
-export class FooterComponent {}
+export class FooterComponent {
+
+  public readonly languages = [
+    {
+      code: 'uk-UA',
+      name: 'Українська'
+    },
+    {
+      code: 'en-US',
+      name: 'English'
+    },
+    {
+      code: 'pl-PL',
+      name: 'Polski'
+    }
+  ];
+
+}

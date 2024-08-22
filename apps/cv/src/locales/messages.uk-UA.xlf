@@ -558,6 +558,18 @@
         <source>Education</source>
         <target state="new">Освіта</target>
       </trans-unit>
+      <trans-unit id="meta_title" datatype="html">
+        <source>Іван Карбашевський - Frontend розробник - Резюме</source>
+        <target state="new">Ivan Karbashevskyi - Frontend Developer - CV</target>
+      </trans-unit>
+      <trans-unit id="meta_description" datatype="html">
+        <source>Ivan Karbashevskyi&apos;s online CV. Frontend Developer with experience in JavaScript, Node.js, React, and more.</source>
+        <target state="new">Інтернет-резюме Івана Карбашевського. Frontend розробник з досвідом роботи з JavaScript, Node.js, Angular, NestJs та іншими технологіями.</target>
+      </trans-unit>
+      <trans-unit id="meta_keywords" datatype="html">
+        <source>Ivan Karbashevskyi, CV, Frontend Developer, JavaScript, Node.js, React, TypeScript, software developer, web developer</source>
+        <target state="new">Іван Карбашевський, резюме, Frontend розробник, JavaScript, Node.js, Angular, NestJs, TypeScript, програміст, веб-розробник</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

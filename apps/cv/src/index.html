@@ -1,50 +1,86 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <base href="/" />
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <base href="/" />
 
+  <!-- Page Title -->
+  <title>Ivan Karbashevskyi - Frontend Developer - CV</title>
 
-    <!-- Required Meta Tags Always Come First -->
-    <meta charset="utf-8">
-    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!--    <meta name="description" content="Ivan Karbashevskyi">-->
+  <!-- Meta Description -->
+  <meta name="description"
+        content="Ivan Karbashevskyi's online CV. Frontend Developer with experience in JavaScript, Node.js, React, and more. Learn more about my skills, projects, and professional journey.">
 
-    <meta name="twitter:site" content="@karabshevskyi">
-    <meta name="twitter:creator" content="@karabshevskyi">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ivan Karbashevskyi">
-<!--    <meta name="twitter:description" content="Ivan Karbashevskyi CV">-->
-<!--    <meta name="twitter:image" content="<DATA>">-->
+  <!-- Keywords -->
+  <meta name="keywords"
+        content="Ivan Karbashevskyi, CV, Frontend Developer, JavaScript, Node.js, Angular, NestJs, PHP, TypeScript, software developer, web developer, portfolio">
 
-<!--    <meta property="og:url" content="<DATA>">-->
-<!--    <meta property="og:locale" content="pl-PL">-->
-<!--    <meta property="og:type" content="website">-->
-<!--    <meta property="og:site_name" content="<DATA>">-->
-<!--    <meta property="og:title" content=<DATA>>-->
-<!--    <meta property="og:description" content="<DATA>">-->
-<!--    <meta property="og:image" content="<DATA>">-->
+  <!-- Charset -->
+  <meta charset="utf-8">
 
-    <!-- Title -->
-    <title>Ivan Karbashevskyi</title>
+  <!-- Viewport (Responsive Design) -->
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ivan Karbashevskyi - Frontend Developer - CV">
+  <meta name="twitter:description"
+        content="Explore the professional profile of Ivan Karbashevskyi, a Frontend Developer with expertise in JavaScript, Node.js, and React.">
+  <meta name="twitter:image" content="https://karbashevskyi.github.io/path-to-your-image.jpg">
+  <!-- Replace with actual image path -->
+  <meta name="twitter:site" content="@YourTwitterHandle"> <!-- Replace with your Twitter handle if you have one -->
 
-    <!-- Theme Check and Update -->
-    <script>
-      const html = document.querySelector('html');
-      const isLightOrAuto = localStorage.getItem('hs_theme') === 'light' || (localStorage.getItem('hs_theme') === 'auto' && !window.matchMedia('(prefers-color-scheme: dark)').matches);
-      const isDarkOrAuto = localStorage.getItem('hs_theme') === 'dark' || (localStorage.getItem('hs_theme') === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Ivan Karbashevskyi - Frontend Developer - CV">
+  <meta property="og:description"
+        content="Discover the professional journey of Ivan Karbashevskyi, a skilled Frontend Developer with expertise in modern web technologies.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://karbashevskyi.github.io/nx-monorepo/cv/en-US/">
+  <meta property="og:image" content="https://karbashevskyi.github.io/path-to-your-image.jpg">
+  <!-- Replace with actual image path -->
+  <meta property="og:site_name" content="Ivan Karbashevskyi CV">
 
-      if (isLightOrAuto && html.classList.contains('dark')) html.classList.remove('dark');
-      else if (isDarkOrAuto && html.classList.contains('light')) html.classList.remove('light');
-      else if (isDarkOrAuto && !html.classList.contains('dark')) html.classList.add('dark');
-      else if (isLightOrAuto && !html.classList.contains('light')) html.classList.add('light');
-    </script>
-  </head>
-  <body class="dark:bg-neutral-900">
-    <app-root></app-root>
-    <script src="./node_modules/preline/dist/preline.js"></script>
-  </body>
+  <!-- Title -->
+  <title>Ivan Karbashevskyi</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+  <!-- Theme Check and Update -->
+  <script>
+    const html = document.querySelector('html');
+    const isLightOrAuto = localStorage.getItem('hs_theme') === 'light' || (localStorage.getItem('hs_theme') === 'auto' && !window.matchMedia('(prefers-color-scheme: dark)').matches);
+    const isDarkOrAuto = localStorage.getItem('hs_theme') === 'dark' || (localStorage.getItem('hs_theme') === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+    if (isLightOrAuto && html.classList.contains('dark')) html.classList.remove('dark');
+    else if (isDarkOrAuto && html.classList.contains('light')) html.classList.remove('light');
+    else if (isDarkOrAuto && !html.classList.contains('dark')) html.classList.add('dark');
+    else if (isLightOrAuto && !html.classList.contains('light')) html.classList.add('light');
+  </script>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ivan Karbashevskyi",
+      "url": "https://karbashevskyi.github.io/nx-monorepo/cv/en-US/",
+      "image": "https://karbashevskyi.github.io/nx-monorepo/cv/en-US/images/Ivan-Karbashevskyi.jpeg",
+      "jobTitle": "Frontend Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Unicard-Systems Sp. z o.o."
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/ivan-karbashevskyi/",
+        "https://github.com/karbashevskyi"
+      ]
+    }
+  </script>
+</head>
+<body class="dark:bg-neutral-900">
+<app-root></app-root>
+</body>
 </html>

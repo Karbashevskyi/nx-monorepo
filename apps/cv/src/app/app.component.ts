@@ -16,6 +16,7 @@ import { IStaticMethods } from 'preline/preline';
 import { WINDOW } from '../window.token';
 import { isPlatformBrowser } from '@angular/common';
 import { IPerson } from '@nx-monorepo/interfaces';
+import { MetadataService } from '../cdk/metadata.service';
 
 declare global {
   interface Window {
@@ -44,6 +45,7 @@ declare global {
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements OnInit {
+  private readonly metadataService = inject(MetadataService);
   private readonly router = inject(Router);
   private readonly WINDOW = inject(WINDOW);
   private readonly PLATFORM_ID = inject(PLATFORM_ID);
@@ -62,6 +64,7 @@ export class AppComponent implements OnInit {
   };
 
   ngOnInit() {
+    this.metadataService.updateMetadata();
     if (isPlatformBrowser(this.PLATFORM_ID)) {
 
       this.router.events.subscribe((event: Event) => {

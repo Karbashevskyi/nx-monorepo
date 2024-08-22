@@ -419,6 +419,15 @@
       <trans-unit id="education" datatype="html">
         <source>Education</source>
       </trans-unit>
+      <trans-unit id="meta_keywords" datatype="html">
+        <source>Ivan Karbashevskyi, CV, Frontend Developer, JavaScript, Node.js, React, TypeScript, software developer, web developer</source>
+      </trans-unit>
+      <trans-unit id="meta_description" datatype="html">
+        <source>Ivan Karbashevskyi&apos;s online CV. Frontend Developer with experience in JavaScript, Node.js, Angular, NestJs, and more.</source>
+      </trans-unit>
+      <trans-unit id="meta_title" datatype="html">
+        <source>Ivan Karbashevskyi - Frontend Developer - CV</source>
+      </trans-unit>
     </body>
   </file>
 </xliff>

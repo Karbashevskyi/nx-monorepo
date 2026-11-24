@@ -1,26 +1,22 @@
-<router-outlet></router-outlet>
-
 <!-- ========== HEADER ========== -->
-<header class="sticky top-0 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm">
+<header class="sticky top-0 inset-x-0 z-50 w-full text-sm print:hidden">
   <nav
-    class="mt-4 relative max-w-2xl w-full bg-white border border-gray-200 rounded-[2rem] mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-4 md:mx-auto dark:bg-neutral-900 dark:border-neutral-700">
+    class="mt-4 relative max-w-3xl w-[calc(100%-1rem)] mx-auto rounded-2xl border border-neutral-200 bg-white/80 py-2.5 backdrop-blur-md md:flex md:items-center md:justify-between md:py-0 md:px-5 dark:border-neutral-800 dark:bg-neutral-950/70">
     <div class="px-4 md:px-0 flex justify-between items-center">
       <!-- Logo -->
-      <div>
-        <a class="flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80 dark:text-white"
-           href="#" aria-label="CV">
-          CV
-        </a>
-      </div>
+      <a class="inline-flex items-center font-mono text-base font-bold text-neutral-950 focus:outline-none dark:text-white"
+         routerLink="/" aria-label="Ivan Karbashevskyi">
+        ik<span class="text-lime-500">.</span>cv
+      </a>
       <!-- End Logo -->
 
       <div class="md:hidden">
         <!-- Toggle Button -->
         <button type="button"
-                class="hs-collapse-toggle flex justify-center items-center size-6 border border-gray-200 text-gray-500 rounded-full hover:bg-gray-200 focus:outline-none focus:bg-gray-200 dark:border-neutral-700 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+                class="hs-collapse-toggle flex justify-center items-center size-8 rounded-lg border border-neutral-200 text-neutral-500 hover:bg-neutral-100 focus:outline-none dark:border-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-900"
                 id="hs-navbar-header-floating-collapse" aria-expanded="false" aria-controls="hs-navbar-header-floating"
                 aria-label="Toggle navigation" data-hs-collapse="#hs-navbar-header-floating">
-          <svg class="hs-collapse-open:hidden shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+          <svg class="hs-collapse-open:hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                stroke-linejoin="round">
             <line x1="3" x2="21" y1="6" y2="6" />
@@ -41,26 +37,22 @@
     <div id="hs-navbar-header-floating"
          class="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow md:block"
          aria-labelledby="hs-navbar-header-floating-collapse">
-      <div
-        class="flex flex-col md:flex-row md:items-center md:justify-end gap-2 md:gap-3 mt-3 md:mt-0 py-2 md:py-0 md:ps-7">
-        <a
-          class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-gray-800 font-medium text-gray-800 focus:outline-none dark:border-neutral-200 dark:text-neutral-200"
-          href="#profile" aria-current="page" i18n="@@aboutMe">About me</a>
-        <a
-          class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-200"
-          href="#skills" i18n="@@skills">Skills</a>
-        <a
-          class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-200"
-          href="#experience" i18="@@work">Work</a>
-        <a
-          class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-200"
-          href="#projects" i18n="@@projects">Projects</a>
-        <a
-          class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-200"
-          href="#articles" i18n="@@articles">Articles</a>
-        <a
-          class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-200"
-          href="#education" i18n="@@education">Education</a>
+      <div class="flex flex-col md:flex-row md:items-center md:justify-end gap-1 md:gap-5 mt-3 md:mt-0 py-2 md:py-0">
+        <a class="py-1 md:py-3 px-4 md:px-0 text-sm text-neutral-600 transition-colors hover:text-lime-700 focus:outline-none focus-visible:text-lime-700 dark:text-neutral-400 dark:hover:text-lime-400" routerLink="/" fragment="profile" i18n="@@aboutMe">About me</a>
+        <a class="py-1 md:py-3 px-4 md:px-0 text-sm text-neutral-600 transition-colors hover:text-lime-700 focus:outline-none focus-visible:text-lime-700 dark:text-neutral-400 dark:hover:text-lime-400" routerLink="/" fragment="skills" i18n="@@skills">Skills</a>
+        <a class="py-1 md:py-3 px-4 md:px-0 text-sm text-neutral-600 transition-colors hover:text-lime-700 focus:outline-none focus-visible:text-lime-700 dark:text-neutral-400 dark:hover:text-lime-400" routerLink="/" fragment="experience" i18n="@@work_nav">Experience</a>
+        <a class="py-1 md:py-3 px-4 md:px-0 text-sm text-neutral-600 transition-colors hover:text-lime-700 focus:outline-none focus-visible:text-lime-700 dark:text-neutral-400 dark:hover:text-lime-400" routerLink="/" fragment="projects" i18n="@@projects">Projects</a>
+        <a class="py-1 md:py-3 px-4 md:px-0 text-sm text-neutral-600 transition-colors hover:text-lime-700 focus:outline-none focus-visible:text-lime-700 dark:text-neutral-400 dark:hover:text-lime-400" routerLink="/" fragment="education" i18n="@@education">Education</a>
+        <a class="py-1 md:py-3 px-4 md:px-0 text-sm text-neutral-600 transition-colors hover:text-lime-700 focus:outline-none focus-visible:text-lime-700 dark:text-neutral-400 dark:hover:text-lime-400" routerLink="/" fragment="articles" i18n="@@articles">Articles</a>
+        <a class="py-1 md:py-3 px-4 md:px-0 text-sm text-neutral-600 transition-colors hover:text-lime-700 focus:outline-none focus-visible:text-lime-700 dark:text-neutral-400 dark:hover:text-lime-400" routerLink="/story" routerLinkActive="!text-lime-700 dark:!text-lime-400" i18n="@@story_nav">My story</a>
+        @if (!isStory()) {
+          <button type="button" (click)="downloadPdf()"
+                  class="mx-4 my-1 md:m-0 inline-flex items-center justify-center gap-x-1.5 rounded-lg border border-lime-400/60 px-2.5 py-1 font-mono text-xs font-semibold text-lime-700 transition-colors hover:bg-lime-400 hover:text-neutral-950 focus:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 dark:text-lime-400 dark:hover:text-neutral-950"
+                  aria-label="Download CV as PDF">
+            <i class="bi bi-download"></i>
+            <span>PDF</span>
+          </button>
+        }
       </div>
     </div>
   </nav>
@@ -69,16 +61,9 @@
 
 <!-- ========== MAIN CONTENT ========== -->
 <main id="content">
-  <div class="w-full max-w-2xl mx-auto pt-10 md:pt-16 px-4 sm:px-6 lg:px-8">
-    <lib-profile/>
-    <lib-about [person]="person"/>
-    <lib-skills/>
-    <lib-experience/>
-    <lib-projects/>
-    <lib-education/>
-    <lib-articles/>
-    <lib-subscribe/>
+  <div class="w-full max-w-3xl mx-auto pt-14 md:pt-24 pb-10 px-4 sm:px-6 lg:px-8 print:max-w-none print:p-0">
+    <router-outlet/>
   </div>
 </main>
 <!-- ========== END MAIN CONTENT ========== -->
-<lib-footer/>
+<lib-footer class="print:hidden"/>

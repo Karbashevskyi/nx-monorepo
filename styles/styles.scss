@@ -1,3 +1,96 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-white text-neutral-800 dark:bg-neutral-950 dark:text-neutral-300;
+  }
+
+  ::selection {
+    @apply bg-lime-300 text-neutral-950;
+  }
+}
+
+@layer components {
+  /* Section heading: mono label with an accent marker and a hairline */
+  .section-title {
+    @apply mb-6 flex items-center gap-x-3 font-mono text-xs font-semibold uppercase tracking-[0.2em] text-neutral-900 dark:text-white;
+
+    &::before {
+      content: '';
+      @apply size-2 shrink-0 rounded-sm bg-lime-400;
+    }
+
+    &::after {
+      content: '';
+      @apply h-px grow bg-neutral-200 dark:bg-neutral-800;
+    }
+  }
+
+  .link {
+    @apply text-sm text-neutral-500 underline decoration-neutral-300 underline-offset-4 transition-colors hover:text-lime-600 hover:decoration-lime-500 focus:outline-none focus-visible:text-lime-600 dark:text-neutral-400 dark:decoration-neutral-700 dark:hover:text-lime-400 dark:hover:decoration-lime-400;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-md border border-neutral-200 bg-neutral-50 px-2.5 py-1 font-mono text-xs text-neutral-700 dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-300;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-x-1.5 rounded-full px-2.5 py-1 font-mono text-[11px] font-medium uppercase tracking-wide;
+  }
+
+  .timeline-icon {
+    @apply relative z-10 flex size-10 items-center justify-center overflow-hidden rounded-xl border border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-900;
+  }
+
+  .card {
+    @apply rounded-2xl border border-neutral-200 bg-white p-5 transition-colors hover:border-lime-400/60 dark:border-neutral-800 dark:bg-neutral-900/60 dark:hover:border-lime-400/40;
+  }
+}
+
+/* ---------- Print / "Save as PDF" (CV page only) ---------- */
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm 12mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #262626 !important;
+    font-size: 10.5pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .section-title {
+    break-after: avoid;
+    margin-bottom: 0.75rem;
+  }
+
+  .card,
+  dl,
+  li:not(:has(ul)) {
+    break-inside: avoid;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  /* tighter vertical rhythm on paper */
+  [class*='sm:mt-20'] {
+    margin-top: 1.75rem !important;
+  }
+
+  [class*='pb-12'] {
+    padding-bottom: 1.25rem !important;
+  }
+}

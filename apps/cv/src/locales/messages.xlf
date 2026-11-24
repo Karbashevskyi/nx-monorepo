@@ -14,29 +14,17 @@
       <trans-unit id="articles" datatype="html">
         <source>Articles</source>
       </trans-unit>
-      <trans-unit id="2169134401482642920" datatype="html">
-        <source> With over ten years of experience in IT, including more than six years in the European technology sector and four years as a programmer outside of Europe. </source>
-      </trans-unit>
-      <trans-unit id="3308738004271555602" datatype="html">
-        <source> Specializing in <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>frontend development<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>managing teams and projects<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
-      </trans-unit>
       <trans-unit id="8812977217035251776" datatype="html">
         <source> Possessing advanced skills in creating web applications using the <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Angular framework<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and implementing <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Progressive Web Apps (PWA)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
       </trans-unit>
       <trans-unit id="437493476394538237" datatype="html">
         <source> Led frontend teams, introducing innovative working methods that resulted in significant efficiency improvements. </source>
       </trans-unit>
-      <trans-unit id="3139046405402967262" datatype="html">
-        <source> Created the first portal in Ukraine that published the city&apos;s budget expenditures. </source>
-      </trans-unit>
       <trans-unit id="8639935672781302317" datatype="html">
         <source> Holding two degrees in computer science from AEH in Warsaw: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Master of Engineering in Computer Science (2022-2024)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Engineer in Computer Science (2017-2021)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
       </trans-unit>
       <trans-unit id="4447992968214807696" datatype="html">
         <source> Ivan Karbashevskyi </source>
-      </trans-unit>
-      <trans-unit id="3719575764301025490" datatype="html">
-        <source> Frontend Developer </source>
       </trans-unit>
       <trans-unit id="1055915684017645557" datatype="html">
         <source> New Project Creation: Created a new project from scratch with the team, based only on a partially ready version in .NET. </source>
@@ -197,7 +185,7 @@
       <trans-unit id="4607504324443981424" datatype="html">
         <source> Admin panel for project owner: Angular 6 (upgraded to Angular 7). </source>
       </trans-unit>
-      <trans-unit id="4741097188737104712" datatype="html">
+      <trans-unit id="c4u_period" datatype="html">
         <source> 2022 - Present </source>
       </trans-unit>
       <trans-unit id="5044844750415072728" datatype="html">
@@ -214,9 +202,6 @@
       </trans-unit>
       <trans-unit id="5271350970434611026" datatype="html">
         <source> .NET Developer </source>
-      </trans-unit>
-      <trans-unit id="5289289364189758607" datatype="html">
-        <source> Frontend Develop </source>
       </trans-unit>
       <trans-unit id="5479218026873082377" datatype="html">
         <source> Configuring the environment and project, enabling work in different scenarios using Docker and Docker Compose. </source>
@@ -254,9 +239,6 @@
       <trans-unit id="6162219671875434486" datatype="html">
         <source> Public website: Yii2 (PHP) optimized for SEO. o Server: Yii2 (PHP). </source>
       </trans-unit>
-      <trans-unit id="6234952950797525568" datatype="html">
-        <source> I am skilled in graphic design using Figma and Tailwind, and I take care of accessibility according to WCAG. </source>
-      </trans-unit>
       <trans-unit id="6357902466617800531" datatype="html">
         <source> Example: <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;flex flex-col gap-2&quot;&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Instead of complex code:<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>if(typeof variable === &apos;object&apos; &amp;&amp; variable !== null &amp;&amp; !Array.isArray(variable) &amp;&amp; Object.keys(variable)?.length)<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> use simpler and more readable: <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>if (is.object_not_empty(variable))<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
       </trans-unit>
@@ -277,9 +259,6 @@
       </trans-unit>
       <trans-unit id="6646469160444755554" datatype="html">
         <source>Design and User Experience:</source>
-      </trans-unit>
-      <trans-unit id="6744279899048670937" datatype="html">
-        <source> Focus on your work We’ll cover the rest </source>
       </trans-unit>
       <trans-unit id="67883517997095073" datatype="html">
         <source> Human, AI, AGI. </source>
@@ -404,23 +383,287 @@
       <trans-unit id="9208053606429511027" datatype="html">
         <source> Integrated Firebase for push notifications. </source>
       </trans-unit>
-      <trans-unit id="1447068941235302128" datatype="html">
-        <source> © 2024 Preline Labs. </source>
-      </trans-unit>
       <trans-unit id="education" datatype="html">
         <source>Education</source>
       </trans-unit>
       <trans-unit id="meta_keywords" datatype="html">
-        <source>Ivan Karbashevskyi, CV, Frontend Developer, JavaScript, Node.js, Angular, NestJs, TypeScript, software developer, web developer</source>
+        <source>Ivan Karbashevskyi, CV, Full-stack Developer, Frontend Tech Lead, Frontend Developer, UI/UX Designer, Figma, Supabase, Ionic, Capacitor, JavaScript, Node.js, Angular, NestJs, TypeScript, software developer, web developer</source>
       </trans-unit>
       <trans-unit id="meta_description" datatype="html">
-        <source>Ivan Karbashevskyi&apos;s online CV. Frontend Developer with experience in JavaScript, Node.js, Angular, NestJs, and more.</source>
+        <source>Ivan Karbashevskyi&apos;s online CV. Full-stack developer and frontend tech lead: Angular, TypeScript, Supabase, Firebase, Node.js, Ionic/Capacitor mobile apps for iOS and Android.</source>
       </trans-unit>
       <trans-unit id="meta_title" datatype="html">
-        <source>Ivan Karbashevskyi - Frontend Developer - CV</source>
+        <source>Ivan Karbashevskyi - Full-stack Developer &amp; Frontend Tech Lead - CV</source>
       </trans-unit>
       <trans-unit id="currentLanguage" datatype="html">
         <source>English</source>
+      </trans-unit>
+      <trans-unit id="about_founder" datatype="html">
+        <source> Co-founder of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>amator.app<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and co-creator of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Car4Ukraine<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>; founder of the digital studio <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>karba.studio<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+      </trans-unit>
+      <trans-unit id="about_fullstack" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Full-stack developer<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> who delivers products <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>end to end<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>: from analysing the client&apos;s needs and choosing the right technology, through UI, frontend, backend, database and tests, to mobile release and documentation for handover to a team. Built more than 70% of own products single-handedly. </source>
+      </trans-unit>
+      <trans-unit id="about_mobile" datatype="html">
+        <source> Building cross-platform <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>mobile apps for iOS and Android<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (Ionic, Capacitor, Flutter) and backends on <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Supabase<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, Firebase and Node.js. Delivered mobile apps for brands such as Siemens, Samsung and Volkswagen. </source>
+      </trans-unit>
+      <trans-unit id="amator_1" datatype="html">
+        <source> Sport-tech platform that helps amateur athletes find matches, opponents and teammates and organise games, without chaotic group chats. Live in Warsaw, Katowice and Larnaca; available on iOS, Android and the web. </source>
+      </trans-unit>
+      <trans-unit id="amator_2" datatype="html">
+        <source> Built the whole product single-handedly: Angular frontend, Supabase backend (PostgreSQL, Edge Functions), iOS and Android apps with Capacitor. </source>
+      </trans-unit>
+      <trans-unit id="amator_3" datatype="html">
+        <source> Hybrid REST + WebSocket architecture for real-time notifications, chat and live feed; IndexedDB audit log with a request-acknowledge-response protocol. </source>
+      </trans-unit>
+      <trans-unit id="amator_4" datatype="html">
+        <source> Biometric sign-in (Face ID / Touch ID) via WebAuthn and Edge Functions; staging environments on Supabase Branches; TestFlight beta programme with feature flags. </source>
+      </trans-unit>
+      <trans-unit id="amator_5" datatype="html">
+        <source> Taking part in the Polish startup ecosystem with the co-founder, including the Carpathian Startup Fest 2026 programme. </source>
+      </trans-unit>
+      <trans-unit id="amator_period" datatype="html">
+        <source> 2025 - Present </source>
+      </trans-unit>
+      <trans-unit id="badge_active" datatype="html">
+        <source> Active </source>
+      </trans-unit>
+      <trans-unit id="badge_completed" datatype="html">
+        <source> Completed </source>
+      </trans-unit>
+      <trans-unit id="badge_launching" datatype="html">
+        <source> Launching </source>
+      </trans-unit>
+      <trans-unit id="badge_startup" datatype="html">
+        <source> Startup </source>
+      </trans-unit>
+      <trans-unit id="badge_volunteer" datatype="html">
+        <source> Volunteer </source>
+      </trans-unit>
+      <trans-unit id="bee_1" datatype="html">
+        <source> Founded and developed the Bee O`clock product: “Focus on your work, we’ll cover the rest”. The project was completed in 2025. </source>
+      </trans-unit>
+      <trans-unit id="bee_period" datatype="html">
+        <source> 2022 - 2025 </source>
+      </trans-unit>
+      <trans-unit id="c4u_1" datatype="html">
+        <source> International volunteer initiative that sources, upgrades and delivers cars and trucks to Ukrainian defenders; 850+ vehicles delivered with 250+ volunteers from 30+ countries. </source>
+      </trans-unit>
+      <trans-unit id="c4u_2" datatype="html">
+        <source> Co-created and maintain the car4ukraine.com platform: multilingual website with fundraising campaigns, real-time progress and a car-donation flow. </source>
+      </trans-unit>
+      <trans-unit id="c4u_role" datatype="html">
+        <source> Co-creator · Frontend Developer </source>
+      </trans-unit>
+      <trans-unit id="cofounder" datatype="html">
+        <source> Co-founder · Full-stack Developer </source>
+      </trans-unit>
+      <trans-unit id="efendi_clients" datatype="html">
+        <source> Built mobile applications for international clients, including <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Siemens<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Samsung<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Volkswagen<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+      </trans-unit>
+      <trans-unit id="karba_1" datatype="html">
+        <source> Digital studio for websites, mobile apps, UI/UX and graphic design, motion, marketing and SEO. </source>
+      </trans-unit>
+      <trans-unit id="karba_2" datatype="html">
+        <source> Building the delivery process, internal knowledge base and self-hosted infrastructure for the team. </source>
+      </trans-unit>
+      <trans-unit id="karba_period" datatype="html">
+        <source> 2026 - Present </source>
+      </trans-unit>
+      <trans-unit id="profile_title" datatype="html">
+        <source> Full-stack Developer · Frontend Tech Lead </source>
+      </trans-unit>
+      <trans-unit id="skills_backend_mobile" datatype="html">
+        <source> I build backends on Supabase (PostgreSQL, Edge Functions, Branches for staging) and Firebase, with hybrid REST + WebSocket architecture for real-time features. I ship iOS and Android apps with Capacitor and Ionic, including biometric login (Face ID / Touch ID, WebAuthn) and TestFlight beta releases with feature flags. I use modern Angular (signals, standalone components) and self-host services with Docker. </source>
+      </trans-unit>
+      <trans-unit id="skills_backend_mobile_title" datatype="html">
+        <source> Backend and Mobile: </source>
+      </trans-unit>
+      <trans-unit id="unicard_role" datatype="html">
+        <source> Frontend Tech Lead (hired as Frontend Developer) </source>
+      </trans-unit>
+      <trans-unit id="profile_location" datatype="html">
+        <source>Warsaw, Poland</source>
+      </trans-unit>
+      <trans-unit id="soft_skills" datatype="html">
+        <source>Soft Skills:</source>
+      </trans-unit>
+      <trans-unit id="stat_degrees_label" datatype="html">
+        <source>CS degrees</source>
+      </trans-unit>
+      <trans-unit id="stat_solo_label" datatype="html">
+        <source>Products built solo</source>
+      </trans-unit>
+      <trans-unit id="work_nav" datatype="html">
+        <source>Experience</source>
+      </trans-unit>
+      <trans-unit id="about_design" datatype="html">
+        <source> Also a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>UI/UX designer<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>: designs interfaces in <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Figma<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, from wireframes and user flows to production-ready screens, and then builds them, so design and code stay consistent. </source>
+      </trans-unit>
+      <trans-unit id="about_lead" datatype="html">
+        <source> 13+ years of commercial software development, started at 17. At 19 created Ukraine&apos;s first municipal budget visualization system, the Open Budget of Chernivtsi (cv.ofd.in.ua), officially adopted by Chernivtsi City Council; since 2018 working in the European tech sector. </source>
+      </trans-unit>
+      <trans-unit id="badge_first_commercial" datatype="html">
+        <source> First commercial project </source>
+      </trans-unit>
+      <trans-unit id="ofd_1" datatype="html">
+        <source> Ukraine&apos;s first municipal budget visualization system: Chernivtsi became the first city in Ukraine to officially adopt such a platform, before budget transparency became mandatory nationwide. </source>
+      </trans-unit>
+      <trans-unit id="ofd_2" datatype="html">
+        <source> Designed and built the platform single-handedly at 19, under the Hashlink brand, while working as a computer systems specialist at Chernivtsi City Council: PHP (Yii Framework) and JavaScript. My first major commercial project. </source>
+      </trans-unit>
+      <trans-unit id="ofd_period" datatype="html">
+        <source> 2015 </source>
+      </trans-unit>
+      <trans-unit id="ofd_role" datatype="html">
+        <source> Author · Solo Developer (Hashlink) </source>
+      </trans-unit>
+      <trans-unit id="ofd_title" datatype="html">
+        <source> Open Budget of Chernivtsi </source>
+      </trans-unit>
+      <trans-unit id="skills_design" datatype="html">
+        <source> I design web and mobile interfaces in Figma: user flows, wireframes, high-fidelity screens, components and prototypes ready for handover to developers. I implement them with Tailwind and take care of accessibility according to WCAG. </source>
+      </trans-unit>
+      <trans-unit id="stat_years_commercial_label" datatype="html">
+        <source>Years of commercial development</source>
+      </trans-unit>
+      <trans-unit id="ofd_3" datatype="html">
+        <source> Residents can track every item of the city&apos;s revenue and expenditure by department, municipal institution and general or special fund, as interactive charts and tables, and download the original reports (Excel, CSV, PDF). </source>
+      </trans-unit>
+      <trans-unit id="ofd_4" datatype="html">
+        <source> Led the digital standardisation of the city&apos;s financial reporting: on my recommendation, all budget holders (departments, schools, hospitals, municipal enterprises) moved from ad-hoc Word documents to a single machine-readable Excel standard. </source>
+      </trans-unit>
+      <trans-unit id="ofd_5" datatype="html">
+        <source> Wrote algorithms that automatically parse hundreds of Excel reports, map the figures to budget classification codes and consolidate them into one database, removing manual re-typing and the risk of errors. </source>
+      </trans-unit>
+      <trans-unit id="story_back" datatype="html">
+        <source>Back to CV</source>
+      </trans-unit>
+      <trans-unit id="story_heading" datatype="html">
+        <source> From a city budget portal to my own studio </source>
+      </trans-unit>
+      <trans-unit id="story_intro" datatype="html">
+        <source> The CV lists what I did. This page tells how I got here: thirteen years of building products, mostly on my own, from Chernivtsi to Warsaw. </source>
+      </trans-unit>
+      <trans-unit id="story_nav" datatype="html">
+        <source>My story</source>
+      </trans-unit>
+      <trans-unit id="story_s1_p1" datatype="html">
+        <source> I took my first paid projects at 17, in my home city of Chernivtsi. From the very beginning I did the whole job myself: listened to what the client needed, picked the technology, designed the interface, wrote the code and launched it. </source>
+      </trans-unit>
+      <trans-unit id="story_s1_p2" datatype="html">
+        <source> That habit of owning a product end to end has stayed with me ever since: more than 70% of my products were built single-handedly. </source>
+      </trans-unit>
+      <trans-unit id="story_s1_place" datatype="html">
+        <source>Chernivtsi · Age 17</source>
+      </trans-unit>
+      <trans-unit id="story_s1_title" datatype="html">
+        <source>First commercial projects</source>
+      </trans-unit>
+      <trans-unit id="story_s1_year" datatype="html">
+        <source>2013</source>
+      </trans-unit>
+      <trans-unit id="story_s2_p1" datatype="html">
+        <source> While studying and working as a computer systems specialist at Chernivtsi City Council, I designed and built cv.ofd.in.ua, Ukraine&apos;s first municipal budget visualization system. Chernivtsi became the first city in Ukraine to officially adopt such a platform, before budget transparency became mandatory nationwide. </source>
+      </trans-unit>
+      <trans-unit id="story_s2_p2" datatype="html">
+        <source> The hardest part was not the code. Every department, school and hospital reported in its own Word files, so I proposed one machine-readable Excel standard for all budget holders and wrote parsers that turned hundreds of reports into one database and clear interactive charts for residents. I released it under my own brand, Hashlink. </source>
+      </trans-unit>
+      <trans-unit id="story_s2_place" datatype="html">
+        <source>Chernivtsi · Age 19</source>
+      </trans-unit>
+      <trans-unit id="story_s2_title" datatype="html">
+        <source>Open Budget of Chernivtsi</source>
+      </trans-unit>
+      <trans-unit id="story_s2_year" datatype="html">
+        <source>2015</source>
+      </trans-unit>
+      <trans-unit id="story_s3_p1" datatype="html">
+        <source> In 2017 I started my engineering degree in Computer Science at AEH in Warsaw, and in 2018 I joined EFENDI as a front-end developer. </source>
+      </trans-unit>
+      <trans-unit id="story_s3_p2" datatype="html">
+        <source> At EFENDI I built mobile apps and web portals for international clients such as Siemens, Samsung and Volkswagen, working with Ionic, Angular, Flutter and Firebase, and set up CI/CD and Docker-based environments. </source>
+      </trans-unit>
+      <trans-unit id="story_s3_place" datatype="html">
+        <source>Warsaw</source>
+      </trans-unit>
+      <trans-unit id="story_s3_title" datatype="html">
+        <source>Poland and the European tech sector</source>
+      </trans-unit>
+      <trans-unit id="story_s3_year" datatype="html">
+        <source>2017 – 2018</source>
+      </trans-unit>
+      <trans-unit id="story_s4_p1" datatype="html">
+        <source> In parallel I founded Salo-Sale: a discount platform for local businesses with an admin panel, a business panel, two Flutter mobile apps and an SEO-optimised website. It taught me how to run a product and a team, especially through the COVID-19 period. </source>
+      </trans-unit>
+      <trans-unit id="story_s4_p2" datatype="html">
+        <source> In 2021 I published Thiis, an open-source JavaScript library that makes data validation short and readable, and wrote about it on Medium and dev.to. </source>
+      </trans-unit>
+      <trans-unit id="story_s4_place" datatype="html">
+        <source>Side projects</source>
+      </trans-unit>
+      <trans-unit id="story_s4_title" datatype="html">
+        <source>Salo-Sale and Thiis</source>
+      </trans-unit>
+      <trans-unit id="story_s4_year" datatype="html">
+        <source>2018 – 2021</source>
+      </trans-unit>
+      <trans-unit id="story_s5_p1" datatype="html">
+        <source> I joined UNICARD Systems as a frontend developer and was soon promoted to frontend tech lead. I trained the team, introduced new ways of planning (half as many unfinished tasks, ~40% less time on sprint planning), upgraded Angular to make builds twice as fast and shipped a PWA that brought more positive customer feedback and sales. </source>
+      </trans-unit>
+      <trans-unit id="story_s5_p2" datatype="html">
+        <source> In 2023 I led the frontend of a project at SKK, moving a .NET application to Angular from scratch and delivering it on time. Along the way I completed my Master of Engineering in Computer Science at AEH (2022–2024), with a thesis graded 5.0. </source>
+      </trans-unit>
+      <trans-unit id="story_s5_place" datatype="html">
+        <source>UNICARD Systems</source>
+      </trans-unit>
+      <trans-unit id="story_s5_title" datatype="html">
+        <source>From developer to tech lead</source>
+      </trans-unit>
+      <trans-unit id="story_s5_year" datatype="html">
+        <source>2021 – today</source>
+      </trans-unit>
+      <trans-unit id="story_s6_p1" datatype="html">
+        <source> When the full-scale war began, I co-created Car4Ukraine with people from IT, logistics, media and education. We source, upgrade and deliver vehicles to Ukrainian defenders: 850+ vehicles so far, with 250+ volunteers from 30+ countries. </source>
+      </trans-unit>
+      <trans-unit id="story_s6_p2" datatype="html">
+        <source> I build and maintain the car4ukraine.com platform: a multilingual website with fundraising campaigns, real-time progress and a car-donation flow. </source>
+      </trans-unit>
+      <trans-unit id="story_s6_place" datatype="html">
+        <source>Car4Ukraine</source>
+      </trans-unit>
+      <trans-unit id="story_s6_title" datatype="html">
+        <source>Technology for a cause</source>
+      </trans-unit>
+      <trans-unit id="story_s6_year" datatype="html">
+        <source>2022 – today</source>
+      </trans-unit>
+      <trans-unit id="story_s7_p1" datatype="html">
+        <source> With my co-founder I am building amator.app, a sport-tech platform that helps amateur players find matches and teammates in Warsaw, Katowice and Larnaca. I built the whole product: Angular, Supabase, real-time WebSockets and iOS/Android apps with Capacitor. </source>
+      </trans-unit>
+      <trans-unit id="story_s7_p2" datatype="html">
+        <source> I am also launching karba.studio, a digital studio for websites, mobile apps, UI/UX design, marketing and SEO, to bring this end-to-end approach to more clients with a team of strong specialists. </source>
+      </trans-unit>
+      <trans-unit id="story_s7_place" datatype="html">
+        <source>Founder</source>
+      </trans-unit>
+      <trans-unit id="story_s7_title" datatype="html">
+        <source>amator.app and karba.studio</source>
+      </trans-unit>
+      <trans-unit id="story_s7_year" datatype="html">
+        <source>2025 – today</source>
+      </trans-unit>
+      <trans-unit id="story_teaser" datatype="html">
+        <source> From a city budget portal built at 19 in Chernivtsi to my own products and studio: the longer version of this CV. </source>
+      </trans-unit>
+      <trans-unit id="story_today" datatype="html">
+        <source> Whatever the project, I start by understanding the problem and the people behind it, then choose the technology that fits, build the product end to end and leave documentation good enough to hand it over to a team. If that is the kind of person you are looking for, let&apos;s talk. </source>
+      </trans-unit>
+      <trans-unit id="story_today_label" datatype="html">
+        <source>Today</source>
+      </trans-unit>
+      <trans-unit id="story_view_cv" datatype="html">
+        <source>View CV</source>
       </trans-unit>
     </body>
   </file>

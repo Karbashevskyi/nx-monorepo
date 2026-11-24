@@ -690,8 +690,8 @@
         <target state="new"> Pierwszy na Ukrainie miejski system wizualizacji budżetu: Czerniowce jako pierwsze miasto na Ukrainie oficjalnie wdrożyły taką platformę, zanim przejrzystość budżetu stała się obowiązkowa w całym kraju. </target>
       </trans-unit>
       <trans-unit id="ofd_2" datatype="html">
-        <source> Built the first version single-handedly in 2014 as a student, without formal IT education, in my own time and at my own expense; launched at the end of 2014, before the national law on openness of public funds was signed. The city then ordered the second version, still in use today, which I provide through my company Hashlink: PHP (Yii Framework) and JavaScript. </source>
-        <target state="new"> Pierwszą wersję zbudował samodzielnie w 2014 roku jako student, bez formalnego wykształcenia IT, w swoim czasie i za własne pieniądze; uruchomił ją pod koniec 2014 roku, zanim podpisano ogólnokrajową ustawę o jawności środków publicznych. Następnie miasto zamówiło drugą wersję, działającą do dziś, którą dostarcza przez swoją firmę Hashlink: PHP (Yii Framework) i JavaScript. </target>
+        <source> Built the first version single-handedly in 2014 as a student, without formal IT education, in my own time and at my own expense; launched at the end of 2014, before the national law on openness of public funds was signed. The city then ordered the second version, still in use today, which I provide through my company Hashlink. First version in vanilla PHP, the second on Yii2, with JavaScript charts. </source>
+        <target state="new"> Pierwszą wersję zbudował samodzielnie w 2014 roku jako student, bez formalnego wykształcenia IT, w swoim czasie i za własne pieniądze; uruchomił ją pod koniec 2014 roku, zanim podpisano ogólnokrajową ustawę o jawności środków publicznych. Następnie miasto zamówiło drugą wersję, działającą do dziś, którą dostarcza przez swoją firmę Hashlink. Pierwsza wersja w czystym PHP, druga na Yii2, wykresy w JavaScripcie. </target>
       </trans-unit>
       <trans-unit id="skills_design" datatype="html">
         <source> I design web and mobile interfaces in Figma: user flows, wireframes, high-fidelity screens, components and prototypes ready for handover to developers. I implement them with Tailwind and take care of accessibility according to WCAG. </source>
@@ -766,8 +766,8 @@
         <target state="new"> W 2014 roku, jeszcze jako student, niepełnoletni i bez formalnego wykształcenia IT, zacząłem budować Otwarty Budżet Czerniowiec (cv.ofd.in.ua), pierwszy na Ukrainie miejski system wizualizacji budżetu. Inicjatywa wyszła od ówczesnego mera Czerniowiec Ołeksija Kaspruka i jego pierwszego zastępcy, a budowałem go sam, w swoim czasie, za własne pieniądze i za darmo. Pod koniec 2014 roku uruchomiliśmy pierwszą, jeszcze surową wersję: na długo przed tym, zanim ówczesny prezydent Petro Poroszenko w ogóle podpisał ustawę „O jawności wykorzystania środków publicznych”. Czerniowce jako pierwsze miasto na Ukrainie oficjalnie wdrożyły taką platformę. </target>
       </trans-unit>
       <trans-unit id="story_s2_p2" datatype="html">
-        <source> The hardest part was the data. Every department, school and hospital reported in its own way, in Word files and ad-hoc tables. I wrote a PHP algorithm (Yii Framework) that adapts to any Excel table layout, recognises budget classification codes and consolidates hundreds of reports into one database. Then I proposed moving all budget holders to a single standard and designed its base template from the data already collected. </source>
-        <target state="new"> Najtrudniejsze były dane. Każdy departament, szkoła i szpital raportowały po swojemu: w plikach Word i dowolnych tabelach. Napisałem w PHP (Yii Framework) algorytm, który dopasowuje się do dowolnej struktury tabel Excel, rozpoznaje klasyfikację budżetową i łączy setki raportów w jedną bazę danych. Potem zaproponowałem przejście wszystkich dysponentów środków na jeden standard i zaprojektowałem jego bazowy szablon na podstawie zebranych już danych. </target>
+        <source> The hardest part was the data. Every department, school and hospital reported in its own way, in Word files and ad-hoc tables. I wrote an algorithm in vanilla PHP (I did not know the Yii2 framework well yet) that adapts to any Excel table layout, recognises budget classification codes and consolidates hundreds of reports into one database. Then I proposed moving all budget holders to a single standard and designed its base template from the data already collected. </source>
+        <target state="new"> Najtrudniejsze były dane. Każdy departament, szkoła i szpital raportowały po swojemu: w plikach Word i dowolnych tabelach. Napisałem w czystym PHP (frameworka Yii2 nie znałem jeszcze dobrze) algorytm, który dopasowuje się do dowolnej struktury tabel Excel, rozpoznaje klasyfikację budżetową i łączy setki raportów w jedną bazę danych. Potem zaproponowałem przejście wszystkich dysponentów środków na jeden standard i zaprojektowałem jego bazowy szablon na podstawie zebranych już danych. </target>
       </trans-unit>
       <trans-unit id="story_s3_year" datatype="html">
         <source>2017 – 2018</source>
@@ -902,8 +902,8 @@
         <target state="new"> Po ukończeniu Czerniowieckiej Wyższej Szkoły Zawodowej Radioelektroniki rada miasta zaproponowała mi pracę administratora systemów w Centrum Usług Administracyjnych (CNAP), które właśnie się otwierało. Myślę, że powodem był portal budżetowy: złożony system, który zbudowałem za darmo, samodzielnie i bez kierunkowego wykształcenia. </target>
       </trans-unit>
       <trans-unit id="story_s2b_p2" datatype="html">
-        <source> At TsNAP I was asked to build the second version of the budget portal, and it is still running today. So that the city could pay me monthly for its use and maintenance, I founded my own company, Hashlink. </source>
-        <target state="new"> W CNAP poproszono mnie o zbudowanie drugiej wersji portalu budżetowego, która działa do dziś. Aby miasto mogło co miesiąc płacić mi za jej używanie i utrzymanie, założyłem własną firmę Hashlink. </target>
+        <source> At TsNAP I was asked to build the second version of the budget portal, this time on the Yii2 framework, and it is still running today. So that the city could pay me monthly for its use and maintenance, I founded my own company, Hashlink. </source>
+        <target state="new"> W CNAP poproszono mnie o zbudowanie drugiej wersji portalu budżetowego, tym razem na frameworku Yii2, i działa ona do dziś. Aby miasto mogło co miesiąc płacić mi za jej używanie i utrzymanie, założyłem własną firmę Hashlink. </target>
       </trans-unit>
       <trans-unit id="story_s2b_p3" datatype="html">
         <source> I also built an application for the centre&apos;s administrators that sped up the reception of residents, and proposed and created an online status check, so people no longer had to come in person to learn how their application for an administrative service was progressing. </source>
@@ -912,6 +912,30 @@
       <trans-unit id="story_s2b_p4" datatype="html">
         <source> Finally, I turned an old, non-working information kiosk into a complete system: visitors got the information they needed at the kiosk or on the website at home, often without even taking a queue ticket to an administrator. </source>
         <target state="new"> Na koniec zamieniłem stary, niedziałający infokiosk w kompletny system: odwiedzający otrzymywali potrzebne informacje w kiosku lub na stronie w domu, często nawet bez pobierania biletu do administratora. </target>
+      </trans-unit>
+      <trans-unit id="story_s0_year" datatype="html">
+        <source>Early years</source>
+        <target state="new">Wczesne lata</target>
+      </trans-unit>
+      <trans-unit id="story_s0_place" datatype="html">
+        <source>Chernivtsi · School</source>
+        <target state="new">Czerniowce · szkoła</target>
+      </trans-unit>
+      <trans-unit id="story_s0_title" datatype="html">
+        <source>Ideas ahead of resources</source>
+        <target state="new">Pomysły wyprzedzały zasoby</target>
+      </trans-unit>
+      <trans-unit id="story_s0_p1" datatype="html">
+        <source> Long before my first paid project I was already trying to build my own products while still at school. One of them was Falcon, an online marketplace in the spirit of what Prom.ua later became. </source>
+        <target state="new"> Na długo przed pierwszym płatnym projektem próbowałem budować własne produkty, jeszcze w szkole. Jednym z nich był Falcon, internetowy marketplace w duchu tego, czym później stał się Prom.ua. </target>
+      </trans-unit>
+      <trans-unit id="story_s0_p2" datatype="html">
+        <source> The same ideas often come to many people at once; the real question is who gets to finish them. Teams in Kyiv were older, there were more of them, they had money and did not have to go to school. I had no connections, no money and lessons every morning. That taught me to do everything myself and to see things through. </source>
+        <target state="new"> Te same pomysły często przychodzą wielu osobom naraz; prawdziwe pytanie brzmi, kto doprowadzi je do końca. Zespoły z Kijowa były starsze, było ich więcej, miały pieniądze i nie musiały chodzić do szkoły. Ja nie miałem ani znajomości, ani pieniędzy, a co rano lekcje. To nauczyło mnie robić wszystko samemu i doprowadzać sprawy do końca. </target>
+      </trans-unit>
+      <trans-unit id="story_s0_p3" datatype="html">
+        <source> I tried hardware too: an IoT ticket vending machine for public transport, assembled from whatever parts I could find. It almost worked, but after talking to people at the final stops I realised everyone was fine with things as they were, and a single city ticket still does not exist today. It was my first lesson in talking to users before building. </source>
+        <target state="new"> Próbowałem też sprzętu: automat IoT do sprzedaży biletów w komunikacji miejskiej, złożony z tego, co było pod ręką. Prawie zadziałał, ale po rozmowach z ludźmi na pętlach zrozumiałem, że wszystkim obecny stan wystarcza, a jednolitego biletu miejskiego nie ma do dziś. To była moja pierwsza lekcja: najpierw rozmawiać z użytkownikami, potem budować. </target>
       </trans-unit>
     </body>
   </file>

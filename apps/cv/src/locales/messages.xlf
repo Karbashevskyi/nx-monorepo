@@ -507,7 +507,7 @@
         <source> Ukraine&apos;s first municipal budget visualization system: Chernivtsi became the first city in Ukraine to officially adopt such a platform, before budget transparency became mandatory nationwide. </source>
       </trans-unit>
       <trans-unit id="ofd_2" datatype="html">
-        <source> Built the first version single-handedly in 2014 as a student, without formal IT education, in my own time and at my own expense; launched at the end of 2014, before the national law on openness of public funds was signed. The city then ordered the second version, still in use today, which I provide through my company Hashlink: PHP (Yii Framework) and JavaScript. </source>
+        <source> Built the first version single-handedly in 2014 as a student, without formal IT education, in my own time and at my own expense; launched at the end of 2014, before the national law on openness of public funds was signed. The city then ordered the second version, still in use today, which I provide through my company Hashlink. First version in vanilla PHP, the second on Yii2, with JavaScript charts. </source>
       </trans-unit>
       <trans-unit id="ofd_period" datatype="html">
         <source> 2014 </source>
@@ -564,7 +564,7 @@
         <source> In 2014, still a student, not yet 18 and without any formal IT education, I started building the Open Budget of Chernivtsi (cv.ofd.in.ua), Ukraine&apos;s first municipal budget visualization system. The initiative came from the then mayor of Chernivtsi, Oleksiy Kaspruk, and his first deputy; I built it on my own, in my own time and at my own expense, for free. At the end of 2014 we launched the first, still rough version, long before then-President Petro Poroshenko even signed the law &quot;On the openness of the use of public funds&quot;. Chernivtsi became the first city in Ukraine to officially adopt such a platform. </source>
       </trans-unit>
       <trans-unit id="story_s2_p2" datatype="html">
-        <source> The hardest part was the data. Every department, school and hospital reported in its own way, in Word files and ad-hoc tables. I wrote a PHP algorithm (Yii Framework) that adapts to any Excel table layout, recognises budget classification codes and consolidates hundreds of reports into one database. Then I proposed moving all budget holders to a single standard and designed its base template from the data already collected. </source>
+        <source> The hardest part was the data. Every department, school and hospital reported in its own way, in Word files and ad-hoc tables. I wrote an algorithm in vanilla PHP (I did not know the Yii2 framework well yet) that adapts to any Excel table layout, recognises budget classification codes and consolidates hundreds of reports into one database. Then I proposed moving all budget holders to a single standard and designed its base template from the data already collected. </source>
       </trans-unit>
       <trans-unit id="story_s2_place" datatype="html">
         <source>Chernivtsi · Student</source>
@@ -669,7 +669,7 @@
         <source> After I graduated from the Chernivtsi Higher Vocational School of Radio Electronics, the city council offered me a job as system administrator at the Administrative Services Centre (TsNAP), which was just opening. I believe the reason was the budget portal: a complex system I had built for free, on my own and without a specialised education. </source>
       </trans-unit>
       <trans-unit id="story_s2b_p2" datatype="html">
-        <source> At TsNAP I was asked to build the second version of the budget portal, and it is still running today. So that the city could pay me monthly for its use and maintenance, I founded my own company, Hashlink. </source>
+        <source> At TsNAP I was asked to build the second version of the budget portal, this time on the Yii2 framework, and it is still running today. So that the city could pay me monthly for its use and maintenance, I founded my own company, Hashlink. </source>
       </trans-unit>
       <trans-unit id="story_s2b_p3" datatype="html">
         <source> I also built an application for the centre&apos;s administrators that sped up the reception of residents, and proposed and created an online status check, so people no longer had to come in person to learn how their application for an administrative service was progressing. </source>
@@ -685,6 +685,24 @@
       </trans-unit>
       <trans-unit id="story_s2b_p4" datatype="html">
         <source> Finally, I turned an old, non-working information kiosk into a complete system: visitors got the information they needed at the kiosk or on the website at home, often without even taking a queue ticket to an administrator. </source>
+      </trans-unit>
+      <trans-unit id="story_s0_p1" datatype="html">
+        <source> Long before my first paid project I was already trying to build my own products while still at school. One of them was Falcon, an online marketplace in the spirit of what Prom.ua later became. </source>
+      </trans-unit>
+      <trans-unit id="story_s0_p2" datatype="html">
+        <source> The same ideas often come to many people at once; the real question is who gets to finish them. Teams in Kyiv were older, there were more of them, they had money and did not have to go to school. I had no connections, no money and lessons every morning. That taught me to do everything myself and to see things through. </source>
+      </trans-unit>
+      <trans-unit id="story_s0_place" datatype="html">
+        <source>Chernivtsi · School</source>
+      </trans-unit>
+      <trans-unit id="story_s0_title" datatype="html">
+        <source>Ideas ahead of resources</source>
+      </trans-unit>
+      <trans-unit id="story_s0_year" datatype="html">
+        <source>Early years</source>
+      </trans-unit>
+      <trans-unit id="story_s0_p3" datatype="html">
+        <source> I tried hardware too: an IoT ticket vending machine for public transport, assembled from whatever parts I could find. It almost worked, but after talking to people at the final stops I realised everyone was fine with things as they were, and a single city ticket still does not exist today. It was my first lesson in talking to users before building. </source>
       </trans-unit>
     </body>
   </file>

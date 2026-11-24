@@ -691,8 +691,8 @@
         <target state="new"> Перша в Україні муніципальна система візуалізації бюджету: Чернівці стали першим містом в Україні, яке офіційно впровадило таку платформу, ще до того, як прозорість бюджету стала обов’язковою на державному рівні. </target>
       </trans-unit>
       <trans-unit id="ofd_2" datatype="html">
-        <source> Built the first version single-handedly in 2014 as a student, without formal IT education, in my own time and at my own expense; launched at the end of 2014, before the national law on openness of public funds was signed. The city then ordered the second version, still in use today, which I provide through my company Hashlink: PHP (Yii Framework) and JavaScript. </source>
-        <target state="new"> Першу версію створив самостійно у 2014 році, ще студентом, без профільної освіти, у власний час і за власні кошти; запустив наприкінці 2014 року, ще до підписання державного закону про відкритість публічних коштів. Потім місто замовило другу версію, яка працює досі і яку я надаю через свою компанію Hashlink: PHP (Yii Framework) і JavaScript. </target>
+        <source> Built the first version single-handedly in 2014 as a student, without formal IT education, in my own time and at my own expense; launched at the end of 2014, before the national law on openness of public funds was signed. The city then ordered the second version, still in use today, which I provide through my company Hashlink. First version in vanilla PHP, the second on Yii2, with JavaScript charts. </source>
+        <target state="new"> Першу версію створив самостійно у 2014 році, ще студентом, без профільної освіти, у власний час і за власні кошти; запустив наприкінці 2014 року, ще до підписання державного закону про відкритість публічних коштів. Потім місто замовило другу версію, яка працює досі і яку я надаю через свою компанію Hashlink. Перша версія — на чистому PHP, друга — на Yii2, графіки на JavaScript. </target>
       </trans-unit>
       <trans-unit id="skills_design" datatype="html">
         <source> I design web and mobile interfaces in Figma: user flows, wireframes, high-fidelity screens, components and prototypes ready for handover to developers. I implement them with Tailwind and take care of accessibility according to WCAG. </source>
@@ -767,8 +767,8 @@
         <target state="new"> У 2014 році, ще студентом, неповнолітнім і без жодної профільної IT-освіти, я почав створювати «Відкритий бюджет м. Чернівці» (cv.ofd.in.ua), першу в Україні муніципальну систему візуалізації бюджету. Ініціатива належала тодішньому міському голові Чернівців Олексію Каспруку та його першому заступнику, а розробляв я сам, у власний час, за власні кошти і безкоштовно. Наприкінці 2014 року ми запустили першу, ще сиру версію: задовго до того, як тодішній президент Петро Порошенко взагалі підписав закон «Про відкритість використання публічних коштів». Чернівці стали першим містом в Україні, яке офіційно впровадило таку платформу. </target>
       </trans-unit>
       <trans-unit id="story_s2_p2" datatype="html">
-        <source> The hardest part was the data. Every department, school and hospital reported in its own way, in Word files and ad-hoc tables. I wrote a PHP algorithm (Yii Framework) that adapts to any Excel table layout, recognises budget classification codes and consolidates hundreds of reports into one database. Then I proposed moving all budget holders to a single standard and designed its base template from the data already collected. </source>
-        <target state="new"> Найскладнішими були дані. Кожен департамент, школа й лікарня звітували по-своєму: у файлах Word і довільних таблицях. Я написав на PHP (Yii Framework) алгоритм, який адаптується до будь-якої структури Excel-таблиць, розпізнає бюджетні класифікатори й зводить сотні звітів в єдину базу даних. Потім я запропонував перевести всіх розпорядників коштів на один стандарт і розробив основний каркас шаблону на основі вже отриманих даних. </target>
+        <source> The hardest part was the data. Every department, school and hospital reported in its own way, in Word files and ad-hoc tables. I wrote an algorithm in vanilla PHP (I did not know the Yii2 framework well yet) that adapts to any Excel table layout, recognises budget classification codes and consolidates hundreds of reports into one database. Then I proposed moving all budget holders to a single standard and designed its base template from the data already collected. </source>
+        <target state="new"> Найскладнішими були дані. Кожен департамент, школа й лікарня звітували по-своєму: у файлах Word і довільних таблицях. Я написав на чистому PHP (фреймворк Yii2 я тоді ще не дуже знав) алгоритм, який адаптується до будь-якої структури Excel-таблиць, розпізнає бюджетні класифікатори й зводить сотні звітів в єдину базу даних. Потім я запропонував перевести всіх розпорядників коштів на один стандарт і розробив основний каркас шаблону на основі вже отриманих даних. </target>
       </trans-unit>
       <trans-unit id="story_s3_year" datatype="html">
         <source>2017 – 2018</source>
@@ -903,8 +903,8 @@
         <target state="new"> Після того як я закінчив Чернівецьке вище професійне училище радіоелектроніки, міська рада запропонувала мені роботу системного адміністратора в Центрі надання адміністративних послуг (ЦНАП), який тоді лише відкривався. Думаю, причиною був портал бюджету: складна система, яку я зробив безкоштовно, самостійно й без профільної освіти. </target>
       </trans-unit>
       <trans-unit id="story_s2b_p2" datatype="html">
-        <source> At TsNAP I was asked to build the second version of the budget portal, and it is still running today. So that the city could pay me monthly for its use and maintenance, I founded my own company, Hashlink. </source>
-        <target state="new"> У ЦНАП мене попросили реалізувати другу версію порталу бюджету, і вона працює досі. Щоб місто могло щомісяця платити мені за її використання та обслуговування, я відкрив власну фірму «Хешлінк» (Hashlink). </target>
+        <source> At TsNAP I was asked to build the second version of the budget portal, this time on the Yii2 framework, and it is still running today. So that the city could pay me monthly for its use and maintenance, I founded my own company, Hashlink. </source>
+        <target state="new"> У ЦНАП мене попросили реалізувати другу версію порталу бюджету, цього разу на фреймворку Yii2, і вона працює досі. Щоб місто могло щомісяця платити мені за її використання та обслуговування, я відкрив власну фірму «Хешлінк» (Hashlink). </target>
       </trans-unit>
       <trans-unit id="story_s2b_p3" datatype="html">
         <source> I also built an application for the centre&apos;s administrators that sped up the reception of residents, and proposed and created an online status check, so people no longer had to come in person to learn how their application for an administrative service was progressing. </source>
@@ -913,6 +913,30 @@
       <trans-unit id="story_s2b_p4" datatype="html">
         <source> Finally, I turned an old, non-working information kiosk into a complete system: visitors got the information they needed at the kiosk or on the website at home, often without even taking a queue ticket to an administrator. </source>
         <target state="new"> А ще перетворив старий непрацюючий інфокіоск на повноцінну систему: відвідувачі отримували потрібну інформацію в інфокіоску або на сайті вдома, часто навіть не беручи талон до адміністратора. </target>
+      </trans-unit>
+      <trans-unit id="story_s0_year" datatype="html">
+        <source>Early years</source>
+        <target state="new">Ранні роки</target>
+      </trans-unit>
+      <trans-unit id="story_s0_place" datatype="html">
+        <source>Chernivtsi · School</source>
+        <target state="new">Чернівці · школа</target>
+      </trans-unit>
+      <trans-unit id="story_s0_title" datatype="html">
+        <source>Ideas ahead of resources</source>
+        <target state="new">Ідеї випереджали ресурси</target>
+      </trans-unit>
+      <trans-unit id="story_s0_p1" datatype="html">
+        <source> Long before my first paid project I was already trying to build my own products while still at school. One of them was Falcon, an online marketplace in the spirit of what Prom.ua later became. </source>
+        <target state="new"> Задовго до першого платного проєкту я вже пробував створювати власні продукти, ще навчаючись у школі. Один із них — Falcon, онлайн-маркетплейс у дусі того, чим згодом став Prom.ua. </target>
+      </trans-unit>
+      <trans-unit id="story_s0_p2" datatype="html">
+        <source> The same ideas often come to many people at once; the real question is who gets to finish them. Teams in Kyiv were older, there were more of them, they had money and did not have to go to school. I had no connections, no money and lessons every morning. That taught me to do everything myself and to see things through. </source>
+        <target state="new"> Однакові ідеї часто приходять багатьом людям одночасно; справжнє питання в тому, хто доведе їх до кінця. Команди з Києва були старшими, їх було більше, вони мали гроші й не мусили ходити до школи. У мене не було ні зв’язків, ні грошей, а щоранку — уроки. Це навчило мене робити все самому й доводити справу до кінця. </target>
+      </trans-unit>
+      <trans-unit id="story_s0_p3" datatype="html">
+        <source> I tried hardware too: an IoT ticket vending machine for public transport, assembled from whatever parts I could find. It almost worked, but after talking to people at the final stops I realised everyone was fine with things as they were, and a single city ticket still does not exist today. It was my first lesson in talking to users before building. </source>
+        <target state="new"> Пробував я і «залізо»: IoT-автомат для видачі квитків у громадському транспорті, зібраний, як то кажуть, з того, що було під рукою. Він майже запрацював, але, поспілкувавшись з людьми на кінцевих зупинках, я зрозумів, що всіх і так усе влаштовує, а єдиного міського квитка немає й досі. Це був мій перший урок: спершу говорити з користувачами, а потім будувати. </target>
       </trans-unit>
     </body>
   </file>

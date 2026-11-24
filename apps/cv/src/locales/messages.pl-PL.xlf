@@ -1,10 +1,6 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="uk-UA" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="aboutMe" datatype="html">
-        <source>About me</source>
-        <target state="new">O mnie</target>
-      </trans-unit>
       <trans-unit id="skills" datatype="html">
         <source>Skills</source>
         <target state="new">Umiejętności</target>

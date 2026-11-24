@@ -927,8 +927,8 @@
         <target state="new">Ідеї випереджали ресурси</target>
       </trans-unit>
       <trans-unit id="story_s0_p1" datatype="html">
-        <source> Long before my first paid project I was already trying to build my own products while still at school. One of them was Falcon, an online marketplace in the spirit of what Prom.ua later became. </source>
-        <target state="new"> Задовго до першого платного проєкту я вже пробував створювати власні продукти, ще навчаючись у школі. Один із них — Falcon, онлайн-маркетплейс у дусі того, чим згодом став Prom.ua. </target>
+        <source> Long before my first paid project I was already trying to build my own products while still at school. One of them was Falcon, my own online marketplace, similar in idea to Prom.ua, which was built by a company from Kyiv. </source>
+        <target state="new"> Задовго до першого платного проєкту я вже пробував створювати власні продукти, ще навчаючись у школі. Один із них — Falcon, мій власний онлайн-маркетплейс, за ідеєю схожий на Prom.ua, який робила київська компанія. </target>
       </trans-unit>
       <trans-unit id="story_s0_p2" datatype="html">
         <source> The same ideas often come to many people at once; the real question is who gets to finish them. Teams in Kyiv were older, there were more of them, they had money and did not have to go to school. I had no connections, no money and lessons every morning. That taught me to do everything myself and to see things through. </source>

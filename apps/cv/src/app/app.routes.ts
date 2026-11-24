@@ -1,9 +1,9 @@
 import { Route } from '@angular/router';
-import { CvPage } from './pages/cv.page';
-import { StoryPage } from './pages/story.page';
+import { CvPageComponent } from './pages/cv.page';
+import { StoryPageComponent } from './pages/story.page';
 
 export const appRoutes: Route[] = [
-  { path: '', component: CvPage },
-  { path: 'story', component: StoryPage },
+  { path: '', component: CvPageComponent },
+  { path: 'story', component: StoryPageComponent },
   { path: '**', redirectTo: '' }
 ];

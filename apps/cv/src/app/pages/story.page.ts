@@ -9,6 +9,6 @@ import { PERSON } from '../person';
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './story.page.html'
 })
-export class StoryPage {
+export class StoryPageComponent {
   protected readonly person = PERSON;
 }

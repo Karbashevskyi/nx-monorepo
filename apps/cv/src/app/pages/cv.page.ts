@@ -48,6 +48,6 @@ import { PERSON } from '../person';
     <lib-articles/>
   `
 })
-export class CvPage {
+export class CvPageComponent {
   protected readonly person = PERSON;
 }

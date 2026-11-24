@@ -10,10 +10,10 @@ export class MetadataService {
   readonly #title = inject(Title);
 
   updateMetadata() {
-    const title = $localize`:@@meta_title:Ivan Karbashevskyi - Frontend Developer - CV`;
-    const description = $localize`:@@meta_description:Ivan Karbashevskyi\'s online CV. Frontend Developer with experience in JavaScript, Node.js, Angular, NestJs, and more.`;
-    const keywords = $localize`:@@meta_keywords:Ivan Karbashevskyi, CV, Frontend Developer, JavaScript, Node.js, Angular, NestJs, TypeScript, software developer, web developer`;
-    const imageUrl = 'https://karbashevskyi.github.io/path-to-your-image.jpg';
+    const title = $localize`:@@meta_title:Ivan Karbashevskyi - Full-stack Developer & Frontend Tech Lead - CV`;
+    const description = $localize`:@@meta_description:Ivan Karbashevskyi\'s online CV. Full-stack developer and frontend tech lead: Angular, TypeScript, Supabase, Firebase, Node.js, Ionic/Capacitor mobile apps for iOS and Android.`;
+    const keywords = $localize`:@@meta_keywords:Ivan Karbashevskyi, CV, Full-stack Developer, Frontend Tech Lead, Frontend Developer, UI/UX Designer, Figma, Supabase, Ionic, Capacitor, JavaScript, Node.js, Angular, NestJs, TypeScript, software developer, web developer`;
+    const imageUrl = 'https://karbashevskyi.github.io/nx-monorepo/cv/en-US/images/Ivan-Karbashevskyi.jpeg';
 
     // Update the page title
     this.#title.setTitle(title);

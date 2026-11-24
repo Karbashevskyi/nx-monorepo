@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="dark scroll-smooth">
 <head>
   <!-- Required Meta Tags Always Come First -->
   <base href="/" />
 
   <!-- Page Title -->
-  <title>Ivan Karbashevskyi - Frontend Developer - CV</title>
+  <title>Ivan Karbashevskyi - Full-stack Developer & Frontend Tech Lead - CV</title>
 
   <!-- Meta Description -->
   <meta name="description"
-        content="Ivan Karbashevskyi's online CV. Frontend Developer with experience in JavaScript, Node.js, React, and more. Learn more about my skills, projects, and professional journey.">
+        content="Ivan Karbashevskyi's online CV. Full-stack developer and frontend tech lead: Angular, TypeScript, Supabase, Firebase, Node.js, Ionic/Capacitor mobile apps for iOS and Android.">
 
   <!-- Keywords -->
   <meta name="keywords"
-        content="Ivan Karbashevskyi, CV, Frontend Developer, JavaScript, Node.js, Angular, NestJs, PHP, TypeScript, software developer, web developer, portfolio">
+        content="Ivan Karbashevskyi, CV, Full-stack Developer, Frontend Tech Lead, Angular, TypeScript, Supabase, Firebase, Ionic, Capacitor, Node.js, software developer, web developer, portfolio">
 
   <!-- Charset -->
   <meta charset="utf-8">
@@ -21,43 +21,46 @@
   <!-- Viewport (Responsive Design) -->
   <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
+  <meta name="theme-color" content="#0a0a0a">
 
   <!-- Twitter Card Tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Ivan Karbashevskyi - Frontend Developer - CV">
+  <meta name="twitter:title" content="Ivan Karbashevskyi - Full-stack Developer & Frontend Tech Lead - CV">
   <meta name="twitter:description"
-        content="Explore the professional profile of Ivan Karbashevskyi, a Frontend Developer with expertise in JavaScript, Node.js, and React.">
-  <meta name="twitter:image" content="https://karbashevskyi.github.io/path-to-your-image.jpg">
-  <!-- Replace with actual image path -->
-  <meta name="twitter:site" content="@YourTwitterHandle"> <!-- Replace with your Twitter handle if you have one -->
+        content="Full-stack developer and frontend tech lead: Angular, Supabase, mobile apps for iOS and Android.">
+  <meta name="twitter:image" content="https://karbashevskyi.github.io/nx-monorepo/cv/en-US/images/Ivan-Karbashevskyi.jpeg">
+  <meta name="twitter:site" content="@Karbashevskyi">
 
   <!-- Open Graph Tags -->
-  <meta property="og:title" content="Ivan Karbashevskyi - Frontend Developer - CV">
+  <meta property="og:title" content="Ivan Karbashevskyi - Full-stack Developer & Frontend Tech Lead - CV">
   <meta property="og:description"
-        content="Discover the professional journey of Ivan Karbashevskyi, a skilled Frontend Developer with expertise in modern web technologies.">
+        content="Full-stack developer and frontend tech lead: Angular, Supabase, mobile apps for iOS and Android.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://karbashevskyi.github.io/nx-monorepo/cv/en-US/">
-  <meta property="og:image" content="https://karbashevskyi.github.io/path-to-your-image.jpg">
-  <!-- Replace with actual image path -->
+  <meta property="og:image" content="https://karbashevskyi.github.io/nx-monorepo/cv/en-US/images/Ivan-Karbashevskyi.jpeg">
   <meta property="og:site_name" content="Ivan Karbashevskyi CV">
-
-  <!-- Title -->
-  <title>Ivan Karbashevskyi</title>
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
 
-  <!-- Theme Check and Update -->
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Theme: dark by default, light only when the visitor chose it -->
   <script>
-    const html = document.querySelector('html');
-    const isLightOrAuto = localStorage.getItem('hs_theme') === 'light' || (localStorage.getItem('hs_theme') === 'auto' && !window.matchMedia('(prefers-color-scheme: dark)').matches);
-    const isDarkOrAuto = localStorage.getItem('hs_theme') === 'dark' || (localStorage.getItem('hs_theme') === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
-
-    if (isLightOrAuto && html.classList.contains('dark')) html.classList.remove('dark');
-    else if (isDarkOrAuto && html.classList.contains('light')) html.classList.remove('light');
-    else if (isDarkOrAuto && !html.classList.contains('dark')) html.classList.add('dark');
-    else if (isLightOrAuto && !html.classList.contains('light')) html.classList.add('light');
+    (function () {
+      var html = document.documentElement;
+      var saved = null;
+      try { saved = localStorage.getItem('hs_theme'); } catch (e) {}
+      var light = saved === 'light' || (saved === 'auto' && !window.matchMedia('(prefers-color-scheme: dark)').matches);
+      html.classList.toggle('dark', !light);
+      html.classList.toggle('light', light);
+    })();
   </script>
 
   <!-- Structured Data -->
@@ -68,19 +71,20 @@
       "name": "Ivan Karbashevskyi",
       "url": "https://karbashevskyi.github.io/nx-monorepo/cv/en-US/",
       "image": "https://karbashevskyi.github.io/nx-monorepo/cv/en-US/images/Ivan-Karbashevskyi.jpeg",
-      "jobTitle": "Frontend Developer",
+      "jobTitle": "Full-stack Developer, Frontend Tech Lead",
       "worksFor": {
         "@type": "Organization",
         "name": "Unicard-Systems Sp. z o.o."
       },
       "sameAs": [
         "https://www.linkedin.com/in/ivan-karbashevskyi/",
-        "https://github.com/karbashevskyi"
+        "https://github.com/karbashevskyi",
+        "https://x.com/Karbashevskyi"
       ]
     }
   </script>
 </head>
-<body class="dark:bg-neutral-900">
+<body class="bg-white dark:bg-neutral-950">
 <app-root></app-root>
 </body>
 </html>

@@ -1,21 +1,9 @@
-import { Component, inject, OnInit, PLATFORM_ID, ViewEncapsulation } from '@angular/core';
+import { Component, inject, OnInit, PLATFORM_ID, signal, ViewEncapsulation } from '@angular/core';
 import { Event, NavigationEnd, Router, RouterModule } from '@angular/router';
-import {
-  AboutComponent,
-  ArticlesComponent,
-  CardComponent,
-  EducationComponent,
-  ExperienceComponent,
-  FooterComponent,
-  ProfileComponent,
-  ProjectsComponent,
-  SkillsComponent,
-  SubscribeComponent
-} from '@nx-monorepo/ui-components';
+import { FooterComponent } from '@nx-monorepo/ui-components';
 import { IStaticMethods } from 'preline/preline';
 import { WINDOW } from '../window.token';
-import { isPlatformBrowser } from '@angular/common';
-import { IPerson } from '@nx-monorepo/interfaces';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { MetadataService } from '../cdk/metadata.service';
 
 declare global {
@@ -26,20 +14,7 @@ declare global {
 
 @Component({
   standalone: true,
-  imports: [
-    RouterModule,
-    CardComponent,
-    FooterComponent,
-    FooterComponent,
-    SubscribeComponent,
-    ArticlesComponent,
-    EducationComponent,
-    ExperienceComponent,
-    ProfileComponent,
-    AboutComponent,
-    SkillsComponent,
-    ProjectsComponent,
-  ],
+  imports: [RouterModule, FooterComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   encapsulation: ViewEncapsulation.None
@@ -48,32 +23,48 @@ export class AppComponent implements OnInit {
   private readonly metadataService = inject(MetadataService);
   private readonly router = inject(Router);
   private readonly WINDOW = inject(WINDOW);
+  private readonly document = inject(DOCUMENT);
   private readonly PLATFORM_ID = inject(PLATFORM_ID);
 
-  public readonly person: IPerson = {
-    contact: {
-      socialMedia: {
-        linkedin: 'https://www.linkedin.com/in/ivan-karbashevskyi',
-        github: 'https://github.com/Karbashevskyi',
-        instagram: 'https://www.instagram.com/ivan.karbashevskyi',
-        facebook: 'https://www.facebook.com/profile.php?id=100073273055756',
-        x: 'https://x.com/Karbashevskyi'
-      },
-      email: 'ivan.karbashevskyi@gmail.com'
-    }
-  };
+  /** True on the "My story" page: the PDF export covers the CV only. */
+  protected readonly isStory = signal(false);
 
   ngOnInit() {
     this.metadataService.updateMetadata();
-    if (isPlatformBrowser(this.PLATFORM_ID)) {
-
-      this.router.events.subscribe((event: Event) => {
-        if (event instanceof NavigationEnd) {
-          setTimeout(() => {
-            this.WINDOW.HSStaticMethods.autoInit();
-          }, 100);
+    this.router.events.subscribe((event: Event) => {
+      if (event instanceof NavigationEnd) {
+        this.isStory.set(event.urlAfterRedirects.split(/[?#]/)[0].endsWith('/story'));
+        if (isPlatformBrowser(this.PLATFORM_ID)) {
+          setTimeout(() => this.WINDOW.HSStaticMethods?.autoInit(), 100);
         }
-      });
+      }
+    });
+  }
+
+  /**
+   * Opens the browser's print dialog for the CV page ("Save as PDF").
+   * The page is printed in the light theme and without navigation, the footer
+   * and the story teaser (all marked print:hidden).
+   */
+  protected downloadPdf(): void {
+    if (!isPlatformBrowser(this.PLATFORM_ID)) {
+      return;
     }
+    const html = this.document.documentElement;
+    const wasDark = html.classList.contains('dark');
+    const title = this.document.title;
+
+    html.classList.remove('dark');
+    this.document.title = 'Ivan-Karbashevskyi-CV';
+
+    const restore = () => {
+      if (wasDark) {
+        html.classList.add('dark');
+      }
+      this.document.title = title;
+      this.WINDOW.removeEventListener('afterprint', restore);
+    };
+    this.WINDOW.addEventListener('afterprint', restore);
+    this.WINDOW.print();
   }
 }

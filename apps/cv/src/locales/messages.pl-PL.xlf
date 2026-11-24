@@ -742,8 +742,8 @@
         <target state="new">Pierwsze projekty komercyjne</target>
       </trans-unit>
       <trans-unit id="story_s1_p1" datatype="html">
-        <source> I took my first paid projects at 17, in my home city of Chernivtsi. From the very beginning I did the whole job myself: listened to what the client needed, picked the technology, designed the interface, wrote the code and launched it. </source>
-        <target state="new"> Pierwsze płatne projekty wziąłem w wieku 17 lat w rodzinnych Czerniowcach. Od początku robiłem wszystko sam: słuchałem, czego potrzebuje klient, dobierałem technologię, projektowałem interfejs, pisałem kod i wdrażałem. </target>
+        <source> I am self-taught. I took my first paid projects at 17, in my home city of Chernivtsi. From the very beginning I did the whole job myself: listened to what the client needed, picked the technology, designed the interface, wrote the code and launched it. </source>
+        <target state="new"> Jestem samoukiem. Pierwsze płatne projekty wziąłem w wieku 17 lat w rodzinnych Czerniowcach. Od początku robiłem wszystko sam: słuchałem, czego potrzebuje klient, dobierałem technologię, projektowałem interfejs, pisałem kod i wdrażałem. </target>
       </trans-unit>
       <trans-unit id="story_s1_p2" datatype="html">
         <source> That habit of owning a product end to end has stayed with me ever since: more than 70% of my products were built single-handedly. </source>
@@ -762,12 +762,12 @@
         <target state="new">Otwarty Budżet Czerniowiec</target>
       </trans-unit>
       <trans-unit id="story_s2_p1" datatype="html">
-        <source> While studying and working as a computer systems specialist at Chernivtsi City Council, I designed and built cv.ofd.in.ua, Ukraine&apos;s first municipal budget visualization system. Chernivtsi became the first city in Ukraine to officially adopt such a platform, before budget transparency became mandatory nationwide. </source>
-        <target state="new"> Studiując i pracując jako specjalista ds. systemów komputerowych w Radzie Miasta Czerniowce, zaprojektowałem i zbudowałem cv.ofd.in.ua, pierwszy na Ukrainie miejski system wizualizacji budżetu. Czerniowce jako pierwsze miasto na Ukrainie oficjalnie wdrożyły taką platformę, zanim przejrzystość budżetu stała się obowiązkowa w całym kraju. </target>
+        <source> In 2015, while still a student and working as a computer systems specialist at Chernivtsi City Council, I built the Open Budget of Chernivtsi (cv.ofd.in.ua), Ukraine&apos;s first municipal budget visualization system. Chernivtsi became the first city in the country to officially adopt such a platform: before the law &quot;On the openness of the use of public funds&quot;, signed by then-President Petro Poroshenko in 2015, came into force and made budget openness mandatory nationwide. </source>
+        <target state="new"> W 2015 roku, jeszcze jako student i specjalista ds. systemów komputerowych w Radzie Miasta Czerniowce, zbudowałem Otwarty Budżet Czerniowiec (cv.ofd.in.ua), pierwszy na Ukrainie miejski system wizualizacji budżetu. Czerniowce jako pierwsze miasto w kraju oficjalnie wdrożyły taką platformę: zanim weszła w życie podpisana w 2015 roku przez ówczesnego prezydenta Petra Poroszenkę ustawa „O jawności wykorzystania środków publicznych”, która uczyniła jawność budżetu obowiązkową w całym kraju. </target>
       </trans-unit>
       <trans-unit id="story_s2_p2" datatype="html">
-        <source> The hardest part was not the code. Every department, school and hospital reported in its own Word files, so I proposed one machine-readable Excel standard for all budget holders and wrote parsers that turned hundreds of reports into one database and clear interactive charts for residents. I released it under my own brand, Hashlink. </source>
-        <target state="new"> Najtrudniejszy nie był kod. Każdy departament, szkoła i szpital raportowały we własnych plikach Word, więc zaproponowałem jeden odczytywalny maszynowo standard Excel dla wszystkich dysponentów środków i napisałem parsery, które zamieniały setki raportów w jedną bazę danych i czytelne interaktywne wykresy dla mieszkańców. Wydałem projekt pod własną marką Hashlink. </target>
+        <source> The hardest part was the data. Every department, school and hospital reported in its own way, in Word files and ad-hoc tables. I wrote a PHP algorithm (Yii Framework) that adapts to any Excel table layout, recognises budget classification codes and consolidates hundreds of reports into one database. Then I proposed moving all budget holders to a single standard and designed its base template from the data already collected. </source>
+        <target state="new"> Najtrudniejsze były dane. Każdy departament, szkoła i szpital raportowały po swojemu: w plikach Word i dowolnych tabelach. Napisałem w PHP (Yii Framework) algorytm, który dopasowuje się do dowolnej struktury tabel Excel, rozpoznaje klasyfikację budżetową i łączy setki raportów w jedną bazę danych. Potem zaproponowałem przejście wszystkich dysponentów środków na jeden standard i zaprojektowałem jego bazowy szablon na podstawie zebranych już danych. </target>
       </trans-unit>
       <trans-unit id="story_s3_year" datatype="html">
         <source>2017 – 2018</source>
@@ -806,8 +806,8 @@
         <target state="new"> Równolegle założyłem Salo-Sale: platformę rabatową dla lokalnych firm z panelem administracyjnym, panelem dla firm, dwiema aplikacjami mobilnymi we Flutterze i stroną zoptymalizowaną pod SEO. Nauczyła mnie prowadzenia produktu i zespołu, zwłaszcza w czasie pandemii COVID-19. </target>
       </trans-unit>
       <trans-unit id="story_s4_p2" datatype="html">
-        <source> In 2021 I published Thiis, an open-source JavaScript library that makes data validation short and readable, and wrote about it on Medium and dev.to. </source>
-        <target state="new"> W 2021 roku opublikowałem Thiis, bibliotekę open source dla JavaScriptu, która sprawia, że walidacja danych jest krótka i czytelna, i pisałem o niej na Medium i dev.to. </target>
+        <source> In 2021 I published Thiis, an open-source JavaScript library that makes data validation short and readable, and since 2023 have been writing about it, Angular and async patterns on dev.to and Medium. </source>
+        <target state="new"> W 2021 roku opublikowałem Thiis, bibliotekę open source dla JavaScriptu, która sprawia, że walidacja danych jest krótka i czytelna, a od 2023 roku piszę o niej, o Angularze i wzorcach asynchronicznych na dev.to i Medium. </target>
       </trans-unit>
       <trans-unit id="story_s5_year" datatype="html">
         <source>2021 – today</source>
@@ -880,6 +880,34 @@
       <trans-unit id="story_view_cv" datatype="html">
         <source>View CV</source>
         <target state="new">Zobacz CV</target>
+      </trans-unit>
+      <trans-unit id="story_s2_p3" datatype="html">
+        <source> I did all of this for free, simply to help my city. Residents could finally see every item of revenue and expenditure as interactive charts and tables and download the original reports. I released the platform under my own company, Hashlink. </source>
+        <target state="new"> Wszystko to zrobiłem za darmo, po prostu żeby pomóc mojemu miastu. Mieszkańcy wreszcie mogli zobaczyć każdą pozycję dochodów i wydatków w formie interaktywnych wykresów i tabel oraz pobrać oryginalne raporty. Platformę wydałem pod szyldem mojej firmy Hashlink. </target>
+      </trans-unit>
+      <trans-unit id="story_s2b_year" datatype="html">
+        <source>2015 – 2017</source>
+        <target state="new">2015 – 2017</target>
+      </trans-unit>
+      <trans-unit id="story_s2b_place" datatype="html">
+        <source>Chernivtsi · TsNAP</source>
+        <target state="new">Czerniowce · CNAP</target>
+      </trans-unit>
+      <trans-unit id="story_s2b_title" datatype="html">
+        <source>Software for the city&apos;s Administrative Services Centre</source>
+        <target state="new">Oprogramowanie dla miejskiego Centrum Usług Administracyjnych</target>
+      </trans-unit>
+      <trans-unit id="story_s2b_p1" datatype="html">
+        <source> After the budget portal the city invited me to its Administrative Services Centre (TsNAP) as a system administrator. There I developed all the software I could, and some of it may still be in use today. </source>
+        <target state="new"> Po portalu budżetowym miasto zaprosiło mnie do Centrum Usług Administracyjnych (CNAP) jako administratora systemów. Stworzyłem tam całe oprogramowanie, jakie mogłem, i część z niego być może działa do dziś. </target>
+      </trans-unit>
+      <trans-unit id="story_s2b_p2" datatype="html">
+        <source> I built an application for the centre&apos;s administrators that sped up the reception of residents. I proposed and created an online status check, so people no longer had to come in person to learn how their application for an administrative service was progressing. </source>
+        <target state="new"> Zbudowałem aplikację dla administratorów centrum, która przyspieszyła obsługę mieszkańców. Zaproponowałem i stworzyłem też sprawdzanie statusu online, aby ludzie nie musieli już przychodzić osobiście, żeby dowiedzieć się, na jakim etapie jest ich wniosek o usługę administracyjną. </target>
+      </trans-unit>
+      <trans-unit id="story_s2b_p3" datatype="html">
+        <source> I also turned an old, non-working information kiosk into a complete system: visitors got the information they needed at the kiosk or on the website at home, often without even taking a queue ticket to an administrator. </source>
+        <target state="new"> Zamieniłem też stary, niedziałający infokiosk w kompletny system: odwiedzający otrzymywali potrzebne informacje w kiosku lub na stronie w domu, często nawet bez pobierania biletu do administratora. </target>
       </trans-unit>
     </body>
   </file>

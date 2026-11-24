@@ -678,8 +678,8 @@
         <target state="new"> 2014 </target>
       </trans-unit>
       <trans-unit id="badge_first_commercial" datatype="html">
-        <source> First commercial project </source>
-        <target state="new"> Pierwszy projekt komercyjny </target>
+        <source> First major project </source>
+        <target state="new"> Pierwszy duży projekt </target>
       </trans-unit>
       <trans-unit id="ofd_role" datatype="html">
         <source> Author · Solo Developer (Hashlink) </source>
@@ -690,8 +690,8 @@
         <target state="new"> Pierwszy na Ukrainie miejski system wizualizacji budżetu: Czerniowce jako pierwsze miasto na Ukrainie oficjalnie wdrożyły taką platformę, zanim przejrzystość budżetu stała się obowiązkowa w całym kraju. </target>
       </trans-unit>
       <trans-unit id="ofd_2" datatype="html">
-        <source> Built the first version single-handedly in 2014 as a student, without formal IT education, in my own time and at my own expense; launched at the end of 2014, before the national law on openness of public funds was signed. The city then ordered the second version, still in use today, which I provide through my company Hashlink. First version in vanilla PHP, the second on Yii2, with JavaScript charts. </source>
-        <target state="new"> Pierwszą wersję zbudował samodzielnie w 2014 roku jako student, bez formalnego wykształcenia IT, w swoim czasie i za własne pieniądze; uruchomił ją pod koniec 2014 roku, zanim podpisano ogólnokrajową ustawę o jawności środków publicznych. Następnie miasto zamówiło drugą wersję, działającą do dziś, którą dostarcza przez swoją firmę Hashlink. Pierwsza wersja w czystym PHP, druga na Yii2, wykresy w JavaScripcie. </target>
+        <source> Built the first version single-handedly in 2014 as a student, without formal IT education, in my own time and at my own expense; launched at the end of 2014, before the national law on openness of public funds was signed. The city then ordered the second version, still in use today, which I provided through my company Hashlink. First version in vanilla PHP, the second on Yii2, with JavaScript charts. </source>
+        <target state="new"> Pierwszą wersję zbudował samodzielnie w 2014 roku jako student, bez formalnego wykształcenia IT, w swoim czasie i za własne pieniądze; uruchomił ją pod koniec 2014 roku, zanim podpisano ogólnokrajową ustawę o jawności środków publicznych. Następnie miasto zamówiło drugą wersję, działającą do dziś, którą dostarczał przez swoją firmę Hashlink. Pierwsza wersja w czystym PHP, druga na Yii2, wykresy w JavaScripcie. </target>
       </trans-unit>
       <trans-unit id="skills_design" datatype="html">
         <source> I design web and mobile interfaces in Figma: user flows, wireframes, high-fidelity screens, components and prototypes ready for handover to developers. I implement them with Tailwind and take care of accessibility according to WCAG. </source>

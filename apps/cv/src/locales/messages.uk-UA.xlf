@@ -743,8 +743,8 @@
         <target state="new">Перші комерційні проєкти</target>
       </trans-unit>
       <trans-unit id="story_s1_p1" datatype="html">
-        <source> I took my first paid projects at 17, in my home city of Chernivtsi. From the very beginning I did the whole job myself: listened to what the client needed, picked the technology, designed the interface, wrote the code and launched it. </source>
-        <target state="new"> Перші платні проєкти я взяв у 17 років у рідних Чернівцях. Від самого початку робив усю роботу сам: вислуховував, що потрібно клієнту, підбирав технології, проєктував інтерфейс, писав код і запускав. </target>
+        <source> I am self-taught. I took my first paid projects at 17, in my home city of Chernivtsi. From the very beginning I did the whole job myself: listened to what the client needed, picked the technology, designed the interface, wrote the code and launched it. </source>
+        <target state="new"> Я самоучка. Перші платні проєкти взяв у 17 років у рідних Чернівцях. Від самого початку робив усю роботу сам: вислуховував, що потрібно клієнту, підбирав технології, проєктував інтерфейс, писав код і запускав. </target>
       </trans-unit>
       <trans-unit id="story_s1_p2" datatype="html">
         <source> That habit of owning a product end to end has stayed with me ever since: more than 70% of my products were built single-handedly. </source>
@@ -763,12 +763,12 @@
         <target state="new">Відкритий бюджет м. Чернівці</target>
       </trans-unit>
       <trans-unit id="story_s2_p1" datatype="html">
-        <source> While studying and working as a computer systems specialist at Chernivtsi City Council, I designed and built cv.ofd.in.ua, Ukraine&apos;s first municipal budget visualization system. Chernivtsi became the first city in Ukraine to officially adopt such a platform, before budget transparency became mandatory nationwide. </source>
-        <target state="new"> Навчаючись і працюючи фахівцем з комп’ютерних систем у Чернівецькій міській раді, я спроєктував і створив cv.ofd.in.ua, першу в Україні муніципальну систему візуалізації бюджету. Чернівці стали першим містом в Україні, яке офіційно впровадило таку платформу, ще до того, як прозорість бюджету стала обов’язковою на державному рівні. </target>
+        <source> In 2015, while still a student and working as a computer systems specialist at Chernivtsi City Council, I built the Open Budget of Chernivtsi (cv.ofd.in.ua), Ukraine&apos;s first municipal budget visualization system. Chernivtsi became the first city in the country to officially adopt such a platform: before the law &quot;On the openness of the use of public funds&quot;, signed by then-President Petro Poroshenko in 2015, came into force and made budget openness mandatory nationwide. </source>
+        <target state="new"> У 2015 році, ще студентом і працюючи фахівцем з комп’ютерних систем у Чернівецькій міській раді, я створив «Відкритий бюджет м. Чернівці» (cv.ofd.in.ua), першу в Україні муніципальну систему візуалізації бюджету. Чернівці стали першим містом країни, яке офіційно впровадило таку платформу: ще до того, як набув чинності підписаний тодішнім президентом Петром Порошенком у 2015 році закон «Про відкритість використання публічних коштів», що зробив відкритість бюджету обов’язковою по всій Україні. </target>
       </trans-unit>
       <trans-unit id="story_s2_p2" datatype="html">
-        <source> The hardest part was not the code. Every department, school and hospital reported in its own Word files, so I proposed one machine-readable Excel standard for all budget holders and wrote parsers that turned hundreds of reports into one database and clear interactive charts for residents. I released it under my own brand, Hashlink. </source>
-        <target state="new"> Найскладнішим був не код. Кожен департамент, школа й лікарня звітували у власних файлах Word, тож я запропонував єдиний машиночитний стандарт Excel для всіх розпорядників коштів і написав парсери, які перетворювали сотні звітів на єдину базу даних і зрозумілі інтерактивні графіки для мешканців. Випустив проєкт під власним брендом Hashlink. </target>
+        <source> The hardest part was the data. Every department, school and hospital reported in its own way, in Word files and ad-hoc tables. I wrote a PHP algorithm (Yii Framework) that adapts to any Excel table layout, recognises budget classification codes and consolidates hundreds of reports into one database. Then I proposed moving all budget holders to a single standard and designed its base template from the data already collected. </source>
+        <target state="new"> Найскладнішими були дані. Кожен департамент, школа й лікарня звітували по-своєму: у файлах Word і довільних таблицях. Я написав на PHP (Yii Framework) алгоритм, який адаптується до будь-якої структури Excel-таблиць, розпізнає бюджетні класифікатори й зводить сотні звітів в єдину базу даних. Потім я запропонував перевести всіх розпорядників коштів на один стандарт і розробив основний каркас шаблону на основі вже отриманих даних. </target>
       </trans-unit>
       <trans-unit id="story_s3_year" datatype="html">
         <source>2017 – 2018</source>
@@ -807,8 +807,8 @@
         <target state="new"> Паралельно я заснував Salo-Sale: платформу знижок для місцевого бізнесу з адмін-панеллю, панеллю для компаній, двома мобільними застосунками на Flutter і SEO-оптимізованим сайтом. Вона навчила мене керувати продуктом і командою, особливо в період COVID-19. </target>
       </trans-unit>
       <trans-unit id="story_s4_p2" datatype="html">
-        <source> In 2021 I published Thiis, an open-source JavaScript library that makes data validation short and readable, and wrote about it on Medium and dev.to. </source>
-        <target state="new"> У 2021 році я опублікував Thiis, open-source бібліотеку для JavaScript, яка робить валідацію даних короткою й читабельною, і писав про неї на Medium і dev.to. </target>
+        <source> In 2021 I published Thiis, an open-source JavaScript library that makes data validation short and readable, and since 2023 have been writing about it, Angular and async patterns on dev.to and Medium. </source>
+        <target state="new"> У 2021 році я опублікував Thiis, open-source бібліотеку для JavaScript, яка робить валідацію даних короткою й читабельною, і з 2023 року пишу про неї, Angular та асинхронні патерни на dev.to і Medium. </target>
       </trans-unit>
       <trans-unit id="story_s5_year" datatype="html">
         <source>2021 – today</source>
@@ -881,6 +881,34 @@
       <trans-unit id="story_view_cv" datatype="html">
         <source>View CV</source>
         <target state="new">Переглянути CV</target>
+      </trans-unit>
+      <trans-unit id="story_s2_p3" datatype="html">
+        <source> I did all of this for free, simply to help my city. Residents could finally see every item of revenue and expenditure as interactive charts and tables and download the original reports. I released the platform under my own company, Hashlink. </source>
+        <target state="new"> Усе це я зробив безкоштовно, щоб просто допомогти своєму місту. Мешканці нарешті могли бачити кожну статтю доходів і видатків у вигляді інтерактивних графіків і таблиць та завантажувати оригінальні звіти. Платформу я випустив під своєю компанією Hashlink. </target>
+      </trans-unit>
+      <trans-unit id="story_s2b_year" datatype="html">
+        <source>2015 – 2017</source>
+        <target state="new">2015 – 2017</target>
+      </trans-unit>
+      <trans-unit id="story_s2b_place" datatype="html">
+        <source>Chernivtsi · TsNAP</source>
+        <target state="new">Чернівці · ЦНАП</target>
+      </trans-unit>
+      <trans-unit id="story_s2b_title" datatype="html">
+        <source>Software for the city&apos;s Administrative Services Centre</source>
+        <target state="new">Програмне забезпечення для ЦНАП міста</target>
+      </trans-unit>
+      <trans-unit id="story_s2b_p1" datatype="html">
+        <source> After the budget portal the city invited me to its Administrative Services Centre (TsNAP) as a system administrator. There I developed all the software I could, and some of it may still be in use today. </source>
+        <target state="new"> Після порталу бюджету місто запросило мене системним адміністратором у Центр надання адміністративних послуг (ЦНАП). Там я розробив усе програмне забезпечення, яке міг, і частина його, можливо, працює досі. </target>
+      </trans-unit>
+      <trans-unit id="story_s2b_p2" datatype="html">
+        <source> I built an application for the centre&apos;s administrators that sped up the reception of residents. I proposed and created an online status check, so people no longer had to come in person to learn how their application for an administrative service was progressing. </source>
+        <target state="new"> Я створив програму для адміністраторів ЦНАП, яка пришвидшила прийом мешканців. Також запропонував і зробив онлайн-перевірку статусу, щоб людям більше не доводилося приходити особисто, аби дізнатися, на якому етапі їхня заява на адміністративну послугу. </target>
+      </trans-unit>
+      <trans-unit id="story_s2b_p3" datatype="html">
+        <source> I also turned an old, non-working information kiosk into a complete system: visitors got the information they needed at the kiosk or on the website at home, often without even taking a queue ticket to an administrator. </source>
+        <target state="new"> А ще перетворив старий непрацюючий інфокіоск на повноцінну систему: відвідувачі отримували потрібну інформацію в інфокіоску або на сайті вдома, часто навіть не беручи талон до адміністратора. </target>
       </trans-unit>
     </body>
   </file>

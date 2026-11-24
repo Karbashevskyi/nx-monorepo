@@ -1,0 +1,65 @@
+
+<!-- About -->
+<div class="mt-10">
+  <div class="flex flex-col gap-3">
+    <p class="text-lg leading-relaxed text-neutral-800 dark:text-neutral-200" i18n="@@about_lead">
+      13+ years of commercial software development, started at 17. At 19 created Ukraine's first municipal
+      budget visualization system, the Open Budget of Chernivtsi (cv.ofd.in.ua), officially adopted by Chernivtsi
+      City Council; since 2018 working in the European tech sector.
+    </p>
+    <p class="text-[15px] leading-relaxed text-neutral-600 dark:text-neutral-400 [&_strong]:font-semibold [&_strong]:text-neutral-900 dark:[&_strong]:text-white" i18n="@@about_fullstack">
+      <strong>Full-stack developer</strong> who delivers products <strong>end to end</strong>: from analysing the
+      client's needs and choosing the right technology, through UI, frontend, backend, database and tests, to
+      mobile release and documentation for handover to a team. Built more than 70% of own products single-handedly.
+    </p>
+    <p class="text-[15px] leading-relaxed text-neutral-600 dark:text-neutral-400 [&_strong]:font-semibold [&_strong]:text-neutral-900 dark:[&_strong]:text-white" i18n>
+      Possessing advanced skills in creating web applications using the <strong>Angular framework</strong> and
+      implementing <strong>Progressive Web Apps (PWA)</strong>.
+    </p>
+    <p class="text-[15px] leading-relaxed text-neutral-600 dark:text-neutral-400 [&_strong]:font-semibold [&_strong]:text-neutral-900 dark:[&_strong]:text-white" i18n="@@about_design">
+      Also a <strong>UI/UX designer</strong>: designs interfaces in <strong>Figma</strong>, from wireframes and user
+      flows to production-ready screens, and then builds them, so design and code stay consistent.
+    </p>
+    <p class="text-[15px] leading-relaxed text-neutral-600 dark:text-neutral-400 [&_strong]:font-semibold [&_strong]:text-neutral-900 dark:[&_strong]:text-white" i18n="@@about_mobile">
+      Building cross-platform <strong>mobile apps for iOS and Android</strong> (Ionic, Capacitor, Flutter) and
+      backends on <strong>Supabase</strong>, Firebase and Node.js. Delivered mobile apps for brands such as
+      Siemens, Samsung and Volkswagen.
+    </p>
+    <p class="text-[15px] leading-relaxed text-neutral-600 dark:text-neutral-400 [&_strong]:font-semibold [&_strong]:text-neutral-900 dark:[&_strong]:text-white" i18n>
+      Led frontend teams, introducing innovative working methods that resulted in significant efficiency
+      improvements.
+    </p>
+    <p class="text-[15px] leading-relaxed text-neutral-600 dark:text-neutral-400 [&_strong]:font-semibold [&_strong]:text-neutral-900 dark:[&_strong]:text-white" i18n="@@about_founder">
+      Co-founder of <strong>amator.app</strong> and co-creator of <strong>Car4Ukraine</strong>; founder of the
+      digital studio <strong>karba.studio</strong>.
+    </p>
+    <p class="text-[15px] leading-relaxed text-neutral-600 dark:text-neutral-400 [&_strong]:font-semibold [&_strong]:text-neutral-900 dark:[&_strong]:text-white" i18n>
+      Holding two degrees in computer science from AEH in Warsaw: <strong>Master of Engineering in Computer Science
+      (2022-2024)</strong> and <strong>Engineer in Computer Science (2017-2021)</strong>.
+    </p>
+  </div>
+
+  <div class="mt-8 flex flex-wrap gap-2">
+    <a class="inline-flex items-center gap-x-2 rounded-xl bg-lime-400 px-4 py-2 text-sm font-semibold text-neutral-950 transition-colors hover:bg-lime-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-neutral-950"
+       [href]="'mailto:' + person().contact.email">
+      <i class="bi bi-envelope"></i>
+      {{ person().contact.email }}
+    </a>
+    <a class="print:hidden inline-flex items-center gap-x-2 rounded-xl border border-neutral-200 px-3.5 py-2 text-sm font-medium text-neutral-800 transition-colors hover:border-lime-400 hover:text-lime-700 dark:border-neutral-800 dark:text-neutral-200 dark:hover:border-lime-400/60 dark:hover:text-lime-400" target="_blank" rel="noopener" [href]="person().contact.socialMedia.linkedin">
+      <i class="bi bi-linkedin"></i> LinkedIn
+    </a>
+    <a class="print:hidden inline-flex items-center gap-x-2 rounded-xl border border-neutral-200 px-3.5 py-2 text-sm font-medium text-neutral-800 transition-colors hover:border-lime-400 hover:text-lime-700 dark:border-neutral-800 dark:text-neutral-200 dark:hover:border-lime-400/60 dark:hover:text-lime-400" target="_blank" rel="noopener" [href]="person().contact.socialMedia.github">
+      <i class="bi bi-github"></i> GitHub
+    </a>
+    <a class="print:hidden inline-flex items-center gap-x-2 rounded-xl border border-neutral-200 px-3.5 py-2 text-sm font-medium text-neutral-800 transition-colors hover:border-lime-400 hover:text-lime-700 dark:border-neutral-800 dark:text-neutral-200 dark:hover:border-lime-400/60 dark:hover:text-lime-400" target="_blank" rel="noopener" [href]="person().contact.socialMedia.x" aria-label="X">
+      <i class="bi bi-twitter-x"></i>
+    </a>
+  </div>
+  <!-- Contacts as plain text for the printed / PDF version -->
+  <p class="hidden print:block mt-3 font-mono text-xs text-neutral-600">
+    {{ person().contact.socialMedia.linkedin.replace('https://www.', '') }} ·
+    {{ person().contact.socialMedia.github.replace('https://', '') }} ·
+    {{ person().contact.socialMedia.x.replace('https://', '') }}
+  </p>
+</div>
+<!-- End About -->

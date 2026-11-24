@@ -10,10 +10,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        app: [cv] # Add more apps here if needed, e.g. [cv, portfolio]
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -26,13 +22,16 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build ${{ matrix.app }}
-        run: npx nx run ${{ matrix.app }}:build:production
+      - name: Build nx-monorepo
+#        run: npx nx run-many -t=build --no-cloud
+        run: npm run cv:build:production -- --no-cloud && npm run copy:default-language
+
+      - name: Move cv to deploy folder
+        run: mkdir deploy && mv dist/apps/cv/browser deploy/cv
 
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-gh-pages@v3
+        #if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/apps/${{ matrix.app }}
-          #cname: ${{ matrix.app }}.mydomain.com
+          publish_dir: deploy

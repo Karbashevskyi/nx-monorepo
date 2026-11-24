@@ -1,0 +1,891 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="uk-UA" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="aboutMe" datatype="html">
+        <source>About me</source>
+        <target state="new">Про мене</target>
+      </trans-unit>
+      <trans-unit id="skills" datatype="html">
+        <source>Skills</source>
+        <target state="new">Вміння</target>
+      </trans-unit>
+      <trans-unit id="projects" datatype="html">
+        <source>Projects</source>
+        <target state="new">Проєкти</target>
+      </trans-unit>
+      <trans-unit id="articles" datatype="html">
+        <source>Articles</source>
+        <target state="new">Статті</target>
+      </trans-unit>
+      <trans-unit id="8812977217035251776" datatype="html">
+        <source> Possessing advanced skills in creating web applications using the <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Angular framework<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and implementing <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Progressive Web Apps (PWA)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+        <target state="new"> Володіє передовими навичками створення веб-додатків за допомогою Angular framework та впровадження Progressive Web Apps (PWA). </target>
+      </trans-unit>
+      <trans-unit id="437493476394538237" datatype="html">
+        <source> Led frontend teams, introducing innovative working methods that resulted in significant efficiency improvements. </source>
+        <target state="new"> Керував командами фронтенд, впроваджуючи інноваційні методи роботи, що призвели до значного підвищення ефективності. </target>
+      </trans-unit>
+      <trans-unit id="8639935672781302317" datatype="html">
+        <source> Holding two degrees in computer science from AEH in Warsaw: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Master of Engineering in Computer Science (2022-2024)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Engineer in Computer Science (2017-2021)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+        <target state="new"> Має два ступені з комп&apos;ютерних наук від AEH у Варшаві: Магістр інженерії комп&apos;ютерних наук (2022-2024) та Інженер комп&apos;ютерних наук (2017-2021). </target>
+      </trans-unit>
+      <trans-unit id="4447992968214807696" datatype="html">
+        <source> Ivan Karbashevskyi </source>
+        <target state="new"> Іван Карбашевський </target>
+      </trans-unit>
+      <trans-unit id="837149062556400554" datatype="html">
+        <source> 2024 </source>
+        <target state="new"> 2024 </target>
+      </trans-unit>
+      <trans-unit id="1110462302969560704" datatype="html">
+        <source> Reactive Directive for Efficient Subscription Management in Angular </source>
+        <target state="new"> Реактивна директива для ефективного управління підписками в Angular </target>
+      </trans-unit>
+      <trans-unit id="1783710508335227709" datatype="html">
+        <source> In Angular, it’s crucial to manage subscriptions to observables carefully to prevent memory leaks and unintended behavior. </source>
+        <target state="new"> В Angular дуже важливо ретельно керувати підписками на спостережувані, щоб запобігти витоку пам&apos;яті та непередбачуваній поведінці. </target>
+      </trans-unit>
+      <trans-unit id="2219864797234465190" datatype="html">
+        <source> Adding TakeUntilDestroy Decorator: A Handy Tool for Angular Developers </source>
+        <target state="new"> Додавання декоратора TakeUntilDestroy: Зручний інструмент для Angular-розробників </target>
+      </trans-unit>
+      <trans-unit id="1319886875271001375" datatype="html">
+        <source> In Angular, managing subscriptions to observables can be cumbersome, especially ensuring that they are properly unsubscribed when the component is destroyed. </source>
+        <target state="new"> В Angular керування підписками на спостережувані може бути громіздким, особливо забезпечення належного скасування підписки при знищенні компонента. </target>
+      </trans-unit>
+      <trans-unit id="150650760392297311" datatype="html">
+        <source> Continue reading </source>
+        <target state="new"> Продовжувати читання </target>
+      </trans-unit>
+      <trans-unit id="3258457675075410944" datatype="html">
+        <source> 2023 </source>
+        <target state="new"> 2023 </target>
+      </trans-unit>
+      <trans-unit id="67883517997095073" datatype="html">
+        <source> Human, AI, AGI. </source>
+        <target state="new"> Human, AI, AGI. </target>
+      </trans-unit>
+      <trans-unit id="5064429052509706381" datatype="html">
+        <source> As we all know, AI has been making significant progress over the years, and its applications are now prevalent in various industries, from healthcare to finance. </source>
+        <target state="new"> Як ми всі знаємо, штучний інтелект досяг значного прогресу за останні роки, і його застосування зараз переважає в різних галузях, від охорони здоров&apos;я до фінансів. </target>
+      </trans-unit>
+      <trans-unit id="3891447613781439631" datatype="html">
+        <source>Thesis Grade</source>
+        <target state="new">Оцінка дипломної роботи</target>
+      </trans-unit>
+      <trans-unit id="1574704327185486600" datatype="html">
+        <source>Average Grade</source>
+        <target state="new">Середня оцінка</target>
+      </trans-unit>
+      <trans-unit id="2277285334628107566" datatype="html">
+        <source> Master of Engineering in Computer Science </source>
+        <target state="new"> Магістр інженерії в галузі комп&apos;ютерних наук </target>
+      </trans-unit>
+      <trans-unit id="5594961935384149827" datatype="html">
+        <source> AEH – Warsaw, Poland </source>
+        <target state="new"> AEH - Варшава, Польща </target>
+      </trans-unit>
+      <trans-unit id="1384213016870758150" datatype="html">
+        <source> 2017 - 2021 </source>
+        <target state="new"> 2017 - 2021 </target>
+      </trans-unit>
+      <trans-unit id="8196646433517124722" datatype="html">
+        <source> Engineer in Computer Science </source>
+        <target state="new"> Інженер з комп&apos;ютерних наук </target>
+      </trans-unit>
+      <trans-unit id="work" datatype="html">
+        <source> Work experience </source>
+        <target state="new"> Досвід роботи </target>
+      </trans-unit>
+      <trans-unit id="1093498264880682995" datatype="html">
+        <source> UNICARD Systems Sp. z о.о. – Krakow </source>
+        <target state="new"> UNICARD Systems Sp. z о.о. - Краків </target>
+      </trans-unit>
+      <trans-unit id="6545652297710892832" datatype="html">
+        <source> October 2021 - Present </source>
+        <target state="new"> Жовтень 2021 - теперішній час </target>
+      </trans-unit>
+      <trans-unit id="9088676870135595174" datatype="html">
+        <source> Experience and Development: I was hired as a FRONTEND DEVELOPER. </source>
+        <target state="new"> Досвід і розвиток: Я був найнятий на посаду FRONTEND DEVELOPER. </target>
+      </trans-unit>
+      <trans-unit id="3350335159193295536" datatype="html">
+        <source> Promotion: Quickly promoted to the position of the frontend tech leader, which involved conducting training for colleagues and introducing modern methods of analysis, planning, and task implementation. </source>
+        <target state="new"> Просування по службі: Швидко просунувся на посаду технічного лідера фронтенду, що передбачало проведення тренінгів для колег та впровадження сучасних методів аналізу, планування та реалізації завдань. </target>
+      </trans-unit>
+      <trans-unit id="5239785219635736221" datatype="html">
+        <source> SCRUM: The team taught me to work according to the SCRUM methodology, which allowed for effective project management. </source>
+        <target state="new"> SCRUM: Команда навчила мене працювати за методологією SCRUM, що дозволило ефективно управляти проектами. </target>
+      </trans-unit>
+      <trans-unit id="1374245682192591574" datatype="html">
+        <source>Responsibilities:</source>
+        <target state="new">Обов&apos;язки:</target>
+      </trans-unit>
+      <trans-unit id="4414309724334122938" datatype="html">
+        <source> Refactoring projects and creating unit tests using Jest. </source>
+        <target state="new"> Рефакторинг проектів та створення юніт-тестів за допомогою Jest. </target>
+      </trans-unit>
+      <trans-unit id="3921856662546002807" datatype="html">
+        <source> Introducing new functionalities according to Scrum methodology. </source>
+        <target state="new"> Впровадження нового функціоналу за методологією Scrum. </target>
+      </trans-unit>
+      <trans-unit id="5479218026873082377" datatype="html">
+        <source> Configuring the environment and project, enabling work in different scenarios using Docker and Docker Compose. </source>
+        <target state="new"> Налаштування середовища та проекту, що дозволяє працювати в різних сценаріях за допомогою Docker та Docker Compose. </target>
+      </trans-unit>
+      <trans-unit id="2493960943273455630" datatype="html">
+        <source> Introducing new tools: Telerik Kendo and Microsoft Authentication Library (MSAL). </source>
+        <target state="new"> Впровадження нових інструментів: Telerik Kendo та Microsoft Authentication Library (MSAL). </target>
+      </trans-unit>
+      <trans-unit id="3371299762589456555" datatype="html">
+        <source> Upgrading Angular versions: Speeding up project build by twice, reducing task implementation compilation time by thrice, and speeding up the production version by ~60%. </source>
+        <target state="new"> Оновлення версій Angular: Прискорення збірки проекту вдвічі, скорочення часу компіляції реалізації завдань втричі та прискорення виробничої версії на ~60%. </target>
+      </trans-unit>
+      <trans-unit id="9052321052419580533" datatype="html">
+        <source> PWA: Implementing Progressive Web App (PWA) improved customer convenience, leading to increased positive feedback and sales. </source>
+        <target state="new"> PWA: Впровадження прогресивних веб-додатків (PWA) покращило зручність для клієнтів, що призвело до збільшення позитивних відгуків та продажів. </target>
+      </trans-unit>
+      <trans-unit id="5736881168050198482" datatype="html">
+        <source> Figma Training: Trained the frontend team and some employees to use Figma, allowing developers to focus on work instead of minor consultations with colleagues. </source>
+        <target state="new"> Тренінг з Figma: Навчили фронтенд-команду та деяких співробітників використовувати Figma, що дозволило розробникам зосередитися на роботі, а не на дрібних консультаціях з колегами. </target>
+      </trans-unit>
+      <trans-unit id="2128224106104586898" datatype="html">
+        <source> Collaboration: Worked in a team with testers, the backend team, and a business analyst, using tools like Jira, Confluence, Teams, and other Microsoft products. </source>
+        <target state="new"> Колаборація: Працював у команді з тестувальниками, бекенд-командою та бізнес-аналітиком, використовуючи такі інструменти, як Jira, Confluence, Teams та інші продукти Microsoft. </target>
+      </trans-unit>
+      <trans-unit id="7416186394612899765" datatype="html">
+        <source>Current Responsibilities:</source>
+        <target state="new">Поточні обов&apos;язки:</target>
+      </trans-unit>
+      <trans-unit id="3691956144897399769" datatype="html">
+        <source> Expanding the frontend team, accelerating goal achievement. </source>
+        <target state="new"> Розширення фронтенд-команди, прискорення досягнення цілей. </target>
+      </trans-unit>
+      <trans-unit id="4073600000051078868" datatype="html">
+        <source> Further refactoring of older project parts and a &quot;mobile first&quot; approach with adaptive design for different settings. </source>
+        <target state="new"> Подальший рефакторинг старих частин проекту та підхід «mobile first» з адаптивним дизайном для різних налаштувань. </target>
+      </trans-unit>
+      <trans-unit id="8700493873444302147" datatype="html">
+        <source> Transition to Tailwind and NGXS from NGRX. </source>
+        <target state="new"> Перехід на Tailwind і NGXS з NGRX. </target>
+      </trans-unit>
+      <trans-unit id="5145319772643668195" datatype="html">
+        <source> Implementing timezone and user language support. </source>
+        <target state="new"> Впровадження підтримки часових поясів та мови користувача. </target>
+      </trans-unit>
+      <trans-unit id="1959585554555067548" datatype="html">
+        <source> Achieving WCAG requirements for better application accessibility. </source>
+        <target state="new"> Досягнення вимог WCAG для кращої доступності додатків. </target>
+      </trans-unit>
+      <trans-unit id="5044844750415072728" datatype="html">
+        <source> Planning: New planning methods reduced the number of unimplemented tasks by half and decreased frontend team sprint planning time by ~40%. </source>
+        <target state="new"> Планування: Нові методи планування зменшили кількість нереалізованих завдань вдвічі та скоротили час планування спринтів фронтенд-команди на ~40%. </target>
+      </trans-unit>
+      <trans-unit id="8342485308356593518" datatype="html">
+        <source> SKK S.A. – Krakow </source>
+        <target state="new"> SKK S.A. - Краків </target>
+      </trans-unit>
+      <trans-unit id="5740623461948343090" datatype="html">
+        <source> March 2023 – October 2023 </source>
+        <target state="new"> Березень 2023 - жовтень 2023 </target>
+      </trans-unit>
+      <trans-unit id="5271350970434611026" datatype="html">
+        <source> .NET Developer </source>
+        <target state="new"> .NET Developer </target>
+      </trans-unit>
+      <trans-unit id="5660970328042505900" datatype="html">
+        <source> Position: Frontend Developer, involved in DevOps and frontend team leader. </source>
+        <target state="new"> Посада: Фронтенд-розробник, залучений до DevOps та керівник фронтенд-команди. </target>
+      </trans-unit>
+      <trans-unit id="1055915684017645557" datatype="html">
+        <source> New Project Creation: Created a new project from scratch with the team, based only on a partially ready version in .NET. </source>
+        <target state="new"> Створення нового проекту: Створили з командою новий проект з нуля, базуючись лише на частково готовій версії на .NET. </target>
+      </trans-unit>
+      <trans-unit id="8858883801320674180" datatype="html">
+        <source> Migration: Transferred an existing project from .NET to Angular. </source>
+        <target state="new"> Міграція: Перенесли існуючий проект з .NET на Angular. </target>
+      </trans-unit>
+      <trans-unit id="4512127930013641840" datatype="html">
+        <source> Planning implementation stages and estimating task completion time. </source>
+        <target state="new"> Планування етапів реалізації та оцінка часу виконання завдань. </target>
+      </trans-unit>
+      <trans-unit id="1234792503193678396" datatype="html">
+        <source> Adding new features and using NGXS for state management. </source>
+        <target state="new"> Додавання нових функцій та використання NGXS для державного управління. </target>
+      </trans-unit>
+      <trans-unit id="3722635135501688391" datatype="html">
+        <source> Collaboration: Worked within Scrum, closely collaborating with a tester and project manager. </source>
+        <target state="new"> Колаборація: Працювала в Scrum, тісно співпрацюючи з тестувальником та менеджером проекту. </target>
+      </trans-unit>
+      <trans-unit id="7452020890321091213" datatype="html">
+        <source> Tools: Used Telerik Kendo for interface creation. </source>
+        <target state="new"> Інструменти: Використовував Telerik Kendo для створення інтерфейсу. </target>
+      </trans-unit>
+      <trans-unit id="3074571739255768286" datatype="html">
+        <source> Approaches: Applied DDD (partially) and maintained part of TDD. </source>
+        <target state="new"> Підходи: Застосовано DDD (частково) та частково TDD. </target>
+      </trans-unit>
+      <trans-unit id="5828201087889168104" datatype="html">
+        <source> Configuration: Built proper cloud server configuration in Azure and project configuration for different scenarios, e.g., without a hashtag in routing. </source>
+        <target state="new"> Конфігурація: Побудували правильну конфігурацію хмарного сервера в Azure та конфігурацію проекту для різних сценаріїв, наприклад, без хештегу в маршрутизації. </target>
+      </trans-unit>
+      <trans-unit id="6899230642312327193" datatype="html">
+        <source> Optimization: &quot;Mobile First&quot; principle, optimized interface for mobile devices (RWD and PWA). </source>
+        <target state="new"> Оптимізація: Принцип «Mobile First», оптимізований інтерфейс для мобільних пристроїв (RWD та PWA). </target>
+      </trans-unit>
+      <trans-unit id="5783095299678117290" datatype="html">
+        <source> Success: Achieved project completion on time, allowing the team to return to the main company for ongoing work. </source>
+        <target state="new"> Успіх: Досягнуто своєчасного завершення проекту, що дозволило команді повернутися до основної компанії для продовження роботи. </target>
+      </trans-unit>
+      <trans-unit id="7267816527201418181" datatype="html">
+        <source> EFENDI – Warsaw </source>
+        <target state="new"> EFENDI - Варшава </target>
+      </trans-unit>
+      <trans-unit id="7619068598364463047" datatype="html">
+        <source> May 2018 – October 2021 </source>
+        <target state="new"> Травень 2018 - жовтень 2021 </target>
+      </trans-unit>
+      <trans-unit id="6438430794783793978" datatype="html">
+        <source> Front-end developer </source>
+        <target state="new"> Front-end developer </target>
+      </trans-unit>
+      <trans-unit id="7960775209245176886" datatype="html">
+        <source> Identified steps to reduce return rates by 10%, resulting in eventual $75k cost savings. </source>
+        <target state="new"> Визначені кроки для зниження рівня повернення на 10%, що в кінцевому підсумку призведе до економії $75 тис. витрат. </target>
+      </trans-unit>
+      <trans-unit id="2973243825172412251" datatype="html">
+        <source>Created mobile applications and web portals, including their interfaces, using various languages and frameworks:</source>
+        <target state="new">Створював мобільні додатки та веб-портали, включаючи їхні інтерфейси, використовуючи різні мови та фреймворки:</target>
+      </trans-unit>
+      <trans-unit id="6453408425699437263" datatype="html">
+        <source> Languages and technologies: JavaScript, TypeScript, Dart, HTML/CSS, PHP. </source>
+        <target state="new"> Мови та технології: JavaScript, TypeScript, Dart, HTML/CSS, PHP. </target>
+      </trans-unit>
+      <trans-unit id="743954893011867162" datatype="html">
+        <source> Frameworks and libraries: IONIC, JQUERY, Angular Material, Angular2+, AngularJS, AngularDart, Flutter. </source>
+        <target state="new"> Фреймворки та бібліотеки: IONIC, JQUERY, Angular Material, Angular2+, AngularJS, AngularDart, Flutter. </target>
+      </trans-unit>
+      <trans-unit id="6933240681110404442" datatype="html">
+        <source> Interface design tools: Figma. </source>
+        <target state="new"> Інструменти для проектування інтерфейсів: Figma. </target>
+      </trans-unit>
+      <trans-unit id="7984377181595516713" datatype="html">
+        <source> State management: NgRX, MobX. </source>
+        <target state="new"> Керування станом: NgRX, MobX. </target>
+      </trans-unit>
+      <trans-unit id="1895587338105229943" datatype="html">
+        <source> Used Docker for efficient management of development environments. </source>
+        <target state="new"> Використовував Docker для ефективного управління середовищами розробки. </target>
+      </trans-unit>
+      <trans-unit id="414400047298250344" datatype="html">
+        <source> Managed tasks using YouTrack. </source>
+        <target state="new"> Керування завданнями за допомогою YouTrack. </target>
+      </trans-unit>
+      <trans-unit id="1900948490519641018" datatype="html">
+        <source> Configured and maintained CI/CD with TeamCity. </source>
+        <target state="new"> Налаштовував і підтримував CI/CD у TeamCity. </target>
+      </trans-unit>
+      <trans-unit id="9208053606429511027" datatype="html">
+        <source> Integrated Firebase for push notifications. </source>
+        <target state="new"> Інтегрував Firebase для push-сповіщень. </target>
+      </trans-unit>
+      <trans-unit id="c4u_period" datatype="html">
+        <source> 2022 - Present </source>
+        <target state="new"> 2022 - дотепер </target>
+      </trans-unit>
+      <trans-unit id="founder" datatype="html">
+        <source> Founder </source>
+        <target state="new"> Засновник </target>
+      </trans-unit>
+      <trans-unit id="4113216888439643268" datatype="html">
+        <source> 2021 - Present </source>
+        <target state="new"> 2021 - теперішній час </target>
+      </trans-unit>
+      <trans-unit id="8707729207681744412" datatype="html">
+        <source> Created the open-source project Thiis, aiming to provide a package for vanilla JavaScript enabling easy and understandable data validation. </source>
+        <target state="new"> Створив проект з відкритим вихідним кодом Thiis, метою якого є створення пакету для ванільного JavaScript, що дозволяє легко і зрозуміло перевіряти дані. </target>
+      </trans-unit>
+      <trans-unit id="9009116408648254532" datatype="html">
+        <source> Motivation: Need for precise and unambiguous data validation to avoid misinterpretation by both the system and developers, creating clear and simple validation code. </source>
+        <target state="new"> Мотивація: Необхідність точної та однозначної валідації даних, щоб уникнути неправильної інтерпретації як системою, так і розробниками, створення зрозумілого та простого коду валідації. </target>
+      </trans-unit>
+      <trans-unit id="1299503277943320547" datatype="html">
+        <source>Functionalities:</source>
+        <target state="new">Функціональність:</target>
+      </trans-unit>
+      <trans-unit id="5874919577993271594" datatype="html">
+        <source> Adding typing for better TypeScript support. </source>
+        <target state="new"> Додано типізацію для кращої підтримки TypeScript. </target>
+      </trans-unit>
+      <trans-unit id="2197706297948604250" datatype="html">
+        <source> Introducing simple validation syntax, e.g., is.object(variable) instead of complex conditions. </source>
+        <target state="new"> Впровадження простого синтаксису перевірки, наприклад, is.object(variable) замість складних умов. </target>
+      </trans-unit>
+      <trans-unit id="8254215569572243618" datatype="html">
+        <source> Combining various validations, e.g., is.object_not_empty(variable). </source>
+        <target state="new"> Комбінування різних перевірок, наприклад, is.object_not_empty(variable). </target>
+      </trans-unit>
+      <trans-unit id="7300611973282784892" datatype="html">
+        <source> Support for global methods, e.g., is.HTMLElement(variable). </source>
+        <target state="new"> Підтримка глобальних методів, наприклад, is.HTMLElement(variable). </target>
+      </trans-unit>
+      <trans-unit id="2478434289792163502" datatype="html">
+        <source> All methods return boolean values, eliminating validation errors. </source>
+        <target state="new"> Всі методи повертають булеві значення, що виключає помилки валідації. </target>
+      </trans-unit>
+      <trans-unit id="8198759667842542767" datatype="html">
+        <source> The library&apos;s core uses JavaScript proxies for dynamic method calls based on names provided by developers. </source>
+        <target state="new"> Ядро бібліотеки використовує JavaScript-проксі для динамічних викликів методів на основі імен, наданих розробниками. </target>
+      </trans-unit>
+      <trans-unit id="6357902466617800531" datatype="html">
+        <source> Example: <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;flex flex-col gap-2&quot;&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Instead of complex code:<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>if(typeof variable === &apos;object&apos; &amp;&amp; variable !== null &amp;&amp; !Array.isArray(variable) &amp;&amp; Object.keys(variable)?.length)<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> use simpler and more readable: <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code&gt;"/>if (is.object_not_empty(variable))<x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target state="new"> Приклад: Замість складного коду if(typeof variable === &apos;object&apos; &amp;&amp; variable !== null &amp;&amp; !Array.isArray(variable) &amp;&amp; Object.keys(variable)?.length) використовуйте простіший і більш читабельний: if (is.object_not_empty(variable))</target>
+      </trans-unit>
+      <trans-unit id="7257407692805823539" datatype="html">
+        <source> Future Plans: Develop a command line tool to convert commands to inline code for faster program execution. </source>
+        <target state="new"> Плани на майбутнє: Розробити інструмент командного рядка для перетворення команд у вбудований код для швидшого виконання програм. </target>
+      </trans-unit>
+      <trans-unit id="4146491610841249071" datatype="html">
+        <source> Project Promotion: Actively promoting on platforms like medium.com and dev.to to increase project popularity. </source>
+        <target state="new"> Просування проекту: Активне просування на таких платформах, як medium.com та dev.to для збільшення популярності проекту. </target>
+      </trans-unit>
+      <trans-unit id="8726027460728949489" datatype="html">
+        <source> Salo-Sale </source>
+        <target state="new"> Salo-Sale </target>
+      </trans-unit>
+      <trans-unit id="8573526133236046698" datatype="html">
+        <source> 2018 - 2020 </source>
+        <target state="new"> 2018 - 2020 </target>
+      </trans-unit>
+      <trans-unit id="8497552253509503838" datatype="html">
+        <source> Archived </source>
+        <target state="new"> В архіві </target>
+      </trans-unit>
+      <trans-unit id="3488519340124343659" datatype="html">
+        <source> Commercial </source>
+        <target state="new">Комерційний</target>
+      </trans-unit>
+      <trans-unit id="6416243048887843520" datatype="html">
+        <source> Founded and managed the Salo-Sale project, comprising a comprehensive system including an admin panel, mobile applications, and a public website. </source>
+        <target state="new"> Комерційний Заснував і керував проектом Salo-Sale, що складається з комплексної системи, яка включає адміністративну панель, мобільні додатки та загальнодоступний веб-сайт. </target>
+      </trans-unit>
+      <trans-unit id="8807499540389103708" datatype="html">
+        <source>Technologies:</source>
+        <target state="new">Технології:</target>
+      </trans-unit>
+      <trans-unit id="4607504324443981424" datatype="html">
+        <source> Admin panel for project owner: Angular 6 (upgraded to Angular 7). </source>
+        <target state="new"> Адмін-панель для власника проекту: Angular 6 (оновлено до Angular 7). </target>
+      </trans-unit>
+      <trans-unit id="7730850211540395660" datatype="html">
+        <source> Company panel: Angular 6 (upgraded to Angular 7), enabling management of the company page and handling orders. </source>
+        <target state="new"> Панель компанії: Angular 6 (оновлений до Angular 7), що дозволяє керувати сторінкою компанії та обробляти замовлення. </target>
+      </trans-unit>
+      <trans-unit id="9035057740858842531" datatype="html">
+        <source> User mobile app: Flutter (for Android and iOS) with Google, Facebook, and Apple authentication integration. The app supported at least two languages: Ukrainian and English. </source>
+        <target state="new"> Мобільний додаток для користувача: Flutter (для Android та iOS) з інтеграцією автентифікації Google, Facebook та Apple. Додаток підтримував щонайменше дві мови: Українська та англійська. </target>
+      </trans-unit>
+      <trans-unit id="7424020782858435949" datatype="html">
+        <source> Company mobile app: Features for scanning and redeeming virtual coins from user accounts, promoting offers, and discounts. </source>
+        <target state="new"> Мобільний додаток компанії: Функції для сканування та викупу віртуальних монет з акаунтів користувачів, просування пропозицій та знижок. </target>
+      </trans-unit>
+      <trans-unit id="6162219671875434486" datatype="html">
+        <source> Public website: Yii2 (PHP) optimized for SEO. o Server: Yii2 (PHP). </source>
+        <target state="new"> Загальнодоступний веб-сайт: Yii2 (PHP), оптимізований для SEO. o Сервер: Yii2 (PHP). </target>
+      </trans-unit>
+      <trans-unit id="3165343172404441081" datatype="html">
+        <source> Database: MariaDB. </source>
+        <target state="new"> База даних: MariaDB. </target>
+      </trans-unit>
+      <trans-unit id="4419763080014795738" datatype="html">
+        <source>Key Achievements:</source>
+        <target state="new">Основні досягнення:</target>
+      </trans-unit>
+      <trans-unit id="4102111167682093537" datatype="html">
+        <source> Created and implemented a discount system for local businesses, attracting both residents and non - locals. </source>
+        <target state="new"> Створено та впроваджено систему знижок для місцевого бізнесу, залучаючи як місцевих жителів, так і немісцевих. </target>
+      </trans-unit>
+      <trans-unit id="7999209662498939231" datatype="html">
+        <source> Developed a mobile app allowing users to collect virtual coins for watching ads and exchange them for discounts or products offered by local businesses. </source>
+        <target state="new"> Розробили мобільний додаток, що дозволяє користувачам збирати віртуальні монети за перегляд реклами та обмінювати їх на знижки або товари, пропоновані місцевим бізнесом. </target>
+      </trans-unit>
+      <trans-unit id="4521993246131416590" datatype="html">
+        <source> Ensured customer satisfaction by continually improving the app and portal functionalities despite challenges posed by the COVID-19 pandemic. </source>
+        <target state="new"> Забезпечення задоволеності клієнтів шляхом постійного вдосконалення функціоналу додатку та порталу, незважаючи на виклики, пов&apos;язані з пандемією COVID-19. </target>
+      </trans-unit>
+      <trans-unit id="296530154184446245" datatype="html">
+        <source> Even after the project closure, users continued to utilize collected discounts, especially in online businesses. </source>
+        <target state="new"> Навіть після закриття проекту користувачі продовжували використовувати зібрані знижки, особливо в онлайн-бізнесі. </target>
+      </trans-unit>
+      <trans-unit id="5599016949722281279" datatype="html">
+        <source> Enabled businesses to offer products (e.g., pizza) for virtual coins, saving on promotion costs and gaining additional profits from selling drinks and extras with these products. </source>
+        <target state="new"> Дозволила компаніям пропонувати продукти (наприклад, піцу) за віртуальні монети, заощаджуючи на витратах на просування та отримуючи додатковий прибуток від продажу напоїв та додаткових послуг разом з цими продуктами. </target>
+      </trans-unit>
+      <trans-unit id="9031875999295491492" datatype="html">
+        <source> Gained experience in project and team management, solving technical problems, and optimizing business processes. </source>
+        <target state="new"> Отримав досвід управління проектами та командами, вирішення технічних проблем та оптимізації бізнес-процесів. </target>
+      </trans-unit>
+      <trans-unit id="3743057310704500201" datatype="html">
+        <source> Fun Fact: Even after project closure, users actively utilized the system, collecting points and availing discounts in online businesses. </source>
+        <target state="new"> Цікавий факт: навіть після закриття проекту користувачі активно використовували систему, накопичуючи бали та користуючись знижками в онлайн-бізнесі. </target>
+      </trans-unit>
+      <trans-unit id="1336431706974571017" datatype="html">
+        <source> https://salo-sale.com/ </source>
+        <target state="new"> https://salo-sale.com/ </target>
+      </trans-unit>
+      <trans-unit id="7398108052134922948" datatype="html">
+        <source> Leadership and Management: </source>
+        <target state="new"> Лідерство та управління: </target>
+      </trans-unit>
+      <trans-unit id="2991823014696260453" datatype="html">
+        <source> I have experience as a technical leader and in project management. I am effective in optimizing business processes and developer processes. I am skilled in planning sprints in Scrum. I actively support team members in learning new technologies and solving technical problems, contributing to their professional development. </source>
+        <target state="new"> Маю досвід роботи технічним керівником та управління проектами. Ефективний в оптимізації бізнес-процесів та процесів розробників. Маю навички планування спринтів у Scrum. Активно підтримую членів команди у вивченні нових технологій та вирішенні технічних проблем, сприяю їхньому професійному розвитку. </target>
+      </trans-unit>
+      <trans-unit id="4053620578139721641" datatype="html">
+        <source> Technologies and Tools: </source>
+        <target state="new"> Технології та інструменти: </target>
+      </trans-unit>
+      <trans-unit id="6485897112337499236" datatype="html">
+        <source> I am proficient with tools such as Docker, Docker Compose, Telerik Kendo, MSAL, and Microsoft tools (Jira, Confluence, Teams). I use Firebase and CI/CD, and develop PWA applications. </source>
+        <target state="new"> Я добре володію такими інструментами, як Docker, Docker Compose, Telerik Kendo, MSAL та інструментами Microsoft (Jira, Confluence, Teams). Я використовую Firebase та CI/CD, а також розробляю PWA-додатки. </target>
+      </trans-unit>
+      <trans-unit id="7541182217758247878" datatype="html">
+        <source> Programming languages and frameworks: </source>
+        <target state="new"> Мови програмування та фреймворки: </target>
+      </trans-unit>
+      <trans-unit id="3563234105022711955" datatype="html">
+        <source> I program in JavaScript, TypeScript and PHP (Yii2). I have experience with Angular, AngularJS, AngularDart, jQuery, Flutter and IONIC frameworks, as well as application state management using NGXS and NGRX. </source>
+        <target state="new"> Програмую на JavaScript, TypeScript та PHP (Yii2). Маю досвід роботи з фреймворками Angular, AngularJS, AngularDart, jQuery, Flutter та IONIC, а також управлінням станом додатків за допомогою NGXS та NGRX. </target>
+      </trans-unit>
+      <trans-unit id="582812323614172413" datatype="html">
+        <source> Design and Development: </source>
+        <target state="new"> Дизайн та розробка: </target>
+      </trans-unit>
+      <trans-unit id="7344184125779351857" datatype="html">
+        <source> I develop mobile applications using IONIC and Flutter, and design web portals using jQuery, Angular, Yii2, AngularJS and AngularDart. I do RWD (Responsive Web Design) and TDD (Test-Driven Development) and unit testing (Jest). I create and promote open source projects and software development. </source>
+        <target state="new"> Я розробляю мобільні додатки з використанням IONIC та Flutter, а також веб-портали з використанням jQuery, Angular, Yii2, AngularJS та AngularDart. Займаюся RWD (адаптивним веб-дизайном) і TDD (тест-орієнтованою розробкою), а також модульним тестуванням (Jest). Створюю та просуваю проекти з відкритим вихідним кодом та розробку програмного забезпечення. </target>
+      </trans-unit>
+      <trans-unit id="6646469160444755554" datatype="html">
+        <source>Design and User Experience:</source>
+        <target state="new">Дизайн та користувацький досвід:</target>
+      </trans-unit>
+      <trans-unit id="2903544503489976143" datatype="html">
+        <source> Strong communication </source>
+        <target state="new"> Міцна комунікація </target>
+      </trans-unit>
+      <trans-unit id="1980581651340205136" datatype="html">
+        <source> Problem-solving </source>
+        <target state="new"> Вирішення проблем </target>
+      </trans-unit>
+      <trans-unit id="1172610947984144500" datatype="html">
+        <source> Attention to detail </source>
+        <target state="new"> Увага до деталей </target>
+      </trans-unit>
+      <trans-unit id="3323354618576209351" datatype="html">
+        <source> Time management </source>
+        <target state="new"> Управління часом </target>
+      </trans-unit>
+      <trans-unit id="709367580326933979" datatype="html">
+        <source> Other: </source>
+        <target state="new"> Інший: </target>
+      </trans-unit>
+      <trans-unit id="7746812512564390074" datatype="html">
+        <source> I am involved in data validation and SEO optimization. I have experience in integrating payment and authorization systems. Also, to solve problems independently, analyze client proposals, graphically present what the client asks for, collaborate with colleagues, explain to colleagues what works and how it works and why. Ability to accept outside opinions and focus on what is important. </source>
+        <target state="new"> Займаюся валідацією даних та SEO-оптимізацією. Маю досвід інтеграції платіжних та авторизаційних систем. Також самостійно вирішувати проблеми, аналізувати пропозиції клієнтів, графічно представляти те, що просить клієнт, співпрацювати з колегами, пояснювати колегам, що і як працює і чому. Вміння сприймати сторонню думку та зосереджуватися на головному. </target>
+      </trans-unit>
+      <trans-unit id="subscription" datatype="html">
+        <source> Subscribe </source>
+        <target state="new"> Підписатися </target>
+      </trans-unit>
+      <trans-unit id="1144407473317535723" datatype="html">
+        <source>Subscribe</source>
+        <target state="new">Підписатися</target>
+      </trans-unit>
+      <trans-unit id="7978776089780116298" datatype="html">
+        <source> Join <x id="START_TAG__SVG_SVG" ctype="x-_svg_svg" equiv-text="&lt;svg class=&quot;shrink-0 size-3.5&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;"/><x id="START_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path d=&quot;M5 12h14&quot; /&gt;"/><x id="CLOSE_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path d=&quot;m12 5 7 7-7 7&quot; /&gt;"/><x id="START_TAG__SVG_PATH_1" ctype="x-_svg_path_1" equiv-text="&lt;path d=&quot;m12 5 7 7-7 7&quot; /&gt;"/><x id="CLOSE_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path d=&quot;m12 5 7 7-7 7&quot; /&gt;"/><x id="CLOSE_TAG__SVG_SVG" ctype="x-_svg_svg" equiv-text="&lt;/svg&gt;"/></source>
+        <target state="new"> Приєднуйтесь </target>
+      </trans-unit>
+      <trans-unit id="613384015350465382" datatype="html">
+        <source> No spam, unsubscribe at any time. </source>
+        <target state="new"> Ніякого спаму, відпишіться в будь-який час. </target>
+      </trans-unit>
+      <trans-unit id="education" datatype="html">
+        <source>Education</source>
+        <target state="new">Освіта</target>
+      </trans-unit>
+      <trans-unit id="meta_title" datatype="html">
+        <source>Ivan Karbashevskyi - Full-stack Developer &amp; Frontend Tech Lead - CV</source>
+        <target state="new">Іван Карбашевський - Full-stack розробник і Frontend Tech Lead - CV</target>
+      </trans-unit>
+      <trans-unit id="meta_description" datatype="html">
+        <source>Ivan Karbashevskyi&apos;s online CV. Full-stack developer and frontend tech lead: Angular, TypeScript, Supabase, Firebase, Node.js, Ionic/Capacitor mobile apps for iOS and Android.</source>
+        <target state="new">Онлайн-резюме Івана Карбашевського. Full-stack розробник і frontend tech lead: Angular, TypeScript, Supabase, Firebase, Node.js, мобільні застосунки на Ionic/Capacitor для iOS та Android.</target>
+      </trans-unit>
+      <trans-unit id="meta_keywords" datatype="html">
+        <source>Ivan Karbashevskyi, CV, Full-stack Developer, Frontend Tech Lead, Frontend Developer, UI/UX Designer, Figma, Supabase, Ionic, Capacitor, JavaScript, Node.js, Angular, NestJs, TypeScript, software developer, web developer</source>
+        <target state="new">Іван Карбашевський, резюме, Full-stack розробник, Frontend Tech Lead, Frontend розробник, UI/UX дизайнер, Figma, Supabase, Ionic, Capacitor, JavaScript, Node.js, Angular, NestJs, TypeScript, програміст, веб-розробник</target>
+      </trans-unit>
+      <trans-unit id="currentLanguage" datatype="html">
+        <source>English</source>
+        <target state="new">Українська</target>
+      </trans-unit>
+      <trans-unit id="about_fullstack" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Full-stack developer<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> who delivers products <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>end to end<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>: from analysing the client&apos;s needs and choosing the right technology, through UI, frontend, backend, database and tests, to mobile release and documentation for handover to a team. Built more than 70% of own products single-handedly. </source>
+        <target state="new"> <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Full-stack розробник<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, який веде продукти <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>від початку до кінця<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>: від аналізу потреб клієнта й вибору технологій, через UI, frontend, backend, базу даних і тести, до релізу мобільних застосунків і документації для передачі команді. Понад 70% власних продуктів створив самостійно. </target>
+      </trans-unit>
+      <trans-unit id="about_mobile" datatype="html">
+        <source> Building cross-platform <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>mobile apps for iOS and Android<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (Ionic, Capacitor, Flutter) and backends on <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Supabase<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, Firebase and Node.js. Delivered mobile apps for brands such as Siemens, Samsung and Volkswagen. </source>
+        <target state="new"> Створює кросплатформні <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>мобільні застосунки для iOS та Android<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (Ionic, Capacitor, Flutter) і backend на <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Supabase<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, Firebase та Node.js. Розробляв мобільні застосунки для таких брендів, як Siemens, Samsung і Volkswagen. </target>
+      </trans-unit>
+      <trans-unit id="about_founder" datatype="html">
+        <source> Co-founder of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>amator.app<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and co-creator of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Car4Ukraine<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>; founder of the digital studio <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>karba.studio<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+        <target state="new"> Співзасновник <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>amator.app<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> і співтворець <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Car4Ukraine<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>; засновник цифрової студії <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>karba.studio<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </target>
+      </trans-unit>
+      <trans-unit id="unicard_role" datatype="html">
+        <source> Frontend Tech Lead (hired as Frontend Developer) </source>
+        <target state="new"> Frontend Tech Lead (прийнятий на посаду Frontend Developer) </target>
+      </trans-unit>
+      <trans-unit id="efendi_clients" datatype="html">
+        <source> Built mobile applications for international clients, including <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Siemens<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Samsung<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Volkswagen<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+        <target state="new"> Розробляв мобільні застосунки для міжнародних клієнтів, зокрема <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Siemens<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Samsung<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> і <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Volkswagen<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </target>
+      </trans-unit>
+      <trans-unit id="profile_title" datatype="html">
+        <source> Full-stack Developer · Frontend Tech Lead </source>
+        <target state="new"> Full-stack розробник · Frontend Tech Lead </target>
+      </trans-unit>
+      <trans-unit id="amator_period" datatype="html">
+        <source> 2025 - Present </source>
+        <target state="new"> 2025 - дотепер </target>
+      </trans-unit>
+      <trans-unit id="badge_active" datatype="html">
+        <source> Active </source>
+        <target state="new"> Активний </target>
+      </trans-unit>
+      <trans-unit id="badge_startup" datatype="html">
+        <source> Startup </source>
+        <target state="new"> Стартап </target>
+      </trans-unit>
+      <trans-unit id="cofounder" datatype="html">
+        <source> Co-founder · Full-stack Developer </source>
+        <target state="new"> Співзасновник · Full-stack розробник </target>
+      </trans-unit>
+      <trans-unit id="amator_1" datatype="html">
+        <source> Sport-tech platform that helps amateur athletes find matches, opponents and teammates and organise games, without chaotic group chats. Live in Warsaw, Katowice and Larnaca; available on iOS, Android and the web. </source>
+        <target state="new"> Sport-tech платформа, яка допомагає аматорам знаходити матчі, суперників і партнерів по команді та організовувати ігри без хаосу в групових чатах. Працює у Варшаві, Катовіце та Ларнаці; доступна на iOS, Android і в браузері. </target>
+      </trans-unit>
+      <trans-unit id="amator_2" datatype="html">
+        <source> Built the whole product single-handedly: Angular frontend, Supabase backend (PostgreSQL, Edge Functions), iOS and Android apps with Capacitor. </source>
+        <target state="new"> Самостійно створив увесь продукт: frontend на Angular, backend на Supabase (PostgreSQL, Edge Functions), застосунки для iOS та Android на Capacitor. </target>
+      </trans-unit>
+      <trans-unit id="amator_3" datatype="html">
+        <source> Hybrid REST + WebSocket architecture for real-time notifications, chat and live feed; IndexedDB audit log with a request-acknowledge-response protocol. </source>
+        <target state="new"> Гібридна архітектура REST + WebSocket для сповіщень, чату та стрічки в реальному часі; журнал аудиту в IndexedDB з протоколом request-acknowledge-response. </target>
+      </trans-unit>
+      <trans-unit id="amator_4" datatype="html">
+        <source> Biometric sign-in (Face ID / Touch ID) via WebAuthn and Edge Functions; staging environments on Supabase Branches; TestFlight beta programme with feature flags. </source>
+        <target state="new"> Біометричний вхід (Face ID / Touch ID) через WebAuthn та Edge Functions; staging-середовища на Supabase Branches; бета-тестування в TestFlight з feature flags. </target>
+      </trans-unit>
+      <trans-unit id="amator_5" datatype="html">
+        <source> Taking part in the Polish startup ecosystem with the co-founder, including the Carpathian Startup Fest 2026 programme. </source>
+        <target state="new"> Разом зі співзасновником бере участь у польській стартап-екосистемі, зокрема в програмі Carpathian Startup Fest 2026. </target>
+      </trans-unit>
+      <trans-unit id="badge_volunteer" datatype="html">
+        <source> Volunteer </source>
+        <target state="new"> Волонтерство </target>
+      </trans-unit>
+      <trans-unit id="c4u_role" datatype="html">
+        <source> Co-creator · Frontend Developer </source>
+        <target state="new"> Співтворець · Frontend розробник </target>
+      </trans-unit>
+      <trans-unit id="c4u_1" datatype="html">
+        <source> International volunteer initiative that sources, upgrades and delivers cars and trucks to Ukrainian defenders; 850+ vehicles delivered with 250+ volunteers from 30+ countries. </source>
+        <target state="new"> Міжнародна волонтерська ініціатива, яка купує, переобладнує й доставляє автомобілі та пікапи українським захисникам; понад 850 авто доставлено силами 250+ волонтерів із 30+ країн. </target>
+      </trans-unit>
+      <trans-unit id="c4u_2" datatype="html">
+        <source> Co-created and maintain the car4ukraine.com platform: multilingual website with fundraising campaigns, real-time progress and a car-donation flow. </source>
+        <target state="new"> Співтворець і розробник платформи car4ukraine.com: багатомовний сайт зі збірками коштів, прогресом у реальному часі та процесом передачі автомобіля. </target>
+      </trans-unit>
+      <trans-unit id="karba_period" datatype="html">
+        <source> 2026 - Present </source>
+        <target state="new"> 2026 - дотепер </target>
+      </trans-unit>
+      <trans-unit id="badge_launching" datatype="html">
+        <source> Launching </source>
+        <target state="new"> Запуск </target>
+      </trans-unit>
+      <trans-unit id="karba_1" datatype="html">
+        <source> Digital studio for websites, mobile apps, UI/UX and graphic design, motion, marketing and SEO. </source>
+        <target state="new"> Цифрова студія: вебсайти, мобільні застосунки, UI/UX і графічний дизайн, моушн, маркетинг і SEO. </target>
+      </trans-unit>
+      <trans-unit id="karba_2" datatype="html">
+        <source> Building the delivery process, internal knowledge base and self-hosted infrastructure for the team. </source>
+        <target state="new"> Будує процес роботи, внутрішню базу знань і власну інфраструктуру для команди. </target>
+      </trans-unit>
+      <trans-unit id="badge_completed" datatype="html">
+        <source> Completed </source>
+        <target state="new"> Завершено </target>
+      </trans-unit>
+      <trans-unit id="bee_period" datatype="html">
+        <source> 2022 - 2025 </source>
+        <target state="new"> 2022 - 2025 </target>
+      </trans-unit>
+      <trans-unit id="bee_1" datatype="html">
+        <source> Founded and developed the Bee O`clock product: “Focus on your work, we’ll cover the rest”. The project was completed in 2025. </source>
+        <target state="new"> Заснував і розвивав продукт Bee O`clock: «Зосередьтеся на роботі, а ми візьмемо на себе решту». Проєкт завершено у 2025 році. </target>
+      </trans-unit>
+      <trans-unit id="skills_backend_mobile_title" datatype="html">
+        <source> Backend and Mobile: </source>
+        <target state="new"> Backend і мобільна розробка: </target>
+      </trans-unit>
+      <trans-unit id="skills_backend_mobile" datatype="html">
+        <source> I build backends on Supabase (PostgreSQL, Edge Functions, Branches for staging) and Firebase, with hybrid REST + WebSocket architecture for real-time features. I ship iOS and Android apps with Capacitor and Ionic, including biometric login (Face ID / Touch ID, WebAuthn) and TestFlight beta releases with feature flags. I use modern Angular (signals, standalone components) and self-host services with Docker. </source>
+        <target state="new"> Будую backend на Supabase (PostgreSQL, Edge Functions, Branches для staging) і Firebase з гібридною архітектурою REST + WebSocket для функцій реального часу. Випускаю застосунки для iOS та Android на Capacitor та Ionic, зокрема з біометричним входом (Face ID / Touch ID, WebAuthn) і бета-релізами в TestFlight з feature flags. Використовую сучасний Angular (signals, standalone components) і розгортаю сервіси на власних серверах у Docker. </target>
+      </trans-unit>
+      <trans-unit id="work_nav" datatype="html">
+        <source>Experience</source>
+        <target state="new">Досвід</target>
+      </trans-unit>
+      <trans-unit id="profile_location" datatype="html">
+        <source>Warsaw, Poland</source>
+        <target state="new">Варшава, Польща</target>
+      </trans-unit>
+      <trans-unit id="stat_solo_label" datatype="html">
+        <source>Products built solo</source>
+        <target state="new">Продуктів зроблено самостійно</target>
+      </trans-unit>
+      <trans-unit id="stat_degrees_label" datatype="html">
+        <source>CS degrees</source>
+        <target state="new">Дипломи з CS</target>
+      </trans-unit>
+      <trans-unit id="soft_skills" datatype="html">
+        <source>Soft Skills:</source>
+        <target state="new">Soft skills:</target>
+      </trans-unit>
+      <trans-unit id="about_lead" datatype="html">
+        <source> 13+ years of commercial software development, started at 17. At 19 created Ukraine&apos;s first municipal budget visualization system, the Open Budget of Chernivtsi (cv.ofd.in.ua), officially adopted by Chernivtsi City Council; since 2018 working in the European tech sector. </source>
+        <target state="new"> 13+ років комерційної розробки, почав у 17. У 19 років створив першу в Україні муніципальну систему візуалізації міського бюджету «Відкритий бюджет м. Чернівці» (cv.ofd.in.ua), яку офіційно взяла на баланс Чернівецька міська рада; з 2018 року працює в європейському технологічному секторі. </target>
+      </trans-unit>
+      <trans-unit id="about_design" datatype="html">
+        <source> Also a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>UI/UX designer<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>: designs interfaces in <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Figma<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, from wireframes and user flows to production-ready screens, and then builds them, so design and code stay consistent. </source>
+        <target state="new"> Також <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>UI/UX дизайнер<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>: проєктує інтерфейси у <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Figma<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, від wireframes і user flows до готових до розробки екранів, а потім сам їх реалізує, тож дизайн і код не розходяться. </target>
+      </trans-unit>
+      <trans-unit id="stat_years_commercial_label" datatype="html">
+        <source>Years of commercial development</source>
+        <target state="new">Років комерційної розробки</target>
+      </trans-unit>
+      <trans-unit id="ofd_title" datatype="html">
+        <source> Open Budget of Chernivtsi </source>
+        <target state="new"> Відкритий бюджет м. Чернівці </target>
+      </trans-unit>
+      <trans-unit id="ofd_period" datatype="html">
+        <source> 2015 </source>
+        <target state="new"> 2015 </target>
+      </trans-unit>
+      <trans-unit id="badge_first_commercial" datatype="html">
+        <source> First commercial project </source>
+        <target state="new"> Перший комерційний проєкт </target>
+      </trans-unit>
+      <trans-unit id="ofd_role" datatype="html">
+        <source> Author · Solo Developer (Hashlink) </source>
+        <target state="new"> Автор · Єдиний розробник (Hashlink) </target>
+      </trans-unit>
+      <trans-unit id="ofd_1" datatype="html">
+        <source> Ukraine&apos;s first municipal budget visualization system: Chernivtsi became the first city in Ukraine to officially adopt such a platform, before budget transparency became mandatory nationwide. </source>
+        <target state="new"> Перша в Україні муніципальна система візуалізації бюджету: Чернівці стали першим містом в Україні, яке офіційно впровадило таку платформу, ще до того, як прозорість бюджету стала обов’язковою на державному рівні. </target>
+      </trans-unit>
+      <trans-unit id="ofd_2" datatype="html">
+        <source> Designed and built the platform single-handedly at 19, under the Hashlink brand, while working as a computer systems specialist at Chernivtsi City Council: PHP (Yii Framework) and JavaScript. My first major commercial project. </source>
+        <target state="new"> Самостійно спроєктував і розробив платформу у 19 років під брендом Hashlink, працюючи фахівцем з комп’ютерних систем у Чернівецькій міській раді: PHP (Yii Framework) і JavaScript. Мій перший великий комерційний проєкт. </target>
+      </trans-unit>
+      <trans-unit id="skills_design" datatype="html">
+        <source> I design web and mobile interfaces in Figma: user flows, wireframes, high-fidelity screens, components and prototypes ready for handover to developers. I implement them with Tailwind and take care of accessibility according to WCAG. </source>
+        <target state="new"> Проєктую вебові та мобільні інтерфейси у Figma: user flows, wireframes, high-fidelity екрани, компоненти й прототипи, готові до передачі розробникам. Реалізую їх на Tailwind і дбаю про доступність відповідно до WCAG. </target>
+      </trans-unit>
+      <trans-unit id="ofd_3" datatype="html">
+        <source> Residents can track every item of the city&apos;s revenue and expenditure by department, municipal institution and general or special fund, as interactive charts and tables, and download the original reports (Excel, CSV, PDF). </source>
+        <target state="new"> Мешканці можуть відстежувати кожну статтю доходів і видатків міста в розрізі департаментів, комунальних закладів, загального та спеціального фондів у вигляді інтерактивних графіків і таблиць, а також завантажувати оригінальні звіти (Excel, CSV, PDF). </target>
+      </trans-unit>
+      <trans-unit id="ofd_4" datatype="html">
+        <source> Led the digital standardisation of the city&apos;s financial reporting: on my recommendation, all budget holders (departments, schools, hospitals, municipal enterprises) moved from ad-hoc Word documents to a single machine-readable Excel standard. </source>
+        <target state="new"> Провів цифрову стандартизацію фінансової звітності міста: за моєю рекомендацією всі розпорядники бюджетних коштів (департаменти, школи, лікарні, комунальні підприємства) перейшли з довільних документів Word на єдиний машиночитний стандарт таблиць Excel. </target>
+      </trans-unit>
+      <trans-unit id="ofd_5" datatype="html">
+        <source> Wrote algorithms that automatically parse hundreds of Excel reports, map the figures to budget classification codes and consolidate them into one database, removing manual re-typing and the risk of errors. </source>
+        <target state="new"> Написав алгоритми, які автоматично парсять сотні Excel-звітів, розкладають цифри за бюджетними класифікаторами й зводять їх в єдину базу даних, що прибрало ручне переписування звітів і ризик помилок. </target>
+      </trans-unit>
+      <trans-unit id="story_nav" datatype="html">
+        <source>My story</source>
+        <target state="new">Моя історія</target>
+      </trans-unit>
+      <trans-unit id="story_teaser" datatype="html">
+        <source> From a city budget portal built at 19 in Chernivtsi to my own products and studio: the longer version of this CV. </source>
+        <target state="new"> Від порталу міського бюджету, створеного в 19 років у Чернівцях, до власних продуктів і студії: розширена версія цього CV. </target>
+      </trans-unit>
+      <trans-unit id="story_back" datatype="html">
+        <source>Back to CV</source>
+        <target state="new">Назад до CV</target>
+      </trans-unit>
+      <trans-unit id="story_heading" datatype="html">
+        <source> From a city budget portal to my own studio </source>
+        <target state="new"> Від порталу міського бюджету до власної студії </target>
+      </trans-unit>
+      <trans-unit id="story_intro" datatype="html">
+        <source> The CV lists what I did. This page tells how I got here: thirteen years of building products, mostly on my own, from Chernivtsi to Warsaw. </source>
+        <target state="new"> CV перелічує, що я зробив. Ця сторінка розповідає, як я сюди прийшов: тринадцять років створення продуктів, переважно власноруч, від Чернівців до Варшави. </target>
+      </trans-unit>
+      <trans-unit id="story_s1_year" datatype="html">
+        <source>2013</source>
+        <target state="new">2013</target>
+      </trans-unit>
+      <trans-unit id="story_s1_place" datatype="html">
+        <source>Chernivtsi · Age 17</source>
+        <target state="new">Чернівці · 17 років</target>
+      </trans-unit>
+      <trans-unit id="story_s1_title" datatype="html">
+        <source>First commercial projects</source>
+        <target state="new">Перші комерційні проєкти</target>
+      </trans-unit>
+      <trans-unit id="story_s1_p1" datatype="html">
+        <source> I took my first paid projects at 17, in my home city of Chernivtsi. From the very beginning I did the whole job myself: listened to what the client needed, picked the technology, designed the interface, wrote the code and launched it. </source>
+        <target state="new"> Перші платні проєкти я взяв у 17 років у рідних Чернівцях. Від самого початку робив усю роботу сам: вислуховував, що потрібно клієнту, підбирав технології, проєктував інтерфейс, писав код і запускав. </target>
+      </trans-unit>
+      <trans-unit id="story_s1_p2" datatype="html">
+        <source> That habit of owning a product end to end has stayed with me ever since: more than 70% of my products were built single-handedly. </source>
+        <target state="new"> Звичка вести продукт від початку до кінця залишилася зі мною досі: понад 70% моїх продуктів створено самостійно. </target>
+      </trans-unit>
+      <trans-unit id="story_s2_year" datatype="html">
+        <source>2015</source>
+        <target state="new">2015</target>
+      </trans-unit>
+      <trans-unit id="story_s2_place" datatype="html">
+        <source>Chernivtsi · Age 19</source>
+        <target state="new">Чернівці · 19 років</target>
+      </trans-unit>
+      <trans-unit id="story_s2_title" datatype="html">
+        <source>Open Budget of Chernivtsi</source>
+        <target state="new">Відкритий бюджет м. Чернівці</target>
+      </trans-unit>
+      <trans-unit id="story_s2_p1" datatype="html">
+        <source> While studying and working as a computer systems specialist at Chernivtsi City Council, I designed and built cv.ofd.in.ua, Ukraine&apos;s first municipal budget visualization system. Chernivtsi became the first city in Ukraine to officially adopt such a platform, before budget transparency became mandatory nationwide. </source>
+        <target state="new"> Навчаючись і працюючи фахівцем з комп’ютерних систем у Чернівецькій міській раді, я спроєктував і створив cv.ofd.in.ua, першу в Україні муніципальну систему візуалізації бюджету. Чернівці стали першим містом в Україні, яке офіційно впровадило таку платформу, ще до того, як прозорість бюджету стала обов’язковою на державному рівні. </target>
+      </trans-unit>
+      <trans-unit id="story_s2_p2" datatype="html">
+        <source> The hardest part was not the code. Every department, school and hospital reported in its own Word files, so I proposed one machine-readable Excel standard for all budget holders and wrote parsers that turned hundreds of reports into one database and clear interactive charts for residents. I released it under my own brand, Hashlink. </source>
+        <target state="new"> Найскладнішим був не код. Кожен департамент, школа й лікарня звітували у власних файлах Word, тож я запропонував єдиний машиночитний стандарт Excel для всіх розпорядників коштів і написав парсери, які перетворювали сотні звітів на єдину базу даних і зрозумілі інтерактивні графіки для мешканців. Випустив проєкт під власним брендом Hashlink. </target>
+      </trans-unit>
+      <trans-unit id="story_s3_year" datatype="html">
+        <source>2017 – 2018</source>
+        <target state="new">2017 – 2018</target>
+      </trans-unit>
+      <trans-unit id="story_s3_place" datatype="html">
+        <source>Warsaw</source>
+        <target state="new">Варшава</target>
+      </trans-unit>
+      <trans-unit id="story_s3_title" datatype="html">
+        <source>Poland and the European tech sector</source>
+        <target state="new">Польща та європейський IT</target>
+      </trans-unit>
+      <trans-unit id="story_s3_p1" datatype="html">
+        <source> In 2017 I started my engineering degree in Computer Science at AEH in Warsaw, and in 2018 I joined EFENDI as a front-end developer. </source>
+        <target state="new"> У 2017 році я почав навчання на інженера з комп’ютерних наук в AEH у Варшаві, а у 2018 році приєднався до EFENDI як front-end розробник. </target>
+      </trans-unit>
+      <trans-unit id="story_s3_p2" datatype="html">
+        <source> At EFENDI I built mobile apps and web portals for international clients such as Siemens, Samsung and Volkswagen, working with Ionic, Angular, Flutter and Firebase, and set up CI/CD and Docker-based environments. </source>
+        <target state="new"> В EFENDI я створював мобільні застосунки та вебпортали для міжнародних клієнтів, таких як Siemens, Samsung і Volkswagen, працюючи з Ionic, Angular, Flutter і Firebase, а також налаштовував CI/CD і середовища на Docker. </target>
+      </trans-unit>
+      <trans-unit id="story_s4_year" datatype="html">
+        <source>2018 – 2021</source>
+        <target state="new">2018 – 2021</target>
+      </trans-unit>
+      <trans-unit id="story_s4_place" datatype="html">
+        <source>Side projects</source>
+        <target state="new">Власні проєкти</target>
+      </trans-unit>
+      <trans-unit id="story_s4_title" datatype="html">
+        <source>Salo-Sale and Thiis</source>
+        <target state="new">Salo-Sale і Thiis</target>
+      </trans-unit>
+      <trans-unit id="story_s4_p1" datatype="html">
+        <source> In parallel I founded Salo-Sale: a discount platform for local businesses with an admin panel, a business panel, two Flutter mobile apps and an SEO-optimised website. It taught me how to run a product and a team, especially through the COVID-19 period. </source>
+        <target state="new"> Паралельно я заснував Salo-Sale: платформу знижок для місцевого бізнесу з адмін-панеллю, панеллю для компаній, двома мобільними застосунками на Flutter і SEO-оптимізованим сайтом. Вона навчила мене керувати продуктом і командою, особливо в період COVID-19. </target>
+      </trans-unit>
+      <trans-unit id="story_s4_p2" datatype="html">
+        <source> In 2021 I published Thiis, an open-source JavaScript library that makes data validation short and readable, and wrote about it on Medium and dev.to. </source>
+        <target state="new"> У 2021 році я опублікував Thiis, open-source бібліотеку для JavaScript, яка робить валідацію даних короткою й читабельною, і писав про неї на Medium і dev.to. </target>
+      </trans-unit>
+      <trans-unit id="story_s5_year" datatype="html">
+        <source>2021 – today</source>
+        <target state="new">2021 – дотепер</target>
+      </trans-unit>
+      <trans-unit id="story_s5_place" datatype="html">
+        <source>UNICARD Systems</source>
+        <target state="new">UNICARD Systems</target>
+      </trans-unit>
+      <trans-unit id="story_s5_title" datatype="html">
+        <source>From developer to tech lead</source>
+        <target state="new">Від розробника до тех-ліда</target>
+      </trans-unit>
+      <trans-unit id="story_s5_p1" datatype="html">
+        <source> I joined UNICARD Systems as a frontend developer and was soon promoted to frontend tech lead. I trained the team, introduced new ways of planning (half as many unfinished tasks, ~40% less time on sprint planning), upgraded Angular to make builds twice as fast and shipped a PWA that brought more positive customer feedback and sales. </source>
+        <target state="new"> Я прийшов в UNICARD Systems як frontend розробник і невдовзі став frontend tech lead. Навчав команду, впровадив нові підходи до планування (удвічі менше незавершених задач, ~40% менше часу на планування спринтів), оновив Angular, щоб збірка стала вдвічі швидшою, і запустив PWA, що принесла більше позитивних відгуків клієнтів і продажів. </target>
+      </trans-unit>
+      <trans-unit id="story_s5_p2" datatype="html">
+        <source> In 2023 I led the frontend of a project at SKK, moving a .NET application to Angular from scratch and delivering it on time. Along the way I completed my Master of Engineering in Computer Science at AEH (2022–2024), with a thesis graded 5.0. </source>
+        <target state="new"> У 2023 році я керував frontend-частиною проєкту в SKK, перенісши застосунок з .NET на Angular з нуля та здавши його вчасно. Паралельно закінчив магістратуру з комп’ютерних наук в AEH (2022–2024) з оцінкою 5.0 за дипломну роботу. </target>
+      </trans-unit>
+      <trans-unit id="story_s6_year" datatype="html">
+        <source>2022 – today</source>
+        <target state="new">2022 – дотепер</target>
+      </trans-unit>
+      <trans-unit id="story_s6_place" datatype="html">
+        <source>Car4Ukraine</source>
+        <target state="new">Car4Ukraine</target>
+      </trans-unit>
+      <trans-unit id="story_s6_title" datatype="html">
+        <source>Technology for a cause</source>
+        <target state="new">Технології заради важливої справи</target>
+      </trans-unit>
+      <trans-unit id="story_s6_p1" datatype="html">
+        <source> When the full-scale war began, I co-created Car4Ukraine with people from IT, logistics, media and education. We source, upgrade and deliver vehicles to Ukrainian defenders: 850+ vehicles so far, with 250+ volunteers from 30+ countries. </source>
+        <target state="new"> Коли почалася повномасштабна війна, я разом з людьми з IT, логістики, медіа та освіти став співтворцем Car4Ukraine. Ми купуємо, переобладнуємо й доставляємо автомобілі українським захисникам: уже понад 850 авто силами 250+ волонтерів із 30+ країн. </target>
+      </trans-unit>
+      <trans-unit id="story_s6_p2" datatype="html">
+        <source> I build and maintain the car4ukraine.com platform: a multilingual website with fundraising campaigns, real-time progress and a car-donation flow. </source>
+        <target state="new"> Я створюю й підтримую платформу car4ukraine.com: багатомовний сайт зі збірками коштів, прогресом у реальному часі та процесом передачі автомобіля. </target>
+      </trans-unit>
+      <trans-unit id="story_s7_year" datatype="html">
+        <source>2025 – today</source>
+        <target state="new">2025 – дотепер</target>
+      </trans-unit>
+      <trans-unit id="story_s7_place" datatype="html">
+        <source>Founder</source>
+        <target state="new">Засновник</target>
+      </trans-unit>
+      <trans-unit id="story_s7_title" datatype="html">
+        <source>amator.app and karba.studio</source>
+        <target state="new">amator.app і karba.studio</target>
+      </trans-unit>
+      <trans-unit id="story_s7_p1" datatype="html">
+        <source> With my co-founder I am building amator.app, a sport-tech platform that helps amateur players find matches and teammates in Warsaw, Katowice and Larnaca. I built the whole product: Angular, Supabase, real-time WebSockets and iOS/Android apps with Capacitor. </source>
+        <target state="new"> Разом зі співзасновником я будую amator.app, sport-tech платформу, яка допомагає аматорам знаходити матчі й партнерів по команді у Варшаві, Катовіце та Ларнаці. Увесь продукт я зробив сам: Angular, Supabase, WebSocket у реальному часі та застосунки для iOS і Android на Capacitor. </target>
+      </trans-unit>
+      <trans-unit id="story_s7_p2" datatype="html">
+        <source> I am also launching karba.studio, a digital studio for websites, mobile apps, UI/UX design, marketing and SEO, to bring this end-to-end approach to more clients with a team of strong specialists. </source>
+        <target state="new"> Також я запускаю karba.studio, цифрову студію вебсайтів, мобільних застосунків, UI/UX-дизайну, маркетингу та SEO, щоб нести цей підхід «від початку до кінця» більшій кількості клієнтів разом із командою сильних спеціалістів. </target>
+      </trans-unit>
+      <trans-unit id="story_today_label" datatype="html">
+        <source>Today</source>
+        <target state="new">Сьогодні</target>
+      </trans-unit>
+      <trans-unit id="story_today" datatype="html">
+        <source> Whatever the project, I start by understanding the problem and the people behind it, then choose the technology that fits, build the product end to end and leave documentation good enough to hand it over to a team. If that is the kind of person you are looking for, let&apos;s talk. </source>
+        <target state="new"> Яким би не був проєкт, я починаю з того, що розбираюся в проблемі та людях, які за нею стоять, потім обираю технології, що підходять, будую продукт від початку до кінця й залишаю документацію, з якою його можна передати команді. Якщо вам потрібна саме така людина, давайте поговоримо. </target>
+      </trans-unit>
+      <trans-unit id="story_view_cv" datatype="html">
+        <source>View CV</source>
+        <target state="new">Переглянути CV</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

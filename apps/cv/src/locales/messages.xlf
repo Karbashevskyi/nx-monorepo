@@ -546,7 +546,7 @@
         <source>My story</source>
       </trans-unit>
       <trans-unit id="story_s1_p1" datatype="html">
-        <source> I took my first paid projects at 17, in my home city of Chernivtsi. From the very beginning I did the whole job myself: listened to what the client needed, picked the technology, designed the interface, wrote the code and launched it. </source>
+        <source> I am self-taught. I took my first paid projects at 17, in my home city of Chernivtsi. From the very beginning I did the whole job myself: listened to what the client needed, picked the technology, designed the interface, wrote the code and launched it. </source>
       </trans-unit>
       <trans-unit id="story_s1_p2" datatype="html">
         <source> That habit of owning a product end to end has stayed with me ever since: more than 70% of my products were built single-handedly. </source>
@@ -561,10 +561,10 @@
         <source>2013</source>
       </trans-unit>
       <trans-unit id="story_s2_p1" datatype="html">
-        <source> While studying and working as a computer systems specialist at Chernivtsi City Council, I designed and built cv.ofd.in.ua, Ukraine&apos;s first municipal budget visualization system. Chernivtsi became the first city in Ukraine to officially adopt such a platform, before budget transparency became mandatory nationwide. </source>
+        <source> In 2015, while still a student and working as a computer systems specialist at Chernivtsi City Council, I built the Open Budget of Chernivtsi (cv.ofd.in.ua), Ukraine&apos;s first municipal budget visualization system. Chernivtsi became the first city in the country to officially adopt such a platform: before the law &quot;On the openness of the use of public funds&quot;, signed by then-President Petro Poroshenko in 2015, came into force and made budget openness mandatory nationwide. </source>
       </trans-unit>
       <trans-unit id="story_s2_p2" datatype="html">
-        <source> The hardest part was not the code. Every department, school and hospital reported in its own Word files, so I proposed one machine-readable Excel standard for all budget holders and wrote parsers that turned hundreds of reports into one database and clear interactive charts for residents. I released it under my own brand, Hashlink. </source>
+        <source> The hardest part was the data. Every department, school and hospital reported in its own way, in Word files and ad-hoc tables. I wrote a PHP algorithm (Yii Framework) that adapts to any Excel table layout, recognises budget classification codes and consolidates hundreds of reports into one database. Then I proposed moving all budget holders to a single standard and designed its base template from the data already collected. </source>
       </trans-unit>
       <trans-unit id="story_s2_place" datatype="html">
         <source>Chernivtsi · Age 19</source>
@@ -594,7 +594,7 @@
         <source> In parallel I founded Salo-Sale: a discount platform for local businesses with an admin panel, a business panel, two Flutter mobile apps and an SEO-optimised website. It taught me how to run a product and a team, especially through the COVID-19 period. </source>
       </trans-unit>
       <trans-unit id="story_s4_p2" datatype="html">
-        <source> In 2021 I published Thiis, an open-source JavaScript library that makes data validation short and readable, and wrote about it on Medium and dev.to. </source>
+        <source> In 2021 I published Thiis, an open-source JavaScript library that makes data validation short and readable, and since 2023 have been writing about it, Angular and async patterns on dev.to and Medium. </source>
       </trans-unit>
       <trans-unit id="story_s4_place" datatype="html">
         <source>Side projects</source>
@@ -661,6 +661,27 @@
       </trans-unit>
       <trans-unit id="story_view_cv" datatype="html">
         <source>View CV</source>
+      </trans-unit>
+      <trans-unit id="story_s2_p3" datatype="html">
+        <source> I did all of this for free, simply to help my city. Residents could finally see every item of revenue and expenditure as interactive charts and tables and download the original reports. I released the platform under my own company, Hashlink. </source>
+      </trans-unit>
+      <trans-unit id="story_s2b_p1" datatype="html">
+        <source> After the budget portal the city invited me to its Administrative Services Centre (TsNAP) as a system administrator. There I developed all the software I could, and some of it may still be in use today. </source>
+      </trans-unit>
+      <trans-unit id="story_s2b_p2" datatype="html">
+        <source> I built an application for the centre&apos;s administrators that sped up the reception of residents. I proposed and created an online status check, so people no longer had to come in person to learn how their application for an administrative service was progressing. </source>
+      </trans-unit>
+      <trans-unit id="story_s2b_p3" datatype="html">
+        <source> I also turned an old, non-working information kiosk into a complete system: visitors got the information they needed at the kiosk or on the website at home, often without even taking a queue ticket to an administrator. </source>
+      </trans-unit>
+      <trans-unit id="story_s2b_place" datatype="html">
+        <source>Chernivtsi · TsNAP</source>
+      </trans-unit>
+      <trans-unit id="story_s2b_title" datatype="html">
+        <source>Software for the city&apos;s Administrative Services Centre</source>
+      </trans-unit>
+      <trans-unit id="story_s2b_year" datatype="html">
+        <source>2015 – 2017</source>
       </trans-unit>
     </body>
   </file>

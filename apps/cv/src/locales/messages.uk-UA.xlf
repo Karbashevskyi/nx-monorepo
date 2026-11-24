@@ -679,8 +679,8 @@
         <target state="new"> 2014 </target>
       </trans-unit>
       <trans-unit id="badge_first_commercial" datatype="html">
-        <source> First commercial project </source>
-        <target state="new"> Перший комерційний проєкт </target>
+        <source> First major project </source>
+        <target state="new"> Перший великий проєкт </target>
       </trans-unit>
       <trans-unit id="ofd_role" datatype="html">
         <source> Author · Solo Developer (Hashlink) </source>
@@ -691,8 +691,8 @@
         <target state="new"> Перша в Україні муніципальна система візуалізації бюджету: Чернівці стали першим містом в Україні, яке офіційно впровадило таку платформу, ще до того, як прозорість бюджету стала обов’язковою на державному рівні. </target>
       </trans-unit>
       <trans-unit id="ofd_2" datatype="html">
-        <source> Built the first version single-handedly in 2014 as a student, without formal IT education, in my own time and at my own expense; launched at the end of 2014, before the national law on openness of public funds was signed. The city then ordered the second version, still in use today, which I provide through my company Hashlink. First version in vanilla PHP, the second on Yii2, with JavaScript charts. </source>
-        <target state="new"> Першу версію створив самостійно у 2014 році, ще студентом, без профільної освіти, у власний час і за власні кошти; запустив наприкінці 2014 року, ще до підписання державного закону про відкритість публічних коштів. Потім місто замовило другу версію, яка працює досі і яку я надаю через свою компанію Hashlink. Перша версія — на чистому PHP, друга — на Yii2, графіки на JavaScript. </target>
+        <source> Built the first version single-handedly in 2014 as a student, without formal IT education, in my own time and at my own expense; launched at the end of 2014, before the national law on openness of public funds was signed. The city then ordered the second version, still in use today, which I provided through my company Hashlink. First version in vanilla PHP, the second on Yii2, with JavaScript charts. </source>
+        <target state="new"> Першу версію створив самостійно у 2014 році, ще студентом, без профільної освіти, у власний час і за власні кошти; запустив наприкінці 2014 року, ще до підписання державного закону про відкритість публічних коштів. Потім місто замовило другу версію, яка працює досі і яку я надавав через свою компанію Hashlink. Перша версія — на чистому PHP, друга — на Yii2, графіки на JavaScript. </target>
       </trans-unit>
       <trans-unit id="skills_design" datatype="html">
         <source> I design web and mobile interfaces in Figma: user flows, wireframes, high-fidelity screens, components and prototypes ready for handover to developers. I implement them with Tailwind and take care of accessibility according to WCAG. </source>

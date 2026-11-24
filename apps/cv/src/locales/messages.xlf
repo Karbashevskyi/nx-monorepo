@@ -501,13 +501,13 @@
         <source> 13+ years of commercial software development, started at 17. As a self-taught student created Ukraine&apos;s first municipal budget visualization system, the Open Budget of Chernivtsi (cv.ofd.in.ua), officially adopted by Chernivtsi City Council; since 2018 working in the European tech sector. </source>
       </trans-unit>
       <trans-unit id="badge_first_commercial" datatype="html">
-        <source> First commercial project </source>
+        <source> First major project </source>
       </trans-unit>
       <trans-unit id="ofd_1" datatype="html">
         <source> Ukraine&apos;s first municipal budget visualization system: Chernivtsi became the first city in Ukraine to officially adopt such a platform, before budget transparency became mandatory nationwide. </source>
       </trans-unit>
       <trans-unit id="ofd_2" datatype="html">
-        <source> Built the first version single-handedly in 2014 as a student, without formal IT education, in my own time and at my own expense; launched at the end of 2014, before the national law on openness of public funds was signed. The city then ordered the second version, still in use today, which I provide through my company Hashlink. First version in vanilla PHP, the second on Yii2, with JavaScript charts. </source>
+        <source> Built the first version single-handedly in 2014 as a student, without formal IT education, in my own time and at my own expense; launched at the end of 2014, before the national law on openness of public funds was signed. The city then ordered the second version, still in use today, which I provided through my company Hashlink. First version in vanilla PHP, the second on Yii2, with JavaScript charts. </source>
       </trans-unit>
       <trans-unit id="ofd_period" datatype="html">
         <source> 2014 </source>
